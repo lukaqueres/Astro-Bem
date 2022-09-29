@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Astro Bem | Main</title>
-	    <link rel="stylesheet" type="text/css" href="/resources/css/app.css" />
-	    <script type="text/javascript" src="/resources/js/app.js"></script>
+	    <link rel="stylesheet" type="text/css" href="/assets/css/app.css" />
+	    <script type="text/javascript" src="/assets/js/app.js"></script>
 	    <meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 	    <meta name="keywords" content="Astro, Bem, CanSat" />
 	    <meta name="author" content="Lukas" />
