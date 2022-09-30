@@ -13,10 +13,8 @@
     <body>
         <div class="container">
             <div class="header flex">
-                <div class="padding">
-                    <h2>Astro Bem</h2>
-                    <h3 class="flex-right">CanSat project</h3>
-                </div>
+            	<h2>Astro Bem</h2>
+               	<h3 class="flex-right">CanSat project</h3>
             </div>
         </div>
     </body>
