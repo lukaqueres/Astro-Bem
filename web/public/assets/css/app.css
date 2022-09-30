@@ -26,6 +26,7 @@ body {
     display: flex;
     padding: 0.5rem;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .flex > * {
