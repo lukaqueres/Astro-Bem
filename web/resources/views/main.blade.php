@@ -14,7 +14,8 @@
         <div class="container">
             <div id="header" class="flex">
             	<h2>Astro Bem</h2>
-               	<h3 class="flex-right">CanSat project</h3>
+               	<a class="button flex-right">Articles</a>
+                <a class="button button-style-2 flex-right">About Us</a>
             </div>
         </div>
     </body>
