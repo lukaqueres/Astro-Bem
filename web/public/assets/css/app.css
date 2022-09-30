@@ -21,6 +21,10 @@ body {
     display: flex;
 }
 
+.flex > * {
+    margin-inline: 0.5rem;   
+}
+
 .flex-right {
     margin-left: auto;
 }
