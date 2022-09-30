@@ -1,6 +1,7 @@
 :root {
     --secondary-color: #000000;
     --primary-color: #5653C0;
+    --accent-color: #726EFF;
 }
 
 * {
@@ -19,6 +20,17 @@ body {
 .container {
     min-height: 100%;
     width: 100%;
+}
+
+button.button, a.button {
+    padding: 0.5rem 1rem;
+    background-color: var(--accent-color);
+    border: none;
+    bporder-radius: 0.2rem;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .flex {
