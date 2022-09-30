@@ -1,3 +1,7 @@
+:root {
+    --secondary-color: #000000;
+    --primary-color: #5653C0;
+}
 
 * {
     font-family: "Bahnschrift", "Arial";
@@ -9,6 +13,7 @@ body {
     overflow-x: hidden;
     height: 100%;
     width: 100%;
+    background-color: var(--primary-color);
 }
 
 .container {
