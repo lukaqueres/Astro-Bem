@@ -26,7 +26,7 @@ button.button, a.button {
     padding: 0.5rem 1rem;
     background-color: var(--accent-color);
     border: none;
-    bporder-radius: 0.2rem;
+    border-radius: 0.2rem;
 }
 
 .button:hover {
