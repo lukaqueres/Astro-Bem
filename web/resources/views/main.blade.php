@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="header flex">
+            <div id="header" class="flex">
             	<h2>Astro Bem</h2>
                	<h3 class="flex-right">CanSat project</h3>
             </div>
