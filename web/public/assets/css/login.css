@@ -1,0 +1,26 @@
+body {
+    background-image: url('/assets/images/Astrobem_bck_one.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#container {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+}
+
+    #container > .head {
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: lighter;
+        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    }
