@@ -12,20 +12,6 @@ class MainController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
-    {
-        return view('main');
-    }
-    
-    public function articles(Request $request)
-    {
-        return view('articles');
-    }
-    
-    public function aboutUs(Request $request)
-    {
-        return view('aboutUs');
-    }
     /*
     public function view(Request $request)
     {

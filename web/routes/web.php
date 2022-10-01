@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\MainController;
+use App\Http\Controllers\AuthenticateController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +20,16 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/', [MainController::class, 'index']);
+Route::get('/', function (Request $request) { // - `home.blade.php` view will be returned in case of request url path `/` -
+    return view('home');
+});
+
+Route::get( // - Route `/pane/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+    '/dashboard/login',
+    [AuthenticateController::class, 'authenticate']
+)->name('login'); 
+
+Route::get( // - Route `/pane/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+    '/dashboard',
+    [AuthenticateController::class, 'dashboard']
+)->middleware('auth')->name('dashboard');

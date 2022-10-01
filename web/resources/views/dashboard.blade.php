@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Astro Bem | Main</title>
+        <title>Astro Bem | Dashboard</title>
 	    <link rel="stylesheet" type="text/css" href="/assets/css/app.css" />
 	    <script type="text/javascript" src="/assets/js/app.js"></script>
 	    <meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
@@ -17,6 +17,7 @@
                	<a class="button flex-right">Articles</a>
                 <a class="button button-style-2">About Us</a>
             </div>
+            DASHBOARD
         </div>
     </body>
 </html>

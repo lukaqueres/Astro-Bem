@@ -11,3 +11,21 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
+
+class MainController extends Controller
+{
+    public function index()
+    {
+        return view('main');
+    }
+    
+    public function articles(Request $request)
+    {
+        return view('articles');
+    }
+    
+    public function aboutUs(Request $request)
+    {
+        return view('aboutUs');
+    }
+}
