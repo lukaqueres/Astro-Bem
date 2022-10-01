@@ -1,5 +1,13 @@
 function addAlert(text) {
-    alerts = document.getElementsByClassName("alert");
+    let alerts = document.getElementsByClassName("alert");
+    for (i = 0; i < alerts.length; i++) {
+        alerts[i].remove();
+    }
+    let form = document.getElementById("container").getElementsByTagName("form")[0];
+    const alertDiv = document.createElement("div");
+    const content = document.createTextNode(text);
+    alertDiv.appendChild(content);
+    form.appendChild()
     return false;
 }
 
