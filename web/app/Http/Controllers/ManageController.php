@@ -20,11 +20,11 @@ class ManageController extends Controller {
             ]);
         }
         */
-        $user = new User;
-        $user->name = 'test';
-        $user->email = 'test@tes';
-        $user->password = 'test';
-        $user->save();
+        User::create([
+            'name' => 'Me',
+            'email' => 'test@tes',
+            'password' => Hash::make('123'),
+        ]);
         return back()->with('status', 'User created.');
     }
 }
