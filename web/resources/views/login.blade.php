@@ -15,8 +15,8 @@
 		<div id="container" class="xy-center">
 			<p class="head">Login</p>
 			<form>
-				<label><p>Login:</p><input type="text" placeholder="Input your email here"></input></label>
-				<label><p>Password:</p><input type="password" placeholder="A safe place to input your password"></input></label>
+				<label for="email" >Login:</label><input type="text" id="email" name="email" placeholder="Input your email here"></input>
+				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password"></input>
 				<button type="submit">Authorize</button>
 			</form>
 		</div>
