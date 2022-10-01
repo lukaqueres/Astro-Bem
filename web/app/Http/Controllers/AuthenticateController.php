@@ -33,6 +33,7 @@ class AuthenticateController extends Controller
             ]);
         }
         */
+        return redirect()->route('home');
         $credentials = $request->validate([
             'email' => ['required', 'email'],
             'password' => ['required'],
