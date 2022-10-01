@@ -81,7 +81,7 @@ button.button, a.button {
 }
 
 body#login-page {
-    background-image: url('/assets/images/Astrobem_bck_one.jpg');
+    background-image: url('/assets/images/Astrobem_bck_one.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
