@@ -17,6 +17,13 @@ body {
 	background-color: var(--secondary-color);
 }
 
+.absolute-xy-center {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
 .xy-center {
     top: 50%;
     left: 50%;
