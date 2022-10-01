@@ -12,7 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<div id="container" class="xy-center">
+		<div id="container" class="absolute-xy-center">
 			<p class="head">Login</p>
 			<form>
 				<label for="email" >Login:</label><input type="text" id="email" name="email" placeholder="Input your email here" class="y-center"></input>
