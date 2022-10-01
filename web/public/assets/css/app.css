@@ -25,7 +25,7 @@ body {
 }
 
 .y-center {
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
 }
