@@ -45,9 +45,9 @@ class AuthenticateController extends Controller
             //return redirect()->route('home');
         }
 
-        return redirect()->route('home');
-        return back()->withErrors([
-            'email' => 'The provided credentials do not match our records.',
-        ])->onlyInput('email');
+        //return back()->withErrors([
+        //    'email' => 'The provided credentials do not match our records.',
+        //])->onlyInput('email');
+        return back()->with('status', 'Invalid login data provided, check email and password, then try again.');
     }
 }
