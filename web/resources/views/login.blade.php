@@ -14,7 +14,7 @@
 	<body>
 		<div id="container" class="absolute-xy-center">
 			<p class="head">Login</p>
-			<form method="get" action="/dashboard/authenticate">
+			<form method="post" action="/dashboard/authenticate">
 				<label for="email" >Login:</label><input type="email" id="email" name="email" placeholder="Insert your email here" class="y-center" required></input>
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="y-center" required></input>
 				<button type="submit" class="y-center">Authorize</button>
