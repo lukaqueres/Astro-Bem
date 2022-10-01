@@ -7,7 +7,7 @@ function addAlert(text) {
     const alertDiv = document.createElement("div");
     const content = document.createTextNode(text);
     alertDiv.appendChild(content);
-    form.appendChild()
+    form.appendChild(alertDiv)
     return false;
 }
 
