@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/', function (Request $request) { // - `home.blade.php` view will be returned in case of request url path `/` -
 	return view('home');
-});
+})->name('home');
 
 Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/dashboard/login',
