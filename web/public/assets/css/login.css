@@ -43,23 +43,23 @@ form {
 		display: block;
 	}
 
-	form > input[type=text], form > input[type=password] {
-		width: 90%;
-		margin-inline: auto;
-		padding: 0.2rem 1rem;
-		border-radius: 0.2rem;
-		border: 1px solid rgba(255, 255, 255, 0.3);
-	}
+    form > input[type=text], form > input[type=password] {
+        width: 90%;
+        margin-inline: auto;
+        padding: 0.3rem 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
 
-	form > button[type=submit] {
-		margin-block: 3rem;
-		padding: 0.5rem 2rem;
-		font-size: medium;
-		font-weight: lighter;
-		border: 1px solid #0F0E20;
-		border-radius: 1rem;
-		transition: all 0.2s;
-	}
+    form > button[type=submit] {
+        margin-block: 3rem;
+        padding: 0.5rem 2rem;
+        font-size: medium;
+        font-weight: lighter;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        transition: all 0.2s;
+    }
 
 		form > button[type=submit]:hover {
 			box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
