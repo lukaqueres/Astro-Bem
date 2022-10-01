@@ -48,6 +48,23 @@ class AuthenticateController extends Controller
         //return back()->withErrors([
         //    'email' => 'The provided credentials do not match our records.',
         //])->onlyInput('email');
-        return back()->with('status', 'Invalid login data provided, check email and password, then try again.');
+        return back()->with('status', 'User not found. Please check email and password, then try again.');
+    }
+
+    /**
+ * Log the user out of the application.
+ *
+ * @param  \Illuminate\Http\Request  $request
+ * @return \Illuminate\Http\Response
+ */
+    public function logout(Request $request)
+    {
+        Auth::logout();
+     
+        $request->session()->invalidate();
+     
+        $request->session()->regenerateToken();
+     
+        return redirect('/');
     }
 }

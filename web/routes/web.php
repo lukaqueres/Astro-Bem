@@ -38,3 +38,8 @@ Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later 
 	'/dashboard',
 	[AuthenticateController::class, 'dashboard']
 )->middleware('auth')->name('dashboard');
+
+Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+	'/dashboard/logout',
+	[AuthenticateController::class, 'logout']
+)->middleware('auth')->name('logout');

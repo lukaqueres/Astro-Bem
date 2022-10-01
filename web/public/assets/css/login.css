@@ -66,5 +66,12 @@ form {
 		}
 
 .alert {
-    background-color: red;
+    background-color: #ff4a4a54;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border: solid 1px #a83434;
+    font-weight: lighter;
+    color: #570000;
+    text-align: center;
 }
