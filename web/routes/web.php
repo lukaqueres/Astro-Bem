@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\AuthenticateController;
+use App\Http\Controllers\ManageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +44,9 @@ Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later 
 	'/dashboard/logout',
 	[AuthenticateController::class, 'logout']
 )->middleware('auth')->name('logout');
+
+
+Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+	'/manage/adduser',
+	[ManageController::class, 'addUser']
+)->middleware('auth')->name('createUser');

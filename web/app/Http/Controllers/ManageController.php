@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
+use App\User;
+
 class ManageController extends Controller {
 
     public function addUser(Request $request)
@@ -18,21 +20,10 @@ class ManageController extends Controller {
             ]);
         }
         */
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
-        ]);
- 
-        if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
- 
-            return redirect()->intended('dashboard');
-            //return redirect()->route('home');
-        }
-
-        //return back()->withErrors([
-        //    'email' => 'The provided credentials do not match our records.',
-        //])->onlyInput('email');
+        $user = new User;
+        $user->name = 'test',
+        $user->email = 'test@tes',
+        $user->password = 'test',
         return back()->with('status', 'User created.');
     }
 }
