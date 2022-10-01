@@ -14,9 +14,9 @@
 	<body>
 		<div id="container" class="absolute-xy-center">
 			<p class="head">Login</p>
-			<form action="/dashboard/authenticate">
-				<label for="email" >Login:</label><input type="text" id="email" name="email" placeholder="Input your email here" class="y-center"></input>
-				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="y-center"></input>
+			<form action="/dashboard/authenticate" onsubmit="return validate()">
+				<label for="email" >Login:</label><input type="email" id="email" name="email" placeholder="Input your email here" class="y-center" required></input>
+				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="y-center" required></input>
 				<button type="submit" class="y-center">Authorize</button>
 			</form>
 			<?php
