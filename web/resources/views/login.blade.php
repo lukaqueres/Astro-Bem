@@ -12,12 +12,13 @@
     </head>
     <body>
         <div class="container">
-            <div id="header" class="flex">
-            	<h2>Astro Bem</h2>
-               	<a class="button flex-right">Articles</a>
-                <a class="button button-style-2">About Us</a>
+            <div id="login-container" class="xy-center">
+                <p class="head">Login</p>
+                <form>
+                    <label>Login:<input type="text" placeholder="email"></input></label>
+                    <label>Password:<input type="password" placeholder="password"></input></label>
+                </form>
             </div>
-            LOGIN
         </div>
     </body>
 </html>
