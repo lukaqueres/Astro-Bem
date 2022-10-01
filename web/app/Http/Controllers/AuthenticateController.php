@@ -15,6 +15,12 @@ class AuthenticateController extends Controller
 
     public function login(Request $request)
     {
+        \App\User::create([
+            'name' => 'Test o test',
+            'email' => 'test@tes',
+            'password' => bcrypt('123'),
+
+        ]);
         return view('login');
     }
     /**
