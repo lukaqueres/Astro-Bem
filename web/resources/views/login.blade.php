@@ -17,7 +17,7 @@
 			<form>
 				<label for="email" >Login:</label><input type="text" id="email" name="email" placeholder="Input your email here"></input>
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password"></input>
-				<button type="submit">Authorize</button>
+				<button type="submit" class="y-center">Authorize</button>
 			</form>
 		</div>
 	</body>
