@@ -29,3 +29,8 @@ body {
 	position: absolute;
 	transform: translateX(-50%);
 }
+
+
+button:hover {
+	cursor: pointer;
+}
