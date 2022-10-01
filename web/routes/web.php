@@ -29,8 +29,7 @@ Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later 
 	[AuthenticateController::class, 'login']
 )->name('login'); 
 
-Route::match( // - Route `/dashboard/authenticate` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
-	['get', 'post'], 
+Route::post( // - Route `/dashboard/authenticate` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/dashboard/authenticate',
 	[AuthenticateController::class, 'authenticate']
 )->name('authenticate'); 
