@@ -26,6 +26,7 @@ class AuthenticateController extends Controller
 
     public function authenticate(Request $request)
     {
+        return view('home');
         $credentials = $request->validate([
             'email' => ['required', 'email'],
             'password' => ['required'],
