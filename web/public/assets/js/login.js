@@ -25,5 +25,5 @@ function loginValidate() {
     } else if (!pattern.password.test(password)) {
         return addAlert("Password can not contain only white spaces.");
     }
-    return True;
+    return true;
 }
