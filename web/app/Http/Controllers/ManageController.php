@@ -24,6 +24,7 @@ class ManageController extends Controller {
         $user->name = 'test',
         $user->email = 'test@tes',
         $user->password = 'test',
+        $user->save();
         return back()->with('status', 'User created.');
     }
 }
