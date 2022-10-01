@@ -33,7 +33,6 @@ class AuthenticateController extends Controller
             ]);
         }
         */
-        return redirect()->route('home');
         $credentials = $request->validate([
             'email' => ['required', 'email'],
             'password' => ['required'],
@@ -45,7 +44,8 @@ class AuthenticateController extends Controller
             return redirect()->intended('dashboard');
             //return redirect()->route('home');
         }
- 
+
+        return redirect()->route('home');
         return back()->withErrors([
             'email' => 'The provided credentials do not match our records.',
         ])->onlyInput('email');
