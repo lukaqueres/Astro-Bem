@@ -14,9 +14,9 @@
         <div class="container">
             <div id="login-container" class="xy-center">
                 <p class="head">Login</p>
-                <form>
-                    <label>Login:<input type="text" placeholder="email"></input></label>
-                    <label>Password:<input type="password" placeholder="password"></input></label>
+                <form id="login-form">
+                    <label><p>Login:</p><input type="text" placeholder="Input your email here"></input></label>
+                    <label><p>Password:</p><input type="password" placeholder="A safe place to input your password"></input></label>
                 </form>
             </div>
         </div>
