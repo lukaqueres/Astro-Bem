@@ -3,7 +3,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-    height: calc( 100vh + 4rem);
 }
 
 
