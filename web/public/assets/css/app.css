@@ -72,9 +72,17 @@ button.button, a.button {
     width: 10rem;
     height: 30rem;
     border: solid 1px var(--secondary-color);
+    border-radius: 0.5rem;
 }
 
 #login-container > .head {
     font-size: 2rem;
     text-transform: capitalize;
+}
+
+body#login-page {
+    background-image: url('/assets/images/Astrobem_bck_one.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
