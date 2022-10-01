@@ -3,12 +3,12 @@ function addAlert(text) {
     for (i = 0; i < alerts.length; i++) {
         alerts[i].remove();
     }
-    let form = document.getElementById("container").getElementsByTagName("form")[0];
+    let container = document.getElementById("container");
     const alertDiv = document.createElement("div");
     const content = document.createTextNode(text);
     alertDiv.appendChild(content);
     alertDiv.classList.add("alert");
-    form.appendChild(alertDiv);
+    container.appendChild(alertDiv);
     return false;
 }
 
