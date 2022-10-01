@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Auth;
+use App\Providers\RouteServiceProvider;
+use App\User;
+use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 
 use App\User;
 
@@ -20,11 +23,21 @@ class ManageController extends Controller {
             ]);
         }
         */
+        $data['name'] = 'Test';
+        $data['email'] = 'test@tes';
+        $data['password'] = '1234567890';
+        /*
         $user = new User;
         $user->name = 'Test';
         $user->email ='test@tes';
         $user->password = encrypt('123');
         $user->save();
+        */
+        User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => Hash::make($data['password']),
+        ]);
         //DB::table('users')->insert(['name'=>'Test','email'=>'test@tes','password'=>Hash::make('123')]);
         return back()->with('status', 'User created.');
     }
