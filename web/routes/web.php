@@ -24,12 +24,17 @@ Route::get('/', function (Request $request) { // - `home.blade.php` view will be
     return view('home');
 });
 
-Route::get( // - Route `/pane/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
     '/dashboard/login',
-    [AuthenticateController::class, 'authenticate']
+    [AuthenticateController::class, 'login']
 )->name('login'); 
 
-Route::get( // - Route `/pane/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+Route::get( // - Route `/dashboard/authenticate` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+    '/dashboard/authenticate',
+    [AuthenticateController::class, 'authenticate']
+)->name('authenticate'); 
+
+Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
     '/dashboard',
     [AuthenticateController::class, 'dashboard']
 )->middleware('auth')->name('dashboard');

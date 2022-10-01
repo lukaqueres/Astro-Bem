@@ -19,6 +19,11 @@ class AuthenticateController extends Controller
         return view('dashboard');
     }
 
+    public function login(Request $request)
+    {
+        return view('login');
+    }
+
     public function authenticate(Request $request)
     {
         $credentials = $request->validate([
