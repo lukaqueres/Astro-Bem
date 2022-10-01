@@ -23,3 +23,9 @@ body {
 	position: absolute;
 	transform: translate(-50%, -50%);
 }
+
+y-center {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
