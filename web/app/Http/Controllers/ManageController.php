@@ -20,11 +20,7 @@ class ManageController extends Controller {
             ]);
         }
         */
-        User::create([
-            'name' => 'Me',
-            'email' => 'test@tes',
-            'password' => Hash::make('123'),
-        ]);
+        DB::table('users')->insert(['name'=>'Test','email'=>'test@tes','password'=>Hash::make('123')])
         return back()->with('status', 'User created.');
     }
 }
