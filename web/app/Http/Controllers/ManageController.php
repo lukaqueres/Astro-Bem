@@ -40,6 +40,7 @@ class ManageController extends Controller {
         */
         DB::table('users')->insert(['name' => ‘admin’, 'email' => 'admin@email.com', 'password' => Hash::make('Admin@123'),]);
         //DB::table('users')->insert(['name'=>'Test','email'=>'test@tes','password'=>Hash::make('123')]);
-        return redirect('login')->with('alert', 'User created.');
+        return back()->with('alert', 'User created.');
+        //return redirect('login')->with('alert', 'User created.');
     }
 }
