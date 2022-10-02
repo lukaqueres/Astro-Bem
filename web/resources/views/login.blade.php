@@ -21,9 +21,9 @@
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="y-center"></input>
 				<button type="submit" class="y-center">Authorize</button>
 			</form>
-			@if (session('status'))
+			@if (session('alert'))
 				<div class="alert">
-					{{ session('status') }}
+					{{ session('alert') }}
 				</div>
             @endif
 		</div>

@@ -48,7 +48,7 @@ class AuthenticateController extends Controller
         //return back()->withErrors([
         //    'email' => 'The provided credentials do not match our records.',
         //])->onlyInput('email');
-        return back()->with('status', 'User not found. Please check provided email and password, then try again.');
+        return back()->with('alert', 'User not found. Please check provided email and password, then try again.');
     }
 
     /**
