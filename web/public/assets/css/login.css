@@ -6,10 +6,10 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-	#container {
-		width: 95%;
-		min-width: 15rem;
-	}
+    #container {
+        width: 75%;
+        min-width: 15rem;
+    }
 }
 
 @media screen and (max-height: 550px) {
