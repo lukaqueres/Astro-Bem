@@ -12,7 +12,7 @@ body {
 	}
 }
 
-#container {
+.container {
 	width: 20rem;
 	height: 30rem;
 	border-radius: 0.5rem;
