@@ -15,6 +15,9 @@ class AuthenticateController extends Controller
 
     public function login(Request $request)
     {
+        if (Auth::check()) { // - If user is authenticated -
+            return redirect()->route('dashboard');
+        }
         return view('login');
     }
     /**
