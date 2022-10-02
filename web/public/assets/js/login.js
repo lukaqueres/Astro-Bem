@@ -29,7 +29,7 @@ function loginValidate() {
         return newAlert("Please input your password.");
     }
     const pattern = {
-        email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, password: /[^\s]/i }; // - Previous email: /^(\w|\W)*@(\w|\W)*$/i -
+        email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, password: /^[^\s*]$/i }; // - Previous email: /^(\w|\W)*@(\w|\W)*$/i -
     if (!pattern.email.test(email.value)) {
         focusField(email);
         return newAlert("Invalid email syntax, please check and correct.");
