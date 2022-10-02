@@ -14,8 +14,8 @@ body {
 
 @media screen and (max-height: 550px) {
     #container {
-        height: 95%;
-        min-height: 15rem;
+        height: 90%;
+        min-height: 26rem;
     }
 }
 
