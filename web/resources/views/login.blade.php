@@ -15,9 +15,9 @@
 	<body>
 		<div id="container" class="absolute-xy-center">
 			<p class="head">Login</p>
-			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate()">
+			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate()" novalidate>
 				@csrf
-				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" class="y-center" novalidate></input>
+				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" class="y-center" ></input>
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="y-center"></input>
 				<button type="submit" class="y-center">Authorize</button>
 			</form>
