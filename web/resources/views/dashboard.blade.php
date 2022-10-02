@@ -18,7 +18,7 @@
                 <a class="button button-style-2">About Us</a>
             </div>
             DASHBOARD FOR <?php $user = Auth::user();
-            echo $user.name ?>
+            echo $user->name ?>
         </div>
     </body>
 </html>
