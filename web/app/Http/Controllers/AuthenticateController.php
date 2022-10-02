@@ -44,7 +44,7 @@ class AuthenticateController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
             $user = Auth::user();
-            return back()->with('alert', 'User found as ' . $user.name . ' .');
+            //return back()->with('alert', 'User found as ' . $user.name . ' .');
             return redirect()->intended('dashboard');
             //return redirect()->route('home');
         }
