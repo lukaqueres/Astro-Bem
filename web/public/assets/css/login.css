@@ -43,7 +43,7 @@ form {
 		display: block;
 	}
 
-    form > input[type=text], form > input[type=password] {
+    form > input[type=email], form > input[type=password] {
         width: 90%;
         margin-inline: auto;
         padding: 0.3rem 1rem;
