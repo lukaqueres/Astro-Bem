@@ -5,6 +5,12 @@ body {
 	background-size: cover;
 }
 
+@media screen and (max-width: 400px) {
+	#container {
+		width: 95%;
+		min-width: 15rem;
+	}
+}
 
 #container {
 	width: 20rem;
@@ -16,8 +22,6 @@ body {
 	background: rgba(255, 255, 255, 0.5);
 	padding: 1rem;
 	color: #0F0E20;
-    max-width: 100%;
-    min-width: 5rem;
 }
 
 	#container > .head {
@@ -45,40 +49,41 @@ form {
 		display: block;
 	}
 
-    form > :is( input[type=email], input[type=password] ) {
-        width: 90%;
-        margin-inline: auto;
-        padding: 0.3rem 1rem;
-        border-radius: 0.5rem;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
+	form > :is( input[type=email], input[type=password] ) {
+		width: 90%;
+		margin-inline: auto;
+		padding: 0.3rem 1rem;
+		border-radius: 0.5rem;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+	}
 
-    form > :is( input[type=email], input[type=password] ):focus-visible {
-        outline: solid 2px blue;
-    }
+		form > :is( input[type=email], input[type=password] ):focus-visible {
+			outline: solid 2px #0F0E20;
+			box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+		}
 
-    form > button[type=submit] {
-        margin-block: 3rem;
-        padding: 0.5rem 2rem;
-        font-size: medium;
-        font-weight: lighter;
-        border: 1px solid transparent;
-        border-radius: 1rem;
-        transition: all 0.2s;
-    }
+	form > button[type=submit] {
+		margin-block: 3rem;
+		padding: 0.5rem 2rem;
+		font-size: medium;
+		font-weight: lighter;
+		border: 1px solid transparent;
+		border-radius: 1rem;
+		transition: all 0.2s;
+	}
 
 		form > button[type=submit]:hover {
 			box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
 		}
 
 .alert {
-    background-color: #ff4a4a54;
-    padding: 0.5rem 1rem;
-    box-sizing: border-box;
-    border-radius: 0.5rem;
-    border: solid 1px #a83434;
-    font-weight: lighter;
-    color: #570000;
-    text-align: center;
-    width: 100%;
+	background-color: #ff4a4a54;
+	padding: 0.5rem 1rem;
+	box-sizing: border-box;
+	border-radius: 0.5rem;
+	border: solid 1px #a83434;
+	font-weight: lighter;
+	color: #570000;
+	text-align: center;
+	width: 100%;
 }
