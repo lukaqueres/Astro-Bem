@@ -43,12 +43,16 @@ form {
 		display: block;
 	}
 
-    form > input[type=email], form > input[type=password] {
+    form > :is( input[type=email], input[type=password] ) {
         width: 90%;
         margin-inline: auto;
         padding: 0.3rem 1rem;
         border-radius: 0.5rem;
         border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    form > :is( input[type=email], input[type=password] ):focus-visible {
+        outline: solid 2px blue;
     }
 
     form > button[type=submit] {
