@@ -17,7 +17,8 @@
                	<a class="button flex-right">Articles</a>
                 <a class="button button-style-2">About Us</a>
             </div>
-            DASHBOARD
+            DASHBOARD FOR <?php $user = Auth::user();
+            echo $user.name ?>
         </div>
     </body>
 </html>
