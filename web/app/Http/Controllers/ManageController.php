@@ -23,7 +23,7 @@ class ManageController extends Controller {
         */
         $data['name'] = 'Test';
         $data['email'] = 'test@tes';
-        $data['password'] = '1234567890';
+        $data['password'] = '123';
         /*
         $user = new User;
         $user->name = 'Test';
