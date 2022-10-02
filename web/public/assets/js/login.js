@@ -1,4 +1,4 @@
-function addAlert(text) {
+function newAlert(text) {
     let alerts = document.getElementsByClassName("alert");
     for (i = 0; i < alerts.length; i++) {
         alerts[i].remove();
@@ -12,19 +12,29 @@ function addAlert(text) {
     return false;
 }
 
+function focusField(field) {
+    field.focus();
+    field.select();
+}
+
 function loginValidate() {
-    let email = document.getElementById("email").value.trim();
-    let password = document.getElementById("password").value;
-    if ( email == "" ) {
-        return addAlert("Email field can not be empty");
-    } else if ( password == "" ){
-        return addAlert("Password field can not be empty. Please type your password here");
+    let email = document.getElementById("email");
+    email.value = email.value.trim();
+    let password = document.getElementById("password");
+    if (email.value == "") {
+        focusField(email);
+        return newAlert("Email field can not be empty");
+    } else if (password.value == "") {
+        focusField(password);
+        return newAlert("Password field can not be empty. Please type your password here");
     }
     const pattern = { email: /^(\w|\W)*@(\w|\W)*$/i, password: /[^\s]/i };
-    if (!pattern.email.test(email)) {
-        return addAlert("Invalid email syntax, please check and correct.");
-    } else if (!pattern.password.test(password)) {
-        return addAlert("Password can not contain only white spaces.");
+    if (!pattern.email.test(email.value)) {
+        focusField(email);
+        return newAlert("Invalid email syntax, please check and correct.");
+    } else if (!pattern.password.test(password.value)) {
+        focusField(password);
+        return newAlert("Password can not contain only white spaces.");
     }
     return true;
 }
