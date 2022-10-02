@@ -49,4 +49,4 @@ Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later 
 Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/manage/adduser',
 	[ManageController::class, 'addUser']
-)->middleware('auth')->name('createUser');
+)->name('createUser');
