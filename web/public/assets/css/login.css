@@ -16,6 +16,8 @@ body {
 	background: rgba(255, 255, 255, 0.5);
 	padding: 1rem;
 	color: #0F0E20;
+    max-width: 100%;
+    min-width: 5rem;
 }
 
 	#container > .head {
