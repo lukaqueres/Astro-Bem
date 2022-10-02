@@ -13,7 +13,7 @@
 	</head>
     <script src="/assets/js/login.js"></script>
 	<body>
-		<div id="container" class="absolute-xy-center">
+		<div id="container" class="absolute-xy-center container">
 			<p class="head">Login</p>
 			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate()" novalidate>
 				@csrf
