@@ -23,10 +23,10 @@ function loginValidate() {
     let password = document.getElementById("password");
     if (email.value == "") {
         focusField(email);
-        return newAlert("Email field can not be empty");
+        return newAlert("The email field cannot be empty.");
     } else if (password.value == "") {
         focusField(password);
-        return newAlert("Password field can not be empty. Please type your password here");
+        return newAlert("Please input your password.");
     }
     const pattern = {
         email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, password: /[^\s]/i }; // - Previous email: /^(\w|\W)*@(\w|\W)*$/i -
@@ -35,7 +35,7 @@ function loginValidate() {
         return newAlert("Invalid email syntax, please check and correct.");
     } else if (!pattern.password.test(password.value)) {
         focusField(password);
-        return newAlert("Password can not contain only white spaces.");
+        return newAlert("The password cannot contain only spaces.");
     }
     return true;
 }
