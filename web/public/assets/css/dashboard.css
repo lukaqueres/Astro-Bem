@@ -101,7 +101,21 @@ body {
 
 .user-details-list {
     list-style-type: none;
+    width: 50%;
 }
+
+    .user-details-list email {
+        font-weight: lighter;
+        text-indent: 1rem;
+        align-self: end;
+        color: #95BFFF;
+        transform: translate(-0.5rem, 0.3rem);
+    }
+
+    .user-details-list username {
+        font-size: x-large;
+        font-weight: lighter;
+    }
 
 .user-details-expandable {
     
