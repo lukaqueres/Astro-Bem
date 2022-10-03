@@ -16,8 +16,8 @@
             <div id="aside-menu">
                 <div class="user-display">
                     <p class="username"> {{ $user->name }} </p>
-                    <p class="email"> {{ $user->email }} </p>
                     <button class="more-menu"><ion-icon name="apps-outline"></ion-icon></button>
+                    <p class="email"> {{ $user->email }} </p>
                 </div>
             </div>
             <div class="main">
