@@ -1,5 +1,5 @@
 function addNewUserMenu() {
-    let table = document.getElementById('#users-details-table');
+    let table = document.getElementById('users-details-table');
     var form = document.createElement('form');
     var name = document.createElement('input');
     name.type = "text";
