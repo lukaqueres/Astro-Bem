@@ -43,6 +43,6 @@ function addNewUserMenu() {
 function showNewUserMenu() {
     let form = document.getElementById('add-new-user-form');
     form.classList.remove("hidden");
-    let button = document.getElementById('add - new- user - reveal - button');
+    let button = document.getElementById('add-new-user-reveal-button');
     button.classList.add('hidden');
 }
