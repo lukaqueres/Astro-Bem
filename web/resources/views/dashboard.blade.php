@@ -14,7 +14,10 @@
     <body>
         <div class="container">
             <div id="aside-menu">
-            	<h2> {{ $user->name }}</h2>
+                <div class="user-display">
+                    <p class="username"> {{ $user->name }} </p>
+                    <p class="email"> {{ $user->email}} </p>
+                </div>
             </div>
             <div class="main">
                 <div class="line"></div>
