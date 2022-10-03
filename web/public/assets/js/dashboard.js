@@ -19,9 +19,14 @@ function addNewUserMenu() {
     password.id = "password";
     password.placeholder = "Insert password";
 
+    var submit = document.createElement('button');
+    submit.type = "submit";
+    submit.innerText = "Add User";
+
     form.appendChild(name);
     form.appendChild(email);
     form.appendChild(password);
+    form.appendChild(submit);
 
     let tr = document.createElement('tr');
     let td = tr.appendChild(document.createElement('td'));
