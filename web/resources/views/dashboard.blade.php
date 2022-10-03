@@ -42,7 +42,7 @@
 						?>
 						<tr><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
                         <tr id="add-new-user-form" class="hidden" ><td colspan="4">
-                        <form method="POST" action="/user/add">
+                        <form method="POST" action="/users/add">
                             @csrf
                             <label for="name">Name:</label><input type="text" id="name" name="name"/>
                             <label for="email">Email:</label><input type="email" id="email" name="email"/>
