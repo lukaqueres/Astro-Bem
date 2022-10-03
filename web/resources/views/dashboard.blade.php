@@ -13,13 +13,11 @@
     </head>
     <body>
         <div class="container">
-            <div id="header" class="flex">
-            	<h2>Astro Bem</h2>
-               	<a class="button flex-right">Articles</a>
-                <a class="button button-style-2">About Us</a>
+            <div id="aside-menu">
+            	<h2> {{ $user->name }}</h2>
             </div>
-            DASHBOARD FOR <?php $user = Auth::user();
-            echo $user->name ?>
         </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <?php // For use of icons, read more here https://ionic.io/ionicons/usage ?>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
