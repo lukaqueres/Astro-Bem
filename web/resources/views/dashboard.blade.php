@@ -40,7 +40,7 @@
 						}
 						unset($u);
 						?>
-						<tr><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
+						<tr id="add-new-user-reveal-button"><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
                         <tr id="add-new-user-form" class="hidden" ><td colspan="4">
                         <form method="POST" action="/users/add">
                             @csrf
