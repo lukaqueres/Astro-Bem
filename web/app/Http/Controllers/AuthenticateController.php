@@ -10,7 +10,8 @@ class AuthenticateController extends Controller
 {
     public function dashboard(Request $request)
     {
-        return view('dashboard');
+        $user = Auth::user();
+        return view('dashboard', ['user' => $user]);
     }
 
     public function login(Request $request)
