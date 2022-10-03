@@ -26,7 +26,7 @@
                 <div class="main-content">
                     @if ($category == 'accounts')
                         <h1>Accounts</h1>
-                        <ul>
+                        <ul class="user-details-list">
                         <?php
                         foreach ( App\Models\User::all() as $u ) { 
                             echo '<li class="user-details-expandable"><p class="username">' . $u->name .'</p><p class="email">' . $u->email .'</p></li>';
