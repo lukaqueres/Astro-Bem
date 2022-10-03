@@ -98,3 +98,11 @@ body {
         font-size: 1.5rem;
         float: right;
     }
+
+.user-details-list {
+    list-style-type: none;
+}
+
+.user-details-expandable {
+    
+}
