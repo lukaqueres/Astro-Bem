@@ -99,17 +99,17 @@ body {
         float: right;
     }
 
-.users-details-table {
+#users-details-table {
     width: 50%;
 }
 
-    .users-details-table th {
+    #users-details-table th {
         font-weight: lighter;
         text-align: center;
         color: #95BFFF;
     }
 
-    .users-details-table td {
+    #users-details-table td {
         font-weight: lighter;
         text-align: center;
     }
