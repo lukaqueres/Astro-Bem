@@ -36,7 +36,7 @@ Route::post( // - Route `/dashboard/authenticate` is named as 'login' route ( fo
 )->name('authenticate'); 
 
 Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
-	'/dashboard',
+	'/dashboard/{category?}',
 	[AuthenticateController::class, 'dashboard']
 )->middleware('auth')->name('dashboard');
 
