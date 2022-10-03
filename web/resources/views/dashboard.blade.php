@@ -28,7 +28,7 @@
                         <h1>Accounts</h1>
                         <ul>
                         <?php
-                        foreach ( \App\User::all() as $u ) { 
+                        foreach ( App\Models\User::all() as $u ) { 
                             echo '<li class="user-details-expandable"><p class="username">' . $u->name .'</p><p class="email">' . $u->email .'</p></li>';
                         }
                         unset($u);
