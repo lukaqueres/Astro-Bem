@@ -52,7 +52,7 @@ Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later 
 	[ManageController::class, 'addUser']
 )->name('createUser');
 
-Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
+Route::post( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/users/add',
 	[UserManageController::class, 'add']
 )->name('addUser');
