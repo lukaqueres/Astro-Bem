@@ -66,11 +66,7 @@ body {
 
 .line {
     height: 100%;
-    width: 0;
-    box-sizing: border-box;
-    background: white;
+    width: 1px;
+    border-left: 1px solid black;
+    margin-inline: 0.5rem;
 }
-
-    .line > div {
-        border-right: 19px solid black;
-    }
