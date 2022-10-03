@@ -15,8 +15,8 @@
         <div class="container">
             <div id="aside-menu">
                 <div class="user-display">
-                    <p class="username"> {{ $user->name }} </p>
                     <button class="more-menu"><ion-icon name="apps-outline"></ion-icon></button>
+                    <p class="username"> {{ $user->name }} </p>
                     <p class="email"> {{ $user->email }} </p>
                 </div>
                 <a href="{{ route('dashboard') }}/accounts">Accounts</a>
