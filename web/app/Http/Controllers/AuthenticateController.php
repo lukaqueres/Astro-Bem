@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthenticateController extends Controller
 {
-    public function dashboard(Request $request)
+    public function dashboard(Request $request, $category = Null)
     {
         $user = Auth::user();
-        return view('dashboard', ['user' => $user]);
+        return view('dashboard', ['user' => $user, 'category' => $category]);
     }
 
     public function login(Request $request)
