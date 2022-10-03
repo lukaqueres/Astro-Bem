@@ -14,13 +14,13 @@ class UserManageController extends Controller {
     public function add(Request $request)
     {
         if ($request->missing('name') or $request->input('name') == '' ) {
-            return back()->with('newUserStatus', 'Name is required, please input user\'s name.');
+            return back()->with('newUserStatus', 'Name is required, please input user\'s name.')->onlyInput('name');
         }
         if ($request->missing('email') or $request->input('email') == '' ) {
-            return back()->with('newUserStatus', 'Email not provided, please input users\'s email.');
+            return back()->with('newUserStatus', 'Email not provided, please input users\'s email.')->onlyInput('name');
         }
         if ($request->missing('password') or $request->input('password') == '' ) {
-            return back()->with('newUserStatus', 'Password not provided, please input users\'s password.');
+            return back()->with('newUserStatus', 'Password not provided, please input users\'s password.')->onlyInput('name');
         }
         
         User::create([
@@ -31,6 +31,6 @@ class UserManageController extends Controller {
         
         //DB::table('users')->insert(['name' => ‘admin’, 'email' => 'admin@email.com', 'password' => Hash::make('Admin@123'),]);
         //DB::table('users')->insert(['name'=>'Test','email'=>'test@tes','password'=>Hash::make('123')]);
-        return back()->with('newUserStatus', 'User created.');
+        return back()->with('newUserStatus', 'User created.')->onlyInput('name');
     }
 }
