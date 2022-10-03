@@ -20,14 +20,25 @@ body {
 #aside-menu {
     width: 20rem;
     height: 100%;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background: white;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    z-index: 50;
+    /*
+    width: 20rem;
+    height: 100%;
     border-radius: 1rem;
     background: #95BFFF;
     padding: 0.5rem;
     box-sizing: border-box;
     z-index: 50;
+    */
 }
 
 .main-content {
+    /*
     width: 100%;
     height: inherit;
     background: white;
@@ -37,4 +48,12 @@ body {
     padding: 1.5rem 1.5rem;
     box-sizing: border-box;
     border: 1px solid #95BFFF;
+    */
+    width: 100%;
+    height: inherit;
+    background: white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1.5rem 1.5rem;
+    box-sizing: border-box;
 }
