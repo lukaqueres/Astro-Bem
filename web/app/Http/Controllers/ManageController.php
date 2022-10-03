@@ -33,9 +33,9 @@ class ManageController extends Controller {
         */
         
         User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']), 
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password), 
         ]);
         
         //DB::table('users')->insert(['name' => ‘admin’, 'email' => 'admin@email.com', 'password' => Hash::make('Admin@123'),]);
