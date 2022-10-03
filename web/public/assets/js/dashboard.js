@@ -26,7 +26,7 @@ function addNewUserMenu() {
     let tr = document.createElement('tr');
     let td = tr.appendChild(document.createElement('td'));
     td.colSpan = "4";
-    td.appendChild($form);
+    td.appendChild(form);
 
     table.tBodies[0].appendChild(tr);
 }
