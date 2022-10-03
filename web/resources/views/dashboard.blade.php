@@ -11,6 +11,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
+    <script src="/assets/js/dasboard.js"></script>
 	<body>
 		<div class="container">
 			<div id="aside-menu">
@@ -26,7 +27,7 @@
 				<div class="main-content">
 					@if ($category == 'accounts')
 						<h1>Accounts</h1>
-						<table class="users-details-table">
+						<table id="users-details-table">
 							<tr>
                                 <th>Id</th>
 								<th>Username</th>
@@ -39,7 +40,7 @@
 						}
 						unset($u);
 						?>
-						<tr><th colspan="4"><button><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></th></tr>
+						<tr><th colspan="4"><button onclick="addNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></th></tr>
 						</table>
 
 					@else
