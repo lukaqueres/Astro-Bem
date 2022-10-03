@@ -67,6 +67,6 @@ body {
 .line {
     height: 100%;
     width: 1px;
-    border-left: 1px solid black;
+    border-left: 1px solid #95BFFF;
     margin-inline: 0.5rem;
 }
