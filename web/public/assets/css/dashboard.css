@@ -5,3 +5,9 @@ body {
     background-size: cover;
     background-position: left;
 }
+
+
+#aside-menu {
+    width: 10rem;
+    height: 100%;
+}
