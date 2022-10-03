@@ -19,10 +19,18 @@
                     <button class="more-menu"><ion-icon name="apps-outline"></ion-icon></button>
                     <p class="email"> {{ $user->email }} </p>
                 </div>
+                <a href="{{ route('dashboard') }}/accounts">Accounts</a>
             </div>
             <div class="main">
                 <div class="line"></div>
-                <div class="main-content"> Content</div>
+                <div class="main-content">
+                    @if ($category == 'accounts')
+                        Accounts
+                    @else
+                        Content
+                    @endif
+                    
+                </div>
             </div>
         </div>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <?php // For use of icons, read more here https://ionic.io/ionicons/usage ?>
