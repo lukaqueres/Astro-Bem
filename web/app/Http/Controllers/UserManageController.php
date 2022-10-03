@@ -9,9 +9,9 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 
-class ManageController extends Controller {
+class UserManageController extends Controller {
 
-    public function addUser(Request $request)
+    public function add(Request $request)
     {
         if ($request->missing('name') or $request->input('name') == '' ) {
             return back()->with('status', 'Name is required, please input user\'s name.');

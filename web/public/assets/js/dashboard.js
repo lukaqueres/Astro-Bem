@@ -1,6 +1,9 @@
 function addNewUserMenu() {
     let table = document.getElementById('users-details-table');
     var form = document.createElement('form');
+    form.setAttribute('method', "post");
+    form.setAttribute('action', "/users/add");
+
     var name = document.createElement('input');
     name.type = "text";
     name.name = "name";
