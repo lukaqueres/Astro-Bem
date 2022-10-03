@@ -17,8 +17,8 @@ html {
 body {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	height: 100%;
-	width: 100%;
+	height: inherit;
+	width: inherit;
 	background-color: var(--secondary-color);
 }
 
