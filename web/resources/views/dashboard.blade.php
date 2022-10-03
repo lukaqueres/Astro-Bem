@@ -27,7 +27,6 @@
 					@if ($category == 'accounts')
 						<h1>Accounts</h1>
 						<table class="user-details-table">
-						<table>
 							<tr>
                                 <th>Id</th>
 								<th>Username</th>
