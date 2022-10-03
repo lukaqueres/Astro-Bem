@@ -36,7 +36,7 @@
 							</tr>
 						<?php
 						foreach ( App\Models\User::all() as $u ) { 
-							echo '<tr class="user-details-expandable"><th class="username">' . $u->name .'</th><th class="email">' . $u->email .'</th></tr>';
+							echo '<tr class="user-details-expandable"><th>' . $u->id .'</th><th class="username">' . $u->name .'</th><th class="email">' . $u->email .'</th><th>' . $u->created_at . '</th></tr>';
 						}
 						unset($u);
 						?>
