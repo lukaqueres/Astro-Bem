@@ -99,24 +99,17 @@ body {
         float: right;
     }
 
-.user-details-list {
-    list-style-type: none;
+.users-details-table {
     width: 50%;
 }
 
-    .user-details-list email {
+    .users-details-table th {
         font-weight: lighter;
-        text-indent: 1rem;
-        align-self: end;
+        text-align: center;
         color: #95BFFF;
-        transform: translate(-0.5rem, 0.3rem);
     }
 
-    .user-details-list username {
-        font-size: x-large;
+    .users-details-table td {
         font-weight: lighter;
+        text-align: center;
     }
-
-.user-details-expandable {
-    
-}
