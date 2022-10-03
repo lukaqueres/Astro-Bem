@@ -57,3 +57,14 @@ body {
     padding: 1.5rem 1.5rem;
     box-sizing: border-box;
 }
+
+.line {
+    height: 100%;
+    width: 0;
+    box-sizing: border-box;
+    background: white;
+}
+
+    .line > div {
+        border-right: 19px solid black;
+    }
