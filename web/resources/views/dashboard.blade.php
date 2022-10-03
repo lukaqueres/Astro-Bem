@@ -25,7 +25,15 @@
                 <div class="line"></div>
                 <div class="main-content">
                     @if ($category == 'accounts')
-                        Accounts
+                        <h1>Accounts</h1>
+                        <ul>
+                        <?php foreach ( \App\User::all() as $u ) { 
+                            echo '<li class="user-details-expandable"><p class="username">' . $u->name .'</p><p class="email">' . $u->email .'</p></li>'
+                        }
+                        unset($u);?>
+                        <li><button><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></li>
+                        </ul>
+
                     @else
                         Content
                     @endif
