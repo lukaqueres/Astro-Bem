@@ -46,3 +46,7 @@ body {
 button:hover {
 	cursor: pointer;
 }
+
+.hidden {
+    display: none;
+}
