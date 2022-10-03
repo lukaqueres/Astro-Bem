@@ -38,3 +38,9 @@ function addNewUserMenu() {
 
     table.tBodies[0].appendChild(tr);
 }
+
+
+function showNewUserMenu() {
+    let form = document.getElementById('add-new-user-form');
+    form.classList.remove("hidden");
+}
