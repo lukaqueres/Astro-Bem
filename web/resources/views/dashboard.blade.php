@@ -16,8 +16,8 @@
             <div id="aside-menu">
             	<h2> {{ $user->name }}</h2>
             </div>
-            <div class="line"><div></div></div>
             <div class="main-content">
+                <div class="line"><div></div></div>
                 Content
             </div>
         </div>
