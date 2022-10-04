@@ -54,12 +54,12 @@
                             <label for="password">Password:</label><input type="password" id="password" name="password"/>
                             <button type="submit">Add user</button>
                         </form>
-                        @if (session('newUserStatus'))
+                        <?php //@if (session('newUserStatus')) ?>
                         <div class="new-user-status">
 					        {{ session('alert') }}
                             {{ session()->all() }}
 				        </div>
-                        @endif
+                        <?php //@endif ?>
                         <td></tr>
 						</table>
 
