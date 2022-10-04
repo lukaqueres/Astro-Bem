@@ -101,6 +101,7 @@ body {
 
 #users-details-table {
     width: 50%;
+    border-collapse: collapse;
 }
 
     #users-details-table th {
