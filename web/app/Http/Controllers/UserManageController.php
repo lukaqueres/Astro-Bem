@@ -24,7 +24,7 @@ class UserManageController extends Controller {
         }
         $id = 0;
         $users = User::all();
-        foreach ( App\Models\User::all() as $u ) { // - Check if id is always unique -
+        foreach ( $users as $u ) { // - Check if id is always unique -
             if ( $id == $u->id ) {
                 $id = $id + 1;
                 continue;
