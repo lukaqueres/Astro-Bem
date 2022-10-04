@@ -56,11 +56,10 @@
                         </form>
                         <?php //@if (session('newUserStatus')) ?>
                         <div class="new-user-status">
-					        {{ session('alert') }}
-                            {{ serialize(session()->all()) }}
+					        {{ session('newUserStatus') }}
 				        </div>
                         <?php //@endif ?>
-                        <td></tr>
+                        </td></tr>
 						</table>
 
 					@else
