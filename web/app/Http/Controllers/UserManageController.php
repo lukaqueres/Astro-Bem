@@ -26,9 +26,7 @@ class UserManageController extends Controller {
         $users = User::all();
         foreach ( $users as $u ) { // - Check if id is always unique -
             if ( $request->input('email') == $u->email ) {
-                return back()->with(
-                    'newUserStatus', 'Given email is already associated with another user.'
-                )->withInput($request->except('password'));
+                return back()->with('newUserStatus', 'Given email is already associated with another user.')->withInput($request->except('password'));
                 //return back()->with('newUserStatus', 'Given email is already associated with another user.')->onlyInput('name');
             }
 		}
