@@ -36,7 +36,7 @@ class UserManageController extends Controller {
 		unset($u);
         unset($users);
         User::create([
-            'id' => Auth::id(), //$id
+            'id' => $id,
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password), 
