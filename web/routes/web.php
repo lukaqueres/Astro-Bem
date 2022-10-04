@@ -22,6 +22,10 @@ Route::get('/', function () {
 });
 */
 
+if (env('APP_ENV') === 'production') {
+    URL::forceSchema('https');
+}
+
 Route::get('/', function (Request $request) { // - `home.blade.php` view will be returned in case of request url path `/` -
 	return view('home');
 })->name('home');
