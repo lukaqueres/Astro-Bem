@@ -109,15 +109,22 @@ body {
         margin-block:0.2rem;
     }
 
-    #users-details .columns-names p {
-        font-weight: lighter;
-        text-align: center;
-        color: #95BFFF;
+    #users-details .columns-names {
+        display: flex;
+        align-items: center;
     }
+
+        #users-details .columns-names p {
+            font-weight: lighter;
+            text-align: center;
+            color: #95BFFF;
+            flex: 1;
+        }
 
     #users-details p {
         font-weight: lighter;
         text-align: center;
+        flex: 1;
     }
 
     #users-details .user-details {
@@ -125,6 +132,5 @@ body {
         border-radius: 0.5rem;
         padding: 0.2rem 1rem;
         display: flex;
-        justify-items:center;
-        flex: auto;
+        align-items: center;
     }
