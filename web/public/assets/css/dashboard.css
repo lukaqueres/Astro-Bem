@@ -154,7 +154,21 @@ body {
         background: #95BFFF;
     }
 
+    #users-details .add-new-user-reveal {
+        color: #95BFFF;
+    }
+
     #users-details .add-new-user-reveal-button {
         background: none;
-        border: none;
+        font-size: 2rem;
+        color: #95BFFF;
+        line-height: 1rem;
+        width: 4rem;
+        height: 2.5rem;
+        border-radius: 10rem;
+        border: 1px solid;
     }
+
+        #users-details .add-new-user-reveal-button:hover {
+            box-shadow: 3px 3px 10px #95BFFF;
+        }
