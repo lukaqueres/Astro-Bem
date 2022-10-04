@@ -29,23 +29,22 @@
 						<h1>Accounts</h1>
 						<table id="users-details-table">
 							<tr>
-                                <th>Id</th>
 								<th>Username</th>
 								<th>Email</th>
-                                <th>Create date</th>
+                                <th>Created</th>
 							</tr>
 						<?php
 						foreach ( App\Models\User::all() as $u ) { 
-							echo '<tr class="user-details-expandable"><td>' . $u->id .'</td><td class="username">' . $u->name .'</td><td class="email">' . $u->email .'</td><td>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</td></tr>';
+							echo '<tr class="user-details-expandable"><td class="email">' . $u->email .'</td><td>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</td></tr>';
 						}
 						unset($u);
 						?>
                         @if (session('newUserStatus'))
 						<tr id="add-new-user-reveal-button" class="hidden"><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
-                        <tr id="add-new-user-form" ><td colspan="4">
+                        <tr id="add-new-user-form" ><td colspan="3">
                         @else
-						<tr id="add-new-user-reveal-button"><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
-                        <tr id="add-new-user-form" class="hidden" ><td colspan="4">
+						<tr id="add-new-user-reveal-button"><td colspan="3"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
+                        <tr id="add-new-user-form" class="hidden" ><td colspan="3">
                         @endif
                         <form method="POST" action="{{ route('addUser') }}">
                             @csrf
