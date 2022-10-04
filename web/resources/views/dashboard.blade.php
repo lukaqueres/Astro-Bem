@@ -49,8 +49,8 @@
                         @endif
                         <form method="POST" action="/users/add">
                             @csrf
-                            <label for="name">Name:</label><input type="text" id="name" name="name"/>
-                            <label for="email">Email:</label><input type="email" id="email" name="email"/>
+                            <label for="name">Name:</label><input type="text" id="name" name="name" value="{{ old('username') }}"/>
+                            <label for="email">Email:</label><input type="email" id="email" name="email" value="{{ old('email') }}"/>
                             <label for="password">Password:</label><input type="password" id="password" name="password"/>
                             <button type="submit">Add user</button>
                         </form>
