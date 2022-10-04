@@ -119,6 +119,8 @@ body {
         text-align: center;
     }
 
-    #users-details-table tr.user-details {
-        border: solid 1px black;
+    #users-details-table .user-details {
+        border: solid 1px #95BFFF;
+        border-radius: 0.5rem;
+        padding: 0.2rem 1rem;
     }
