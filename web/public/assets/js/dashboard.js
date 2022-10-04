@@ -1,3 +1,4 @@
+/*
 function addNewUserMenu() {
     let table = document.getElementById('users-details-table');
     var form = document.createElement('form');
@@ -38,7 +39,7 @@ function addNewUserMenu() {
 
     table.tBodies[0].appendChild(tr);
 }
-
+*/
 
 function showNewUserMenu() {
     let form = document.getElementById('add-new-user-form');
