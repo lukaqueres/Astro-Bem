@@ -42,7 +42,7 @@
 						    <div id="add-new-user-reveal-button" class="hidden"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></div>
                             <div id="add-new-user-form" >
                         @else
-						    <div id="add-new-user-reveal"><button onclick="showNewUserMenu()" class="x-center add-new-user-reveal-button"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></div>
+						    <div id="add-new-user-reveal"><button onclick="showNewUserMenu()" class="x-center add-new-user-reveal-button">+</button><p>Add user</p></div> <?php //<ion-icon name="add-outline"></ion-icon> ?>
                             <div id="add-new-user-form" class="hidden" >
                         @endif
                             <form method="POST" action="{{ route('addUser') }}">
