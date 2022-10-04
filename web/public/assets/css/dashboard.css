@@ -104,6 +104,10 @@ body {
     border-collapse: collapse;
 }
 
+    #users-details-table tr {
+        margin-block:0.2rem;
+    }
+
     #users-details-table th {
         font-weight: lighter;
         text-align: center;
