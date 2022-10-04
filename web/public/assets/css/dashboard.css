@@ -122,6 +122,11 @@ body {
             flex: 1;
         }
 
+            #users-details .columns-names p.create-date {
+                flex: 0;
+                min-width: 10rem;
+            }
+
     #users-details p {
         font-weight: lighter;
         text-align: center;
@@ -131,14 +136,15 @@ body {
         #users-details p.create-date {
             font-weight: lighter;
             text-align: center;
-            flex: 0.5;
-            min-width:2rem;
+            flex: 0;
+            min-width: 2rem;
+            min-width: 10rem;
         }
 
     #users-details .user-details {
         border: solid 1px #95BFFF7D;
         border-radius: 0.5rem;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 2rem;
         display: flex;
         margin-block: 0.25rem;
         transition: all 0.2s;
