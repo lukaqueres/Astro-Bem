@@ -26,39 +26,39 @@
 				<div class="line"></div>
 				<div class="main-content">
 					@if ($category == 'accounts')
-						<table id="users-details-table">
-							<tr>
-								<th>Name</th>
-								<th>Email</th>
-                                <th>Created</th>
-							</tr>
+						<div id="users-details">
+							<div class="columns-names">
+								<p>Name</p>
+								<p>Email</p>
+                                <p>Created</p>
+							</div>
 						<?php
 						foreach ( App\Models\User::all() as $u ) { 
-							echo '<tr><div class="user-details"><td class="name">' . $u->name .'</td><td class="email">' . $u->email .'</td><td>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</td></div></tr>';
+							echo '<div class="user-details"><p class="name">' . $u->name .'</p><p class="email">' . $u->email .'</p><p>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</p></div>';
 						}
 						unset($u);
 						?>
                         @if (session('newUserStatus'))
-						<tr id="add-new-user-reveal-button" class="hidden"><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
-                        <tr id="add-new-user-form" ><td colspan="3">
+						    <div id="add-new-user-reveal-button" class="hidden"><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
+                            <div id="add-new-user-form" ><td colspan="3">
                         @else
-						<tr id="add-new-user-reveal-button"><td colspan="3"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
-                        <tr id="add-new-user-form" class="hidden" ><td colspan="3">
+						    <div id="add-new-user-reveal-button"><td colspan="3"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
+                            <div id="add-new-user-form" class="hidden" >
                         @endif
-                        <form method="POST" action="{{ route('addUser') }}">
-                            @csrf
-                            <label for="name">Name:</label><input type="text" id="name" name="name" value="{{ old('name') }}"/>
-                            <label for="email">Email:</label><input type="email" id="email" name="email" value="{{ old('email') }}"/>
-                            <label for="password">Password:</label><input type="password" id="password" name="password"/>
-                            <button type="submit">Add user</button>
-                        </form>
-                        <?php //@if (session('newUserStatus')) ?>
-                        <div class="new-user-status">
-					        {{ session('newUserStatus') }}
-				        </div>
-                        <?php //@endif ?>
-                        </td></tr>
-						</table>
+                            <form method="POST" action="{{ route('addUser') }}">
+                                @csrf
+                                <label for="name">Name:</label><input type="text" id="name" name="name" value="{{ old('name') }}"/>
+                                <label for="email">Email:</label><input type="email" id="email" name="email" value="{{ old('email') }}"/>
+                                <label for="password">Password:</label><input type="password" id="password" name="password"/>
+                                <button type="submit">Add user</button>
+                            </form>
+                            @if (session('newUserStatus'))
+                                <div class="new-user-status">
+					               <p> {{ session('newUserStatus') }} </p>
+				                </div>
+                            @endif
+                            </div>
+						</div>
 
 					@else
 						Content
