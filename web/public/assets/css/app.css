@@ -37,6 +37,12 @@ body {
 }
 
 .y-center {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.x-center {
     left: 50%;
     position: relative;
     transform: translateX(-50%);
