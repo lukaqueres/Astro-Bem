@@ -134,5 +134,10 @@ body {
         padding: 0.5rem 1rem;
         display: flex;
         margin-block: 0.25rem;
+        transition: all 0.2s;
     }
+
+    #users-details .user-details:hover {
+        background: #95BFFF;
     }
+    
