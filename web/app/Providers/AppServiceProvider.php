@@ -21,22 +21,11 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+        public function boot()
     {
-        if ($this->isSecure()) {
-            \URL::forceSchema('https');
+        //
+        if(env('FORCE_HTTPS',false)) { 
+            url()->forceScheme('https');
         }
-    }
-
-    public function isSecure()
-    {
-        $isSecure = false;
-        if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
-            $isSecure = true;
-        } elseif (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || !empty($_SERVER['HTTP_X_FORWARDED_SSL']) && $_SERVER['HTTP_X_FORWARDED_SSL'] == 'on') {
-            $isSecure = true;
-        }
-
-        return $isSecure;
     }
 }
