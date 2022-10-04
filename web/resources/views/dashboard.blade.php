@@ -49,7 +49,7 @@
                         @endif
                         <form method="POST" action="/users/add">
                             @csrf
-                            <label for="name">Name:</label><input type="text" id="name" name="name"/>
+                            <label for="name">Name:</label><input type="text" id="name" name="name" value ="{{ session()->oldinput->name }}"/>
                             <label for="email">Email:</label><input type="email" id="email" name="email"/>
                             <label for="password">Password:</label><input type="password" id="password" name="password"/>
                             <button type="submit">Add user</button>
