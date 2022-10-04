@@ -112,7 +112,7 @@ body {
     #users-details .columns-names {
         display: flex;
         align-items: center;
-        padding-inline: 1rem;
+        padding-inline: 2rem;
     }
 
         #users-details .columns-names p {
