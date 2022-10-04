@@ -34,7 +34,7 @@
 							</tr>
 						<?php
 						foreach ( App\Models\User::all() as $u ) { 
-							echo '<tr class="user-details"><td class="name">' . $u->name .'</td><td class="email">' . $u->email .'</td><td>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</td></tr>';
+							echo '<tr><div class="user-details"><td class="name">' . $u->name .'</td><td class="email">' . $u->email .'</td><td>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</td></div></tr>';
 						}
 						unset($u);
 						?>
