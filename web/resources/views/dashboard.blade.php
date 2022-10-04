@@ -47,7 +47,7 @@
 						<tr id="add-new-user-reveal-button"><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
                         <tr id="add-new-user-form" class="hidden" ><td colspan="4">
                         @endif
-                        <form method="POST" action="/users/add">
+                        <form method="POST" action="{{ route('addUser') }">
                             @csrf
                             <label for="name">Name:</label><input type="text" id="name" name="name" value="{{ old('name') }}"/>
                             <label for="email">Email:</label><input type="email" id="email" name="email" value="{{ old('email') }}"/>
