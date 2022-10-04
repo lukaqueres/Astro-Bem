@@ -167,6 +167,7 @@ body {
         height: 2.5rem;
         border-radius: 10rem;
         border: 1px solid;
+        transition: all 0.2s;
     }
 
         #users-details .add-new-user-reveal-button:hover {
