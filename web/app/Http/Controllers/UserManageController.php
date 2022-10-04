@@ -23,15 +23,13 @@ class UserManageController extends Controller {
         if ($request->missing('password') or $request->input('password') == '' ) {
             return back()->with('newUserStatus', 'Password not provided, please input users\'s password.')->onlyInput('name');
         }
-        $id = 0;
         $users = User::all();
         foreach ( $users as $u ) { // - Check if id is always unique -
-            if ( $id == $u->id ) {
-                $id = $id + 1;
-                continue;
-            } else {
-                break;
-            }
+            if ( $request->input('email') == $u->email ) {
+                return back()->withErrors([
+                    'newUserStatus' => 'Given email is already associated with another user.',
+                ])->onlyInput('email');
+                //return back()->with('newUserStatus', 'Given email is already associated with another user.')->onlyInput('name');
 		}
 		unset($u);
         unset($users);
