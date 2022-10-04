@@ -22,8 +22,20 @@ class UserManageController extends Controller {
         if ($request->missing('password') or $request->input('password') == '' ) {
             return back()->with('newUserStatus', 'Password not provided, please input users\'s password.')->onlyInput('name');
         }
-        
+        $id = 0;
+        $users = User::all();
+        foreach ( App\Models\User::all() as $u ) { // - Check if id is always unique -
+            if ( $id == $u->id ) {
+                $id = $id + 1;
+                continue;
+            } else {
+                break;
+            }
+		}
+		unset($u);
+        unset($users);
         User::create([
+            'id' => $id,
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password), 
