@@ -29,13 +29,13 @@
 						<h1>Accounts</h1>
 						<table id="users-details-table">
 							<tr>
-								<th>Username</th>
+								<th>Name</th>
 								<th>Email</th>
                                 <th>Created</th>
 							</tr>
 						<?php
 						foreach ( App\Models\User::all() as $u ) { 
-							echo '<tr class="user-details-expandable"><td class="email">' . $u->email .'</td><td>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</td></tr>';
+							echo '<tr class="user-details-expandable"><td class="name">' . $u->name .'</td><td class="email">' . $u->email .'</td><td>' . str_replace('-','.',substr($u->created_at, 0, -9)) . '</td></tr>';
 						}
 						unset($u);
 						?>
