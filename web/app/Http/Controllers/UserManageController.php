@@ -30,6 +30,7 @@ class UserManageController extends Controller {
                     'newUserStatus' => 'Given email is already associated with another user.',
                 ])->onlyInput('email');
                 //return back()->with('newUserStatus', 'Given email is already associated with another user.')->onlyInput('name');
+            }
 		}
 		unset($u);
         unset($users);
