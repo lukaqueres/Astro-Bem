@@ -39,10 +39,10 @@
 						unset($u);
 						?>
                         @if (session('newUserStatus'))
-						    <div id="add-new-user-reveal-button" class="hidden"><td colspan="4"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
-                            <div id="add-new-user-form" ><td colspan="3">
+						    <div id="add-new-user-reveal-button" class="hidden"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></div>
+                            <div id="add-new-user-form" >
                         @else
-						    <div id="add-new-user-reveal-button"><td colspan="3"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></td></tr>
+						    <div id="add-new-user-reveal-button"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></div>
                             <div id="add-new-user-form" class="hidden" >
                         @endif
                             <form method="POST" action="{{ route('addUser') }}">
