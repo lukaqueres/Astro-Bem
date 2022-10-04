@@ -30,7 +30,7 @@
 							<div class="columns-names">
 								<p>Name</p>
 								<p>Email</p>
-                                <p class="create-date">Created</p>
+                                <p class="create-date-column">Created</p>
 							</div>
 						<?php
 						foreach ( App\Models\User::all() as $u ) { 
