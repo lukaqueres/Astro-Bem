@@ -57,6 +57,7 @@
                         @if (session('newUserStatus'))
                         <div class="new-user-status">
 					        {{ session('alert') }}
+                            {{ session()->all() }}
 				        </div>
                         @endif
                         <td></tr>
