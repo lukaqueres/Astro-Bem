@@ -114,6 +114,6 @@ body {
         text-align: center;
     }
 
-.user-details {
-    border: solid 1px black;
-}
+    #users-details-table tr.user-details {
+        border: solid 1px black;
+    }
