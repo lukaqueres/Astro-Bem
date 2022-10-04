@@ -153,4 +153,8 @@ body {
     #users-details .user-details:hover {
         background: #95BFFF;
     }
-    
+
+    #users-details .add-new-user-reveal-button {
+        background: none;
+        border: none;
+    }
