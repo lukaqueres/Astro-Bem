@@ -57,7 +57,7 @@
                         <?php //@if (session('newUserStatus')) ?>
                         <div class="new-user-status">
 					        {{ session('alert') }}
-                            {{ session()->all() }}
+                            {{ serialize(session()->all()) }}
 				        </div>
                         <?php //@endif ?>
                         <td></tr>
