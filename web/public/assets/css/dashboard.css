@@ -99,28 +99,32 @@ body {
         float: right;
     }
 
-#users-details-table {
+#users-details {
     width: 50%;
-    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
 }
 
-    #users-details-table tr {
+    #users-details tr {
         margin-block:0.2rem;
     }
 
-    #users-details-table th {
+    #users-details .columns-names p {
         font-weight: lighter;
         text-align: center;
         color: #95BFFF;
     }
 
-    #users-details-table td {
+    #users-details p {
         font-weight: lighter;
         text-align: center;
     }
 
-    #users-details-table .user-details {
+    #users-details .user-details {
         border: solid 1px #95BFFF;
         border-radius: 0.5rem;
         padding: 0.2rem 1rem;
+        display: flex;
+        justify-items:center;
+        flex: auto;
     }
