@@ -26,7 +26,6 @@
 				<div class="line"></div>
 				<div class="main-content">
 					@if ($category == 'accounts')
-						<h1>Accounts</h1>
 						<table id="users-details-table">
 							<tr>
 								<th>Name</th>
