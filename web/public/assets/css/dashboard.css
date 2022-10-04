@@ -113,3 +113,7 @@ body {
         font-weight: lighter;
         text-align: center;
     }
+
+.user-details {
+    border: solid 1px black;
+}
