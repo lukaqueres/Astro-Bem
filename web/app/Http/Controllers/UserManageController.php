@@ -19,6 +19,12 @@ class UserManageController extends Controller {
 
     public function add(Request $request)
     {
+        $lengths = [
+        name => 25,
+        email => 30,
+        password => 18,
+        ];
+
         if ($request->missing('name') or $request->input('name') == '' ) {
             return replyWithStatus('addUserError', 'Name is required, please input user\'s name.', $request->except('password'));
         }
@@ -37,6 +43,36 @@ class UserManageController extends Controller {
 		}
 		unset($u);
         unset($users);
+
+        $pattern = [
+        name: "/\S/",
+        email: "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        password: "/\S/",
+        ];
+
+        if ($request->input('name') > $lengths["name"]) {
+            return replyWithStatus('addUserError', 'Name can be maximum ' . lengths["name"] . ' caracters long.', $request->except('password'));
+        }
+        if ($request->input('email') > $lengths["email"]) {
+            return replyWithStatus('addUserError', 'Email cannot be more than ' . lengths["email"] . ' caracters long.', $request->except('password'));
+        }
+        if ($request->input('password') > $lengths["password"]) {
+            return replyWithStatus('addUserError', 'Password cannot be more than ' . lengths["password"] . ' caracters long.', $request->except('password'));
+        }
+        if ($request->input('password') < 3) {
+            return replyWithStatus('addUserError', 'Password must have more than 3 caracters.', $request->except('password'));
+        }
+
+        if (preg_match($pattern["name"], $request->input('name')) == 0) {
+            return replyWithStatus('addUserError', 'Name cannot be empty.', $request->except('password'));
+        }
+        if (preg_match($pattern["email"], $request->input('email')) == 0) {
+            return replyWithStatus('addUserError', 'Provided email is not an email, please correct', $request->except('password'));
+        }
+        if (preg_match($pattern["passowrd"], $request->input('password')) == 0) {
+            return replyWithStatus('addUserError', 'Password cannot be empty.', $request->except('password'));
+        }
+
         User::create([
             'name' => $request->name,
             'email' => $request->email,
