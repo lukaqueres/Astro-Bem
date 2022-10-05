@@ -26,6 +26,7 @@ function newUserError(text, status = false) { // - Deletes all exisiting alerts 
 
 function validateNewUserForm() {
     let form = document.getElementById("addUser");
+    console.log(form);
     let name = form.getElementById("name");
     name.value = name.value.trim();
     let email = form.getElementById("email");
