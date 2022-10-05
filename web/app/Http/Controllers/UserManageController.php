@@ -52,26 +52,26 @@ class UserManageController extends Controller {
 
         if ($request->input('name') > $lengths["name"]) {
             return replyWithStatus('addUserError', 'Name can be maximum ' . lengths["name"] . ' caracters long.', $request->except('password'));
-        }
+        };
         if ($request->input('email') > $lengths["email"]) {
             return replyWithStatus('addUserError', 'Email cannot be more than ' . lengths["email"] . ' caracters long.', $request->except('password'));
-        }
+        };
         if ($request->input('password') > $lengths["password"]) {
             return replyWithStatus('addUserError', 'Password cannot be more than ' . lengths["password"] . ' caracters long.', $request->except('password'));
-        }
+        };
         if ($request->input('password') < 3) {
             return replyWithStatus('addUserError', 'Password must have more than 3 caracters.', $request->except('password'));
-        }
+        };
 
         if (preg_match($pattern["name"], $request->input('name')) == 0) {
             return replyWithStatus('addUserError', 'Name cannot be empty.', $request->except('password'));
-        }
+        };
         if (preg_match($pattern["email"], $request->input('email')) == 0) {
             return replyWithStatus('addUserError', 'Provided email is not an email, please correct', $request->except('password'));
-        }
+        };
         if (preg_match($pattern["passowrd"], $request->input('password')) == 0) {
             return replyWithStatus('addUserError', 'Password cannot be empty.', $request->except('password'));
-        }
+        };
 
         User::create([
             'name' => $request->name,
@@ -79,6 +79,6 @@ class UserManageController extends Controller {
             'password' => Hash::make($request->password), 
         ]);
         
-        return return replyWithStatus('addUserStatus', 'User succesfully created.');
+        return replyWithStatus('addUserStatus', 'User succesfully created.');
     }
 }
