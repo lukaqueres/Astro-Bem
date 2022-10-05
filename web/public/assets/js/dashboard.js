@@ -17,7 +17,7 @@ function newUserError(text, status = false) { // - Deletes all exisiting alerts 
     }
     let container = document.getElementById("add-new-user-form");
     const alertDiv = document.createElement("div");
-    const p = document.createElement("");
+    const p = document.createElement("p");
     const content = document.createTextNode(text);
     p.appendChild(content);
     alertDiv.appendChild(p);
