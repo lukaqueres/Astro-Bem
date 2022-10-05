@@ -41,6 +41,18 @@ function validateNewUserForm() {
         email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, // - Pattern from mozilla docs, read more here https://github.com/lukaqueres/Astro-Bem/issues/1#issuecomment-1264682760 -
         password: /\S/, // - Email is only tested if it is made from white spaces only -
     };
+
+    if (email.value == "") { // - Checking if both email or password values are empty - 
+        focusField(email);
+        return newUserError("The email field cannot be empty.");
+    } else if (password.value == "") {
+        focusField(password);
+        return newUserError("Please input password.");
+    } else if (name.value == "") {
+        focusField(name);
+        return newUserError("Please input user name.");
+    }
+
     if (name.value > lengths.name) {
         return newUserError('Name can be maximum ' + lengths.name + ' caracters long.');
     }
