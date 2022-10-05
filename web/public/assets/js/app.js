@@ -23,7 +23,8 @@ function activateDropdowns() {
     let menus = document.getElementsByClassName("dropdown-menu");
     for (var i = 0; i < menus.length; i++) {
         let button = menus[i].getElementsByClassName("dropdown-button")[0];
-        button.setAttribute("onclick", "dropdown(event)");
+        let callEvent = 'dropdown(event)';
+        button.setAttribute("onclick", callEvent);
     }
 }
 
