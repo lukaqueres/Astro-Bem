@@ -4,7 +4,6 @@
 		<title>Astro Bem | Dashboard</title>
 		<link rel="stylesheet" type="text/css" href="/assets/css/dashboard.css" />
 		<link rel="stylesheet" type="text/css" href="/assets/css/app.css" />
-		<script type="text/javascript" src="/assets/js/app.js"></script>
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<meta name="author" content="Lukas" />
@@ -77,4 +76,5 @@
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <?php // For use of icons, read more here https://ionic.io/ionicons/usage ?>
 		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	</body>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
 </html>
