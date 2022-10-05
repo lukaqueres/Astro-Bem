@@ -29,12 +29,12 @@ function assignDropdowns() {
 }
 
 function dropdown(e) { // This function will open dropdown depending on button clicked
-
+    let menu
     let target = e.target;
     let menus = document.getElementsByClassName("dropdown-menu");
     for (var i = 0; i < menus.length; i++) {
         if (menus[i].contains(target)) {
-            let menu = menus[i];
+             menu = menus[i];
         }
     }
     var content = menu.querySelector('.dropdown-content');
