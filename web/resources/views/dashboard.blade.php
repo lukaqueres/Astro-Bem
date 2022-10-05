@@ -13,12 +13,12 @@
     <script src="/assets/js/dashboard.js"></script>
 	<body>
 		<div class="container">
-			<div id="aside-menu">
+			<div id="aside-menu"> <?php /*
 				<div class="user-display">
 					<button class="more-menu"><ion-icon name="apps-outline"></ion-icon></button>
 					<p class="username"> {{ $user->name }} </p>
 					<p class="email"> {{ $user->email }} </p>
-				</div>
+				</div> */ ?>
 				<a href="{{ route('dashboard') }}/accounts">Accounts</a>
 			</div>
 			<div class="main">
