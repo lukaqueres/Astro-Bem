@@ -41,22 +41,17 @@ Route::post( // - Route `/dashboard/authenticate` is named as 'login' route ( fo
 )->name('authenticate'); 
 
 Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
-	'/dashboard/{category?}',
-	[AuthenticateController::class, 'dashboard']
-)->middleware('auth')->name('dashboard');
-
-Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/dashboard/logout',
 	[AuthenticateController::class, 'logout']
 )->middleware('auth')->name('logout');
-
-
-Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
-	'/manage/adduser',
-	[ManageController::class, 'addUser']
-)->name('createUser');
 
 Route::post( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/users/add',
 	[UserManageController::class, 'add']
 )->middleware('auth')->name('addUser');
+
+// - Must be on bottom! -
+Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
+	'/dashboard/{category?}',
+	[AuthenticateController::class, 'dashboard']
+)->middleware('auth')->name('dashboard');
