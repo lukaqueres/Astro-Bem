@@ -75,6 +75,7 @@ button:hover {
             border-width: 10px 10px 10px 0;
             width: 0;
             height: 0;
+            content: '';
         }
 
     .dropdown-menu .dropdown-content {
