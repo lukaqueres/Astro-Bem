@@ -69,6 +69,8 @@ button:hover {
         border: none;
         font-size: unset;
         font-weight: lighter;
+        display: flex;
+        align-items: center;
     }
 
         .dropdown-menu .dropdown-button::after {
@@ -82,15 +84,23 @@ button:hover {
         }
 
     .dropdown-menu .dropdown-content {
-        background: black;
-        border-style: solid;
-        border-width: 10px 10px 10px 0;
-        position:relative;
+        position: absolute;
         display: none;
     }
 
         .dropdown-menu .dropdown-content.active {
             display: block;
+        }
+
+        .dropdown-menu .dropdown-content.cur-user-manage {
+            background: white;
+            border: 2px solid #95BFFF;
+            border-radius: 1rem;
+            padding: 1rem;
+            transform: translate(-13rem, 1.5rem);
+            width: 20rem;
+            height: 5rem;
+            top: 1.5rem;
         }
 
 .flex {
