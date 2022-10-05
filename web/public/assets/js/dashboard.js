@@ -25,7 +25,6 @@ function newUserError(text, status = false) { // - Deletes all exisiting alerts 
 }
 
 function validateNewUserForm(e) {
-    console.log(e.target);
     let name = e.target.querySelector('#name')
     name.value = name.value.trim();
     let email = e.target.querySelector('#email')
