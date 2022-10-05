@@ -1,49 +1,66 @@
-/*
-function addNewUserMenu() {
-    let table = document.getElementById('users-details-table');
-    var form = document.createElement('form');
-    form.setAttribute('method', "post");
-    form.setAttribute('action', "/users/add");
-
-    var name = document.createElement('input');
-    name.type = "text";
-    name.name = "name";
-    name.id = "name";
-    name.placeholder = "Insert user's name";
-
-    var email = document.createElement('input');
-    email.type = "email";
-    email.name = "email";
-    email.id = "email";
-    email.placeholder = "Insert email";
-
-    var password = document.createElement('input');
-    password.type = "password";
-    password.name = "password";
-    password.id = "password";
-    password.placeholder = "Insert password";
-
-    var submit = document.createElement('button');
-    submit.type = "submit";
-    submit.innerText = "Add User";
-
-    form.appendChild(name);
-    form.appendChild(email);
-    form.appendChild(password);
-    form.appendChild(submit);
-
-    let tr = document.createElement('tr');
-    let td = tr.appendChild(document.createElement('td'));
-    td.colSpan = "4";
-    td.appendChild(form);
-
-    table.tBodies[0].appendChild(tr);
-}
-*/
-
 function showNewUserMenu() {
     let form = document.getElementById('add-new-user-form');
     form.classList.remove("hidden");
     let button = document.getElementById('add-new-user-reveal');
     button.classList.add('hidden');
+}
+
+function focusField(field) { // - Move cursor to given field. Additionally select its content -
+    field.focus();
+    field.select();
+}
+
+function newUserError(text, status = false) { // - Deletes all exisiting alerts and creates new from provided text. Returns status after creation -
+    let alerts = document.getElementsByClassName("new-user-error");
+    for (i = 0; i < alerts.length; i++) {
+        alerts[i].remove();
+    }
+    let container = document.getElementById("add-new-user-form");
+    const alertDiv = document.createElement("div");
+    const content = document.createTextNode(text);
+    alertDiv.appendChild(content);
+    alertDiv.classList.add("new-user-error");
+    container.appendChild(alertDiv);
+    return status;
+}
+
+function validateNewUserForm() {
+    let form = document.getElementById("addUserError");
+    let name = form.getElementById("name");
+    name.value = name.value.trim();
+    let email = form.getElementById("email");
+    email.value = email.value.trim();
+    let password = form.getElementById("password");
+    const lengths = {
+        name: 25,
+        email: 30,
+        password: 18,
+    };
+    const pattern = { // - Patterns for RegExp testing of password and email -
+        name: /\S/,
+        email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, // - Pattern from mozilla docs, read more here https://github.com/lukaqueres/Astro-Bem/issues/1#issuecomment-1264682760 -
+        password: /\S/, // - Email is only tested if it is made from white spaces only -
+    };
+    if (name.value > lengths.name) {
+        return newUserError('Name can be maximum ' + lengths.name + ' caracters long.');
+    }
+    if (email.value > lengths.email) {
+        return newUserError('Email cannot be more than ' + lengths.email + ' caracters long.');
+    }
+    if (password.value > lengths.password) {
+        return newUserError('Password cannot be more than ' + lengths.password + ' caracters long.');
+    }
+    if (!pattern.name.test(name.value)) { // - Testing patterns -
+        focusField(email);
+        return newAlert("The name cannot be made only with white caracters.");
+    }
+    if (!pattern.email.test(email.value)) {
+        focusField(email);
+        return newAlert("Invalid email syntax, please check and correct.");
+    }
+    if (!pattern.password.test(password.value)) {
+        focusField(password);
+        return newAlert("The password cannot contain only spaces.");
+    }
+    return true;
 }
