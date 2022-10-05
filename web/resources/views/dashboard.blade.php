@@ -25,8 +25,8 @@
 			<div class="main">
 				<div class="line"></div>
                 <div class="content">
-                <div class="content-header">
-                    <div class="user-menu dropdown-menu"><button class="dropdown-button">{{  $user->name }}</button>
+                <div class="content-header flex">
+                    <div class="user-menu dropdown-menu align-right"><button class="dropdown-button">{{  $user->name }}</button>
                         <div class="dropdown-content"> CONTENT </div>
                     </div>
                 </div>
