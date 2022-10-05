@@ -24,6 +24,12 @@
 			</div>
 			<div class="main">
 				<div class="line"></div>
+                <div class="content">
+                <div class="content-header">
+                    <div class="user-menu dropdown-menu"><button class="dropdown-button">{{  $user->name }}</button>
+                        <div class="dropdown-content"> CONTENT </div>
+                    </div>
+                </div>
 				<div class="main-content">
 					@if ($category == 'accounts')
 						<div id="users-details">
@@ -65,6 +71,7 @@
 					@endif
 					
 				</div>
+                </div>
 			</div>
 		</div>
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <?php // For use of icons, read more here https://ionic.io/ionicons/usage ?>
