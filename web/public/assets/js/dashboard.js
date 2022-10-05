@@ -25,11 +25,12 @@ function newUserError(text, status = false) { // - Deletes all exisiting alerts 
 }
 
 function validateNewUserForm(e) {
-    let name = this.querySelector('#name')
+    console.log(e.target);
+    let name = e.target.querySelector('#name')
     name.value = name.value.trim();
-    let email = this.querySelector('#email')
+    let email = e.target.querySelector('#email')
     email.value = email.value.trim();
-    let password = this.querySelector('#password')
+    let password = e.target.querySelector('#password')
     const lengths = {
         name: 25,
         email: 30,
