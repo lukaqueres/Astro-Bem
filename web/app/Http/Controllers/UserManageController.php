@@ -12,21 +12,26 @@ use Illuminate\Support\Facades\Auth;
 
 class UserManageController extends Controller {
 
+    private function replyWithStatus($name, $message, $inputs = null)
+    {
+        return back()->with($name, $error)->withInput($inputs);
+    }
+
     public function add(Request $request)
     {
         if ($request->missing('name') or $request->input('name') == '' ) {
-            return back()->with('newUserStatus', 'Name is required, please input user\'s name.')->withInput($request->except('password'));
+            return replyWithStatus('addUserError', 'Name is required, please input user\'s name.', $request->except('password'));
         }
         if ($request->missing('email') or $request->input('email') == '' ) {
-            return back()->with('newUserStatus', 'Email not provided, please input users\'s email.')->withInput($request->except('password'));
+            return replyWithStatus('addUserError', 'Email not provided, please input users\'s email.', $request->except('password'));
         }
         if ($request->missing('password') or $request->input('password') == '' ) {
-            return back()->with('newUserStatus', 'Password not provided, please input users\'s password.')->withInput($request->except('password'));
+            return replyWithStatus('addUserError', 'Password not provided, please input users\'s password.', $request->except('password'));
         }
         $users = User::all();
         foreach ( $users as $u ) { // - Check if id is always unique -
             if ( $request->input('email') == $u->email ) {
-                return back()->with('newUserStatus', 'Given email is already associated with another user.')->withInput($request->except('password'));
+                return replyWithStatus('addUserError', 'Given email is already associated with another user.', $request->except('password'));
                 //return back()->with('newUserStatus', 'Given email is already associated with another user.')->onlyInput('name');
             }
 		}
@@ -38,8 +43,6 @@ class UserManageController extends Controller {
             'password' => Hash::make($request->password), 
         ]);
         
-        //DB::table('users')->insert(['name' => ‘admin’, 'email' => 'admin@email.com', 'password' => Hash::make('Admin@123'),]);
-        //DB::table('users')->insert(['name'=>'Test','email'=>'test@tes','password'=>Hash::make('123')]);
-        return back()->with('newUserStatus', 'User created.')->withInput($request->except('password'));
+        return return replyWithStatus('addUserStatus', 'User succesfully created.');
     }
 }
