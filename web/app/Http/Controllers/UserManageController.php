@@ -51,13 +51,13 @@ class UserManageController extends Controller {
         ];
 
         if ($request->input('name') > $lengths["name"]) {
-            return $this->replyWithStatus('addUserError', 'Name can be maximum ' . lengths["name"] . ' caracters long.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Name can be maximum ' . $lengths["name"] . ' caracters long.', $request->except('password'));
         };
         if ($request->input('email') > $lengths["email"]) {
-            return $this->replyWithStatus('addUserError', 'Email cannot be more than ' . lengths["email"] . ' caracters long.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Email cannot be more than ' . $lengths["email"] . ' caracters long.', $request->except('password'));
         };
         if ($request->input('password') > $lengths["password"]) {
-            return $this->replyWithStatus('addUserError', 'Password cannot be more than ' . lengths["password"] . ' caracters long.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Password cannot be more than ' . $lengths["password"] . ' caracters long.', $request->except('password'));
         };
         if ($request->input('password') < 3) {
             return $this->replyWithStatus('addUserError', 'Password must have more than 3 caracters.', $request->except('password'));
