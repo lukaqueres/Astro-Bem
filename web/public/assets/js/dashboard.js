@@ -24,13 +24,12 @@ function newUserError(text, status = false) { // - Deletes all exisiting alerts 
     return status;
 }
 
-function validateNewUserForm() {
-    let form = document.getElementById("addUser");
-    let name = form.parentNode.getElementById("name");
+function validateNewUserForm(e) {
+    let name = this.querySelector('#name')
     name.value = name.value.trim();
-    let email = form.parentNode.getElementById("email");
+    let email = this.querySelector('#email')
     email.value = email.value.trim();
-    let password = form.parentNode.getElementById("password");
+    let password = this.querySelector('#password')
     const lengths = {
         name: 25,
         email: 30,
