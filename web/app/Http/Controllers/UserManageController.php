@@ -45,9 +45,9 @@ class UserManageController extends Controller {
         unset($users);
 
         $pattern = [
-        name: "/\S/",
-        email: "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
-        password: "/\S/",
+        name => "/\S/",
+        email => "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/",
+        password => "/\S/",
         ];
 
         if ($request->input('name') > $lengths["name"]) {
