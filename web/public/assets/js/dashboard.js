@@ -26,11 +26,11 @@ function newUserError(text, status = false) { // - Deletes all exisiting alerts 
 
 function validateNewUserForm() {
     let form = document.getElementById("addUser");
-    let name = form.getElementById("name");
+    let name = form.parentNode.getElementById("name");
     name.value = name.value.trim();
-    let email = form.getElementById("email");
+    let email = form.parentNode.getElementById("email");
     email.value = email.value.trim();
-    let password = form.getElementById("password");
+    let password = form.parentNode.getElementById("password");
     const lengths = {
         name: 25,
         email: 30,
