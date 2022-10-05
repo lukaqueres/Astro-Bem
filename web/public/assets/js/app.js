@@ -17,7 +17,7 @@
 // <>-----------------------------------------<> DROPDOWN FUNCTIONS CODE <>--------------------------------------------------------------------------------------<>
 //
 
-assignDropdowns();
+//assignDropdowns();
 
 function assignDropdowns() {
     let menus = document.getElementsByClassName("dropdown-menu");
