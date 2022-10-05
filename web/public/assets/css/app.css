@@ -86,6 +86,7 @@ button:hover {
     .dropdown-menu .dropdown-content {
         position: absolute;
         display: none;
+        box-shadow: 0px 0px 10px #95BFFF;
     }
 
         .dropdown-menu .dropdown-content.active {
@@ -94,13 +95,14 @@ button:hover {
 
         .dropdown-menu .dropdown-content.cur-user-manage {
             background: white;
-            border: 2px solid #95BFFF;
+            border: 1px solid #95BFFF;
             border-radius: 1rem;
             padding: 1rem;
-            transform: translate(-13rem, 1.5rem);
             width: 20rem;
             height: 5rem;
-            top: 1.5rem;
+            top: 3rem;
+            box-shadow: 0px 0px 10px #95BFFF;
+            right: 1rem;
         }
 
 .flex {
