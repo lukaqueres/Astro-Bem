@@ -50,6 +50,9 @@ function validateNewUserForm() {
     if (password.value > lengths.password) {
         return newUserError('Password cannot be more than ' + lengths.password + ' caracters long.');
     }
+    if (password.value < 3) {
+        return newUserError('Password must have more than 3 caracters.');
+    }
     if (!pattern.name.test(name.value)) { // - Testing patterns -
         focusField(email);
         return newAlert("The name cannot be made only with white caracters.");
