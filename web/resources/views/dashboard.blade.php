@@ -26,7 +26,9 @@
                 <div class="content">
                 <div class="content-header flex">
                     <div class="user-menu dropdown-menu align-right"><button class="dropdown-button">{{  $user->name }}</button>
-                        <div class="dropdown-content cur-user-manage"> CONTENT </div>
+                        <div class="dropdown-content cur-user-manage">
+                            <a href="{{ route('logout')}}">Log out</a>
+                        </div>
                     </div>
                 </div>
 				<div class="main-content">
