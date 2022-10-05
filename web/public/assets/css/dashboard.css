@@ -173,3 +173,13 @@ body {
         #users-details .add-new-user-reveal-button:hover {
             box-shadow: 3px 3px 10px #95BFFF;
         }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+    .content .content-header {
+        display: flex;
+
+    } 
