@@ -43,31 +43,35 @@ function validateNewUserForm(e) {
         password: /\S/, // - Email is only tested if it is made from white spaces only -
     };
 
-    if (email.value == "") { // - Checking if both email or password values are empty - 
+    if (name.value == "") { // - Checking if both email or password values are empty - 
+        focusField(name);
+        return newUserError("Please input user name.");
+    } else if (email.value == "") {
         focusField(email);
         return newUserError("The email field cannot be empty.");
     } else if (password.value == "") {
         focusField(password);
         return newUserError("Please input password.");
-    } else if (name.value == "") {
-        focusField(name);
-        return newUserError("Please input user name.");
-    }
+    } 
 
     if (name.value > lengths.name) {
+        focusField(name);
         return newUserError('Name can be maximum ' + lengths.name + ' caracters long.');
     }
     if (email.value > lengths.email) {
+        focusField(email);
         return newUserError('Email cannot be more than ' + lengths.email + ' caracters long.');
     }
     if (password.value > lengths.password) {
+        focusField(password);
         return newUserError('Password cannot be more than ' + lengths.password + ' caracters long.');
     }
     if (password.value < 3) {
+        focusField(password);
         return newUserError('Password must have more than 3 caracters.');
     }
     if (!pattern.name.test(name.value)) { // - Testing patterns -
-        focusField(email);
+        focusField(name);
         return newAlert("The name cannot be made only with white caracters.");
     }
     if (!pattern.email.test(email.value)) {
