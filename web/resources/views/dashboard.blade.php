@@ -45,7 +45,12 @@
 						}
 						unset($u);
 						?>
-                        @if (session('newUserStatus'))
+                        @if (session('addUserStatus'))
+                            <div class="new-user-status">
+					            <p> {{ session('addUserStatus') }} </p>
+				            </div>
+                        @endif
+                        @if (session('addUserError'))
 						    <div id="add-new-user-reveal-button" class="hidden"><button onclick="showNewUserMenu()"><ion-icon name="add-outline"></ion-icon></button><p>Add user</p></div>
                             <div id="add-new-user-form" >
                         @else
@@ -59,9 +64,9 @@
                                 <label for="password">Password:</label><input type="password" id="password" name="password"/>
                                 <button type="submit">Add user</button>
                             </form>
-                            @if (session('newUserStatus'))
-                                <div class="new-user-status">
-					               <p> {{ session('newUserStatus') }} </p>
+                            @if (session('addUserError'))
+                                <div class="new-user-error">
+					               <p> {{ session('addUserError') }} </p>
 				                </div>
                             @endif
                             </div>
