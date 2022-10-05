@@ -26,18 +26,18 @@ class UserManageController extends Controller {
         ];
 
         if ($request->missing('name') or $request->input('name') == '' ) {
-            return replyWithStatus('addUserError', 'Name is required, please input user\'s name.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Name is required, please input user\'s name.', $request->except('password'));
         }
         if ($request->missing('email') or $request->input('email') == '' ) {
-            return replyWithStatus('addUserError', 'Email not provided, please input users\'s email.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Email not provided, please input users\'s email.', $request->except('password'));
         }
         if ($request->missing('password') or $request->input('password') == '' ) {
-            return replyWithStatus('addUserError', 'Password not provided, please input users\'s password.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Password not provided, please input users\'s password.', $request->except('password'));
         }
         $users = User::all();
         foreach ( $users as $u ) { // - Check if id is always unique -
             if ( $request->input('email') == $u->email ) {
-                return replyWithStatus('addUserError', 'Given email is already associated with another user.', $request->except('password'));
+                return $this->replyWithStatus('addUserError', 'Given email is already associated with another user.', $request->except('password'));
                 //return back()->with('newUserStatus', 'Given email is already associated with another user.')->onlyInput('name');
             }
 		}
@@ -51,26 +51,26 @@ class UserManageController extends Controller {
         ];
 
         if ($request->input('name') > $lengths["name"]) {
-            return replyWithStatus('addUserError', 'Name can be maximum ' . lengths["name"] . ' caracters long.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Name can be maximum ' . lengths["name"] . ' caracters long.', $request->except('password'));
         };
         if ($request->input('email') > $lengths["email"]) {
-            return replyWithStatus('addUserError', 'Email cannot be more than ' . lengths["email"] . ' caracters long.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Email cannot be more than ' . lengths["email"] . ' caracters long.', $request->except('password'));
         };
         if ($request->input('password') > $lengths["password"]) {
-            return replyWithStatus('addUserError', 'Password cannot be more than ' . lengths["password"] . ' caracters long.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Password cannot be more than ' . lengths["password"] . ' caracters long.', $request->except('password'));
         };
         if ($request->input('password') < 3) {
-            return replyWithStatus('addUserError', 'Password must have more than 3 caracters.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Password must have more than 3 caracters.', $request->except('password'));
         };
 
         if (preg_match($pattern["name"], $request->input('name')) == 0) {
-            return replyWithStatus('addUserError', 'Name cannot be empty.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Name cannot be empty.', $request->except('password'));
         };
         if (preg_match($pattern["email"], $request->input('email')) == 0) {
-            return replyWithStatus('addUserError', 'Provided email is not an email, please correct', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Provided email is not an email, please correct', $request->except('password'));
         };
         if (preg_match($pattern["passowrd"], $request->input('password')) == 0) {
-            return replyWithStatus('addUserError', 'Password cannot be empty.', $request->except('password'));
+            return $this->replyWithStatus('addUserError', 'Password cannot be empty.', $request->except('password'));
         };
 
         User::create([
@@ -79,6 +79,6 @@ class UserManageController extends Controller {
             'password' => Hash::make($request->password), 
         ]);
         
-        return replyWithStatus('addUserStatus', 'User succesfully created.');
+        return $this->replyWithStatus('addUserStatus', 'User succesfully created.');
     }
 }
