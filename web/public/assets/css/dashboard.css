@@ -103,6 +103,8 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    background: #95BFFF;
+    border-radius: 0.5rem;
 }
 
     #users-details tr {
@@ -112,13 +114,13 @@ body {
     #users-details .columns-names {
         display: flex;
         align-items: center;
-        padding-inline: 2rem;
+        padding: 0.5rem 2rem;
     }
 
         #users-details .columns-names p {
             font-weight: bold;
             text-align: center;
-            color: #95BFFF;
+            color: white;
             flex: 1;
         }
 
@@ -142,26 +144,28 @@ body {
         }
 
     #users-details .user-details {
-        border: solid 1px #95BFFF7D;
+        /*border: solid 1px white;*/
         border-radius: 0.5rem;
         padding: 0.5rem 2rem;
         display: flex;
         margin-block: 0.25rem;
         transition: all 0.2s;
+        background: #FFF;
+        margin-inline: 1rem;
     }
 
     #users-details .user-details:hover {
-        background: #95BFFF;
+        background: white;
     }
 
     #users-details #add-new-user-reveal {
-        color: #95BFFF;
+        color: white;
     }
 
     #users-details .add-new-user-reveal-button {
         background: none;
         font-size: 2rem;
-        color: #95BFFF;
+        color: white;
         line-height: 1rem;
         width: 4rem;
         height: 2.5rem;
@@ -171,7 +175,7 @@ body {
     }
 
         #users-details .add-new-user-reveal-button:hover {
-            box-shadow: 3px 3px 10px #95BFFF;
+            background:none;
         }
 
 .content {
