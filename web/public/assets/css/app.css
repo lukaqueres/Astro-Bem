@@ -89,3 +89,11 @@ button:hover {
         .dropdown-menu .dropdown-content.active {
             display: block;
         }
+
+.flex {
+    display: flex;
+}
+
+    .flex > .align-right {
+        margin-left: auto;
+    }
