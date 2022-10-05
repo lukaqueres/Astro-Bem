@@ -14,7 +14,7 @@ class UserManageController extends Controller {
 
     private function replyWithStatus($name, $message, $inputs = null)
     {
-        return back()->with($name, $error)->withInput($inputs);
+        return back()->with($name, $message)->withInput($inputs);
     }
 
     public function add(Request $request)
