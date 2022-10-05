@@ -1,4 +1,4 @@
-function newAlert(text) {
+function newAlert(text, status = false) { // - Deletes all exisiting alerts and creates new from provided text. Returns status after creation -
     let alerts = document.getElementsByClassName("alert");
     for (i = 0; i < alerts.length; i++) {
         alerts[i].remove();
@@ -9,35 +9,35 @@ function newAlert(text) {
     alertDiv.appendChild(content);
     alertDiv.classList.add("alert");
     container.appendChild(alertDiv);
-    return false;
+    return status;
 }
 
-function focusField(field) {
+function focusField(field) { // - Move cursor to given field. Additionally select its content -
     field.focus();
     field.select();
 }
 
-function loginValidate() {
+function loginValidate() { // - This function validates login form. Must return `true` to send request -
     let email = document.getElementById("email");
-    email.value = email.value.trim();
+    email.value = email.value.trim(); 
     let password = document.getElementById("password");
-    if (email.value == "") {
+    if (email.value == "") { // - Checking if both email or password values are empty - 
         focusField(email);
         return newAlert("The email field cannot be empty.");
     } else if (password.value == "") {
         focusField(password);
         return newAlert("Please input your password.");
     }
-    const pattern = {
-        email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
-        password: /\S/,
-    }; // - Previous email: /^(\w|\W)*@(\w|\W)*$/i  and password /^[^\s*]$/i-
-    if (!pattern.email.test(email.value)) {
+    const pattern = { // - Patterns for RegExp testing of password and email -
+        email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, // - Pattern from mozilla docs, read more here https://github.com/lukaqueres/Astro-Bem/issues/1#issuecomment-1264682760 -
+        password: /\S/, // - Email is only tested if it is made from white spaces only -
+    };
+    if (!pattern.email.test(email.value)) { // - Testing patterns -
         focusField(email);
         return newAlert("Invalid email syntax, please check and correct.");
     } else if (!pattern.password.test(password.value)) {
         focusField(password);
         return newAlert("The password cannot contain only spaces.");
     }
-    return true;
+    return true; // - If everything passed request is validated -
 }
