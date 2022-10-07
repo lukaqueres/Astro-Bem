@@ -85,13 +85,13 @@ form {
 		}
 
 .alert {
-	background-color: #ff4a4a54;
-	padding: 0.5rem 1rem;
-	box-sizing: border-box;
-	border-radius: 0.5rem;
-	border: solid 1px #a83434;
-	font-weight: lighter;
-	color: #570000;
-	text-align: center;
-	width: 100%;
+    background-color: #ff454554;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border: solid 1px #a83434;
+    font-weight: lighter;
+    color: #400000;
+    text-align: center;
+    width: 100%;
 }
