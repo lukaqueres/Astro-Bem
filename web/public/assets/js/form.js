@@ -47,7 +47,7 @@ class Form {
                 return true;
             }
             for (const check of checks) {
-                let Validating = new Validator(name, check);
+                let Validating = new Validator(name, input.value, check);
                 [isValid, message] = Validating.check();
                 if (isValid) {
                     continue;
@@ -82,11 +82,12 @@ class Form {
 
 class Validator {
     #name;
+    #value;
     #check;
     #message;
     #isValid;
     #isBetween;
-    constructor(name, check) {
+    constructor(name, value, check) {
         this.#name = name;
         this.#check = check;
         this.#message = '';
@@ -96,7 +97,7 @@ class Validator {
     check() {
         switch(this.#check) {
             case 'email': {
-                if (this.#isValidEmail(input.value)) {
+                if (this.#isValidEmail(value)) {
                     this.#isValid = true;
                 } else {
                     this.#message = this.#messages('email');
@@ -104,7 +105,7 @@ class Validator {
                 break;
             }
             case 'required': {
-                if (this.#isValidRequired(input.value)) {
+                if (this.#isValidRequired(value)) {
                     this.#isValid = true;
                 } else {
                     this.#message = this.#messages('required');
