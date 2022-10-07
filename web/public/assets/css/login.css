@@ -94,4 +94,5 @@ form {
     color: #400000;
     text-align: center;
     width: 100%;
+    margin-block: 0.5rem;
 }
