@@ -3,7 +3,7 @@
 	<head>
 		<title>Astro Bem | Login</title>
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/login.css') }}" />
-		<link rel="stylesheet" type="text/css" href="/assets/css/app.css" />
+		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/app.css') }}" />
 		<script type="text/javascript" src="/assets/js/app.js"></script>
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
