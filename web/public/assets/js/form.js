@@ -48,7 +48,7 @@ class Form {
                 console.log(`${value} is not an array`);
                 return true;
             }
-            for (check of checks) {
+            for (const check of checks) {
                 let Validating = new this.#validator(name, check);
                 [isValid, message] = Validating.check();
                 if (isValid) {
