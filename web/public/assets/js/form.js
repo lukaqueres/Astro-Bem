@@ -24,7 +24,7 @@ class Form {
         return this.form.querySelector('input');
     }
 
-    validate(params) {
+    validate(params) { 
         if (!(params instanceof Object && params.constructor == Object && !params instanceof Array && !params instanceof Date)) { // - Check if params is a dictionary like object -
             console.log(`${params} is not a dict-type object`);
             return true;
