@@ -29,14 +29,6 @@ class AuthenticateController extends Controller
      */
     public function authenticate(Request $request)
     {
-        /*
-        if ($request->missing('email') or $request->missing('password')) {
-            return response()->json([
-                    'error_message' => 'Invalid authenticate request',
-                    'code' => 400
-            ]);
-        }
-        */
         $credentials = $request->validate([
             'email' => ['required', 'email'],
             'password' => ['required'],
@@ -45,15 +37,12 @@ class AuthenticateController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
             $user = Auth::user();
-            //return back()->with('alert', 'User found as ' . $user.name . ' .');
             return redirect()->intended('dashboard');
-            //return redirect()->route('home');
         }
 
         return back()->withErrors([
             'email' => 'User not found. Please check provided email and password, then try again.',
         ])->onlyInput('email');
-        //return back()->with('alert', 'User not found. Please check provided email and password, then try again.');
     }
 
     /**
