@@ -1,7 +1,6 @@
 class Form {
     form;
     #errorContainer;
-    #validator;
     constructor(form, errorContainerId = 'form-error') {
         if (!(form instanceof HTMLFormElement )) { // - Check if value within `form` variable is a DOM element and is a form -
             return console.log(`${form} is not a valid DOM ( family ) & FORM element`)
@@ -16,7 +15,6 @@ class Form {
             console.log(`Object of id '${errorContainerId}' not found, using default 'form-error' `);
         }
         this.form = form; // - Assign form ( element ) as a form ( class ) field -
-        this.validator = Validator();
         this.#errorContainer = errorContainer;
     }
 
@@ -49,7 +47,7 @@ class Form {
                 return true;
             }
             for (const check of checks) {
-                let Validating = new this.#validator(name, check);
+                let Validating = new Validator(name, check);
                 [isValid, message] = Validating.check();
                 if (isValid) {
                     continue;
