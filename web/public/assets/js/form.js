@@ -3,7 +3,7 @@ class Form {
     #errorContainer;
     #validator;
     constructor(form, errorContainerId = 'form-error') {
-        if (!(form instanceof Element && form.tagName == 'form')) { // - Check if value within `form` variable is a DOM element and is a form -
+        if (!(form instanceof Element )) { // - Check if value within `form` variable is a DOM element and is a form -
             return console.log(`${form} is not a valid DOM ( family ) & FORM element`)
         }
 
