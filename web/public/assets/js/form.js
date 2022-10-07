@@ -16,7 +16,7 @@ class Form {
             console.log(`Object of id '${errorContainerId}' not found, using default 'form-error' `);
         }
         this.form = form; // - Assign form ( element ) as a form ( class ) field -
-        this.validator = Validator;
+        this.validator = Validator();
         this.#errorContainer = errorContainer;
     }
 
