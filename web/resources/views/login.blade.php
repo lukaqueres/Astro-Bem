@@ -15,18 +15,20 @@
 	<body>
 		<div id="container" class="absolute-xy-center container">
 			<p class="head">Login</p>
-			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate()" novalidate>
+			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate(event)" novalidate>
 				@csrf
 				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" title="Email input" class="x-center" value="{{ old('email') }}"></input>
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" title="Password input" class="x-center"></input>
 				<button type="submit" class="x-center" title="Send login credentials">Authorize</button>
 			</form>
-			@error('email')
-                <div class="alert">{{ $message }}</div>
-            @enderror
-            @error('password')
-                <div class="alert">{{ $message }}</div>
-            @enderror
+            <div id="form-error">
+			    @error('email')
+                    <div class="alert">{{ $message }}</div>
+                @enderror
+                @error('password')
+                    <div class="alert">{{ $message }}</div>
+                @enderror
+            </div>
 		</div>
 	</body>
 </html>
