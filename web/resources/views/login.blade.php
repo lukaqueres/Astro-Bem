@@ -3,7 +3,7 @@
 	<head>
 		<title>Astro Bem | Login</title>
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/login.css') }}" />
-		<script type="text/javascript" src="/assets/js/app.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/app.css') }}" />
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<meta name="author" content="Lukas" />
@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
     <script src="/assets/js/login.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
 	<body>
 		<div id="container" class="absolute-xy-center container">
 			<p class="head">Login</p>
