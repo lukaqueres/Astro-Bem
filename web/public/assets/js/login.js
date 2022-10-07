@@ -1,5 +1,5 @@
-import Form from 'form'; 
-//const Form = require('./assets/js/form') 
+//import Form from 'form'; 
+//const Form = require('./assets/js/form')  // - TODO: Fix imports -
 
 function newAlert(text, status = false) { // - Deletes all exisiting alerts and creates new from provided text. Returns status after creation -
     let alerts = document.getElementsByClassName("alert");
