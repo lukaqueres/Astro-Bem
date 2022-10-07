@@ -97,7 +97,7 @@ class Validator {
     check() {
         switch(this.#check) {
             case 'email': {
-                if (this.#isValidEmail(value)) {
+                if (this.#isValidEmail(this.value)) {
                     this.#isValid = true;
                 } else {
                     this.#message = this.#messages('email');
@@ -105,7 +105,7 @@ class Validator {
                 break;
             }
             case 'required': {
-                if (this.#isValidRequired(value)) {
+                if (this.#isValidRequired(this.value)) {
                     this.#isValid = true;
                 } else {
                     this.#message = this.#messages('required');
