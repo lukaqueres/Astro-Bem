@@ -17,7 +17,7 @@
 			<p class="head">Login</p>
 			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate()" novalidate>
 				@csrf
-				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" class="x-center" ></input>
+				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" class="x-center" value="{{ old('email') }}"></input>
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="x-center"></input>
 				<button type="submit" class="x-center">Authorize</button>
 			</form>
