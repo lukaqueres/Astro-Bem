@@ -21,7 +21,7 @@ class Form {
     }
 
     get inputs() {
-        return this.form.querySelector('input');
+        return this.form.querySelectorAll('input');
     }
 
     validate(params) {
