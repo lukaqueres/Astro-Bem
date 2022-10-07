@@ -21,7 +21,7 @@
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="x-center"></input>
 				<button type="submit" class="x-center">Authorize</button>
 			</form>
-			@error('email', 'password')
+			@error('email')
                 <div class="alert">{{ $message }}</div>
             @enderror
 		</div>
