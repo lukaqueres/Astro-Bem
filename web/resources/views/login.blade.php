@@ -21,11 +21,9 @@
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="x-center"></input>
 				<button type="submit" class="x-center">Authorize</button>
 			</form>
-			@if (session('alert'))
-				<div class="alert">
-					{{ session('alert') }}
-				</div>
-            @endif
+			@error('email', 'password')
+                <div class="alert">{{ $message }}</div>
+            @enderror
 		</div>
 	</body>
 </html>
