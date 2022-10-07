@@ -24,6 +24,7 @@ body {
 	height: 30rem;
 	border-radius: 0.5rem;
 	backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 	box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	background: rgba(255, 255, 255, 0.5); 
