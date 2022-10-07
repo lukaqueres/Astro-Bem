@@ -33,6 +33,7 @@ class Form {
         */
         for (const [name, checks] of Object.entries(params)) {
             let input = undefined;
+            console.log(this.inputs);
             for (element of this.inputs) { 
                 if (element.getAttribute("name") == name) {
                     input = element;
