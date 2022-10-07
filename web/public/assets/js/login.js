@@ -1,3 +1,5 @@
+const Form = require('./assets/js/form') 
+
 function newAlert(text, status = false) { // - Deletes all exisiting alerts and creates new from provided text. Returns status after creation -
     let alerts = document.getElementsByClassName("alert");
     for (i = 0; i < alerts.length; i++) {
@@ -17,7 +19,14 @@ function focusField(field) { // - Move cursor to given field. Additionally selec
     field.select();
 }
 
-function loginValidate() { // - This function validates login form. Must return `true` to send request -
+function loginValidate(e) { // - This function validates login form. Must return `true` to send request -
+    let form = new Form(e.target, 'error');
+    let valid = form.validate({
+        'email': ['required', 'email'],
+        'password': ['required'],
+    });
+    return valid;
+    /*
     let email = document.getElementById("email");
     email.value = email.value.trim(); 
     let password = document.getElementById("password");
@@ -40,4 +49,5 @@ function loginValidate() { // - This function validates login form. Must return 
         return newAlert("The password cannot contain only spaces.");
     }
     return true; // - If everything passed request is validated -
+    */
 }
