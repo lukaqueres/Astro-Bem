@@ -21,7 +21,7 @@
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" title="Password input" class="x-center"></input>
 				<button type="submit" class="x-center" title="Send login credentials">Authorize</button>
 			</form>
-            <div id="form-error">
+            <div id="error">
 			    @error('email')
                     <div class="alert">{{ $message }}</div>
                 @enderror
