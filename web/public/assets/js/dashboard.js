@@ -1,3 +1,5 @@
+const Form = require('./assets/js/form') 
+
 function showNewUserMenu() {
     let form = document.getElementById('add-new-user-form');
     form.classList.remove("hidden");
