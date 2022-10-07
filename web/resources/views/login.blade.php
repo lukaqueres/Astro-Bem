@@ -17,15 +17,16 @@
 			<p class="head">Login</p>
 			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate()" novalidate>
 				@csrf
-				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" class="x-center" ></input>
-				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" class="x-center"></input>
-				<button type="submit" class="x-center">Authorize</button>
+				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" title="Email input" class="x-center" value="{{ old('email') }}"></input>
+				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" title="Password input" class="x-center"></input>
+				<button type="submit" class="x-center" title="Send login credentials">Authorize</button>
 			</form>
-			@if (session('alert'))
-				<div class="alert">
-					{{ session('alert') }}
-				</div>
-            @endif
+			@error('email')
+                <div class="alert">{{ $message }}</div>
+            @enderror
+            @error('password')
+                <div class="alert">{{ $message }}</div>
+            @enderror
 		</div>
 	</body>
 </html>

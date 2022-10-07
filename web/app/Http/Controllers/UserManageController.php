@@ -24,7 +24,13 @@ class UserManageController extends Controller {
         "email" => 30,
         "password" => 18,
         ];
-
+        /*
+        $credentials = $request->validate([
+            'name' => ['required', 'between:3,25'],
+            'email' => ['required', 'email'],
+            'password' => ['required'],
+        ]);
+        */
         if ($request->missing('name') or $request->input('name') == '' ) {
             return $this->replyWithStatus('addUserError', 'Name is required, please input user\'s name.', $request->except('password'));
         }
