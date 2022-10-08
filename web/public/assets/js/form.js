@@ -146,13 +146,13 @@ class Validator {
     // ->
 
     #isValidEmail() {
-        this.input.value = this.input.value.trim();
+        this.#input.value = this.#input.value.trim();
         return this.#patterns('email').test(value);
     }
 
     #isValidRequired() {
-        console.log(typeof(this.value));
-        value = this.input.value.trim();
+        console.log(typeof(this.#input.value));
+        value = this.#input.value.trim();
         return this.#patterns('required').test(value);
     }
 }
