@@ -152,7 +152,7 @@ class Validator {
 
     #isValidRequired() {
         console.log(typeof(this.#input.value));
-        value = this.#input.value.trim();
+        let value = this.#input.value.trim();
         return this.#patterns('required').test(value);
     }
 }
