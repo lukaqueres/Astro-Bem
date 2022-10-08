@@ -49,6 +49,8 @@ class Form {
             }
             for (const check of checks) {
                 let Validating = new Validator(input, check);
+                let isValid;
+                let message;
                 [isValid, message] = Validating.check();
                 if (isValid) {
                     continue;
