@@ -42,12 +42,12 @@ class Form {
                 console.log(`${name} field not found`);
                 continue;
             }
+            console.log('input: ' + input);
             if (!checks instanceof Array) {
                 console.log(`${value} is not an array`);
                 return true;
             }
             for (const check of checks) {
-                console.log('input: ' + input);
                 let Validating = new Validator(input, check);
                 [isValid, message] = Validating.check();
                 if (isValid) {
