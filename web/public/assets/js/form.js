@@ -47,7 +47,8 @@ class Form {
                 return true;
             }
             for (const check of checks) {
-                let Validating = new Validator(name, input.value, check);
+                console.log('input: ' + input);
+                let Validating = new Validator(input, check);
                 [isValid, message] = Validating.check();
                 if (isValid) {
                     continue;
@@ -81,15 +82,16 @@ class Form {
 }
 
 class Validator {
+    #input;
     #name;
-    #value;
     #check;
     #message;
     #isValid;
     #isBetween;
-    constructor(name, value, check) {
-        this.#name = name;
+    constructor(input, check) {
+        this.#input = input;
         this.#check = check;
+        this.#name = input.getAttribute('name'); 
         this.#message = '';
         this.#isValid = false;
     }
@@ -144,13 +146,13 @@ class Validator {
     // ->
 
     #isValidEmail() {
-        value = this.value.trim();
+        this.input.value = this.input.value.trim();
         return this.#patterns('email').test(value);
     }
 
     #isValidRequired() {
         console.log(typeof(this.value));
-        value = this.value.trim();
+        value = this.input.value.trim();
         return this.#patterns('required').test(value);
     }
 }
