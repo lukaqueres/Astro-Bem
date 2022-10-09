@@ -102,6 +102,7 @@ class Validator {
             this.#checkArgs = this.#checkArgs.split(',');
         } else {
             this.#check = check;
+            this.#checkArgs = [];
         }
     }
 
