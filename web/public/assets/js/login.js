@@ -23,7 +23,7 @@ function focusField(field) { // - Move cursor to given field. Additionally selec
 function loginValidate(e) { // - This function validates login form. Must return `true` to send request -
     let form = new Form(e.target, 'error');
     let valid = form.validate({
-        'email': ['trim', 'length:lessThan(3)', 'required', 'email'],
+        'email': ['trim', 'length:greaterThan(3)', 'required', 'email'],
         'password': ['required'],
     });
     return valid;
