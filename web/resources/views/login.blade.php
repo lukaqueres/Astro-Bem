@@ -11,7 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
     <script src="/assets/js/form.js"></script>
-    <script src="/assets/js/login.js"></script>
     <script type="text/javascript" src="/assets/js/app.js"></script>
 	<body>
 		<div id="container" class="absolute-xy-center container">
@@ -22,6 +21,15 @@
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" title="Password input" class="x-center"></input>
 				<button type="submit" class="x-center" title="Send login credentials">Authorize</button>
 			</form>
+            <script>
+                function loginValidate(e) { // - This function validates login form. Must return `true` to send request -
+                    const form = new Form(e.target, 'error');
+                    return form.validate({
+                        'email': ['trim', 'required', 'email'],
+                        'password': ['required'],
+                    });
+                }
+            </script>
             <div id="error">
 			    @error('email')
                     <div class="alert">{{ $message }}</div>
