@@ -31,7 +31,6 @@ class Form {
         */
         for (const [name, checks] of Object.entries(params)) {
             let input = undefined;
-            console.log(this.inputs);
             for (const element of this.inputs) { 
                 if (element.getAttribute("name") == name) {
                     input = element;
@@ -42,7 +41,6 @@ class Form {
                 console.log(`${name} field not found`);
                 continue;
             }
-            console.log('input: ' + input);
             if (!checks instanceof Array) {
                 console.log(`${value} is not an array`);
                 return true;
@@ -163,7 +161,6 @@ class Validator {
     }
 
     #isValidRequired() {
-        console.log(typeof(this.#input.value));
         let value = this.#input.value.trim();
         return this.#patterns('required').test(value);
     }
