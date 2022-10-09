@@ -66,7 +66,7 @@ class Form {
 
     #raiseError(text) {
         let alerts = this.#errorContainer.getElementsByClassName("alert");
-        for (i = 0; i < alerts.length; i++) {
+        for (let i = 0; i < alerts.length; i++) {
             alerts[i].remove();
         }
         const alert = document.createElement("div");
