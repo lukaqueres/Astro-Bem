@@ -87,13 +87,22 @@ class Validator {
     #check;
     #message;
     #isValid;
-    #isBetween;
+    #checkArgs;
+    #checkAdvName;
     constructor(input, check) {
         this.#input = input;
-        this.#check = check;
         this.#name = input.getAttribute('name'); 
         this.#message = '';
         this.#isValid = false;
+        if (check.includes(':')) {
+            let waste;
+            [this.#check, this.#checkArgs] = check.split(':', 2);
+            [this.#checkAdvName, this.#checkArgs] = this.#checkArgs.split('(', 2);
+            [this.#checkArgs, waste] = this.#checkArgs.split(')', 2);
+            this.#checkArgs = this.#checkArgs.split(',');
+        } else {
+            this.#check = check;
+        }
     }
 
     check() {
@@ -119,6 +128,25 @@ class Validator {
                 }
                 break;
             }
+            case 'length': {
+                if (this.#checkAdvName == 'between') {
+                    this.#isValid = this.#isBetweenExclusive();
+                    if (!this.#isValid) {
+                        this.#message = this.#messages('length.between');
+                    }
+                } else if (this.#checkAdvName == 'greaterThan') {
+                    this.#isValid = this.#isGreaterThan();
+                    if (!this.#isValid) {
+                        this.#message = this.#messages('length.greaterThan');
+                    }
+                } else if (this.#checkAdvName == 'lessThan') {
+                    this.#isValid = this.#isLessThan();
+                    if (!this.#isValid) {
+                        this.#message = this.#messages('length.isLessThan');
+                    }
+                }
+                break;
+            }
             default: {
                 console.log(`Check ${check} for ${ name } not found`);
             }
@@ -131,8 +159,10 @@ class Validator {
         const messages = { // - Patterns for RegExp testing of values -
             required: `The ${this.#name} field is required`,
             email: `The ${this.#name} must be a valid email address`,
-            between: {
-                string: `The ${this.#name}`,
+            length: {
+                between: `The ${this.#name} length must be between ${this.#checkArgs[0]} and ${this.#checkArgs[1]}`,
+                lessThan: `The ${this.#name} must be shorter than ${this.#checkArgs[0]} caracters`,
+                greaterThan: `The ${this.#name} length must longer than ${this.#checkArgs[0]} caracters`,
             },
         };
         return messages[message];
@@ -163,5 +193,35 @@ class Validator {
     #isValidRequired() {
         let value = this.#input.value.trim();
         return this.#patterns('required').test(value);
+    }
+
+    #isBetweenExclusive() {
+        let isrule;
+        if (this.#input.value > this.#checkArgs[0] && this.#input.value < this.#checkArgs[1]) {
+            isrule = true;
+        } else {
+            isrule = false;
+        }
+        return isrule;
+    }
+
+    #isGreaterThan() {
+        let isrule;
+        if (this.#input.value > this.#checkArgs[0]) {
+            isrule = true;
+        } else {
+            isrule = false;
+        }
+        return isrule;
+    }
+
+    #isLessThan() {
+        let isrule;
+        if (this.#input.value < this.#checkArgs[0]) {
+            isrule = true;
+        } else {
+            isrule = false;
+        }
+        return isrule;
     }
 }
