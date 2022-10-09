@@ -7,6 +7,7 @@
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<meta name="author" content="Lukas" />
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
