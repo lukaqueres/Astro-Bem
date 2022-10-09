@@ -23,7 +23,7 @@
 				<button type="submit" class="x-center" title="Send login credentials">Authorize</button>
 			</form>
             <script>
-                function loginValidate(e) { // - This function validates login form. Must return `true` to send request -
+                function loginValidate(e) { // {{-- - This function validates login form. Must return `true` to send request - --}}
                     const form = new Form(e.target, 'error');
                     return form.validate({
                         'email': ['trim', 'required', 'email'],
