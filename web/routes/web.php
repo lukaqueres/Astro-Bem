@@ -1,4 +1,5 @@
 <?php
+ob_start();
 
 use Illuminate\Support\Facades\Route;
 
