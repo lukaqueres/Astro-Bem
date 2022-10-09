@@ -133,17 +133,17 @@ class Validator {
                 if (this.#checkAdvName == 'between') {
                     this.#isValid = this.#isBetweenExclusive();
                     if (!this.#isValid) {
-                        this.#message = this.#messages('length.between');
+                        this.#message = this.#messages('length_between');
                     }
                 } else if (this.#checkAdvName == 'greaterThan') {
                     this.#isValid = this.#isGreaterThan();
                     if (!this.#isValid) {
-                        this.#message = this.#messages('length.greaterThan');
+                        this.#message = this.#messages('length_greaterThan');
                     }
                 } else if (this.#checkAdvName == 'lessThan') {
                     this.#isValid = this.#isLessThan();
                     if (!this.#isValid) {
-                        this.#message = this.#messages('length.isLessThan');
+                        this.#message = this.#messages('length_lessThan');
                     }
                 }
                 break;
@@ -160,11 +160,9 @@ class Validator {
         const messages = { // - Patterns for RegExp testing of values -
             required: `The ${this.#name} field is required`,
             email: `The ${this.#name} must be a valid email address`,
-            length: {
-                between: `The ${this.#name} length must be between ${this.#checkArgs[0]} and ${this.#checkArgs[1]}`,
-                lessThan: `The ${this.#name} must be shorter than ${this.#checkArgs[0]} caracters`,
-                greaterThan: `The ${this.#name} length must longer than ${this.#checkArgs[0]} caracters`,
-            },
+            length_between: `The ${this.#name} length must be between ${this.#checkArgs[0]} and ${this.#checkArgs[1]}`,
+            length_lessThan: `The ${this.#name} must be shorter than ${this.#checkArgs[0]} caracters`,
+            length_greaterThan: `The ${this.#name} length must longer than ${this.#checkArgs[0]} caracters`,
         };
         return messages[message];
     }
