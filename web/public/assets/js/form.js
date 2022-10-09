@@ -196,7 +196,7 @@ class Validator {
 
     #isBetweenExclusive() {
         let isrule;
-        if (this.#input.value > this.#checkArgs[0] && this.#input.value < this.#checkArgs[1]) {
+        if (this.#input.value.length > this.#checkArgs[0] && this.#input.value.length < this.#checkArgs[1]) {
             isrule = true;
         } else {
             isrule = false;
@@ -206,7 +206,7 @@ class Validator {
 
     #isGreaterThan() {
         let isrule;
-        if (this.#input.value > this.#checkArgs[0]) {
+        if (this.#input.value.length > this.#checkArgs[0]) {
             isrule = true;
         } else {
             isrule = false;
@@ -216,7 +216,7 @@ class Validator {
 
     #isLessThan() {
         let isrule;
-        if (this.#input.value < this.#checkArgs[0]) {
+        if (this.#input.value.length < this.#checkArgs[0]) {
             isrule = true;
         } else {
             isrule = false;
