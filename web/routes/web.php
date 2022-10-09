@@ -1,5 +1,5 @@
 <?php
-ob_start();
+ob_start(); // - Part of code 419 fix -
 
 use Illuminate\Support\Facades\Route;
 
