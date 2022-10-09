@@ -1,3 +1,5 @@
+@extends('login')
+
 @push('head') {{-- These lines will be injected in place of `@stack('head')` --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/app.css') }}" />
     <meta name="author" content="Lukas" />
