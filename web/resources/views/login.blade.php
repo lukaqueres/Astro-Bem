@@ -10,19 +10,14 @@
 	<body>
 		<div id="container" class="absolute-xy-center container">
 			<p class="head">Login</p>
-			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return function () {
-				const form = new Form(e.target, 'error');
-					return form.validate({
-						'email': ['trim', 'required', 'email'],
-						'password': ['required'],
-				});}" novalidate> 
+			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate(event)" novalidate> 
 				@csrf
 				<label for="email" >Email:</label><input type="email" id="email" name="email" placeholder="Insert your email here" title="Email input" class="x-center" value="{{ old('email') }}"></input>
 				<label for="password" >Password:</label><input type="password" id="password" name="password" placeholder="A safe place to input your password" title="Password input" class="x-center"></input>
 				<button type="submit" class="x-center" title="Send login credentials">Authorize</button>
 			</form>
 			<script>
-				function loginValidate(e) { // {{-- - This function validates login form. Must return `true` to send request `onsubmit="return loginValidate(event)"` - --}}
+				function loginValidate(e) { // {{-- - This function validates login form. Must return `true` to send request - --}}
 					const form = new Form(e.target, 'error');
 					return form.validate({
 						'email': ['trim', 'required', 'email'],
