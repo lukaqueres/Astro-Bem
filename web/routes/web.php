@@ -4,8 +4,8 @@ ob_start(); // - Part of code 419 fix -
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\AuthenticateController;
-use App\Http\Controllers\ManageController;
 use App\Http\Controllers\UserManageController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,6 +53,6 @@ Route::post( // - Route `/dashboard/login` is named as 'login' route ( for later
 
 // - Must be on bottom! -
 Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
-	'/dashboard/{category?}',
-	[AuthenticateController::class, 'dashboard']
+	'/dashboard/accounts',
+	[DashboardController::class, 'accounts']
 )->middleware('auth')->name('dashboard');
