@@ -3,8 +3,7 @@
 	<head>
 		<title>Astro Bem | Login</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/login.css') }}" />
-        @include('templates.stacks')
-        @stack('head')
+        @include('templates.head')
 	</head>
     <script src="/assets/js/form.js"></script>
     <script type="text/javascript" src="/assets/js/app.js"></script>
