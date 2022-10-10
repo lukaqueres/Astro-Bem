@@ -23,29 +23,9 @@ body {
     padding: 0.5rem 0 0.5rem 0.5rem;
     box-sizing: border-box;
     z-index: 50;
-    /*
-    width: 20rem;
-    height: 100%;
-    border-radius: 1rem;
-    background: #95BFFF;
-    padding: 0.5rem;
-    box-sizing: border-box;
-    z-index: 50;
-    */
 }
 
 .main {
-    /*
-    width: 100%;
-    height: inherit;
-    background: white;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    transform: translateX(-1rem);
-    padding: 1.5rem 1.5rem;
-    box-sizing: border-box;
-    border: 1px solid #95BFFF;
-    */
     width: 100%;
     height: inherit;
     background: white;
@@ -116,7 +96,7 @@ body {
 
         #users-details .columns-names p {
             font-weight: bold;
-            text-align: center;
+            /*text-align: center;*/
             color: white;
             flex: 1;
         }
@@ -128,7 +108,7 @@ body {
 
     #users-details p {
         font-weight: lighter;
-        text-align: center;
+        /*text-align: center;*/
         flex: 1;
     }
 
@@ -141,14 +121,12 @@ body {
         }
 
     #users-details .user-details {
-        /*border: solid 1px white;*/
-        border-radius: 0.5rem;
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 1rem;
         display: flex;
-        margin-block: 0.25rem;
         transition: all 0.2s;
         background: #FFF;
         margin-inline: 1rem;
+        border-bottom: black 1px solid;
     }
 
     #users-details .user-details:hover {
