@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Auth;
 class DashboardController extends Controller {
     public function accounts(Request $request)
     {
-        return view('dashboard.accounts');
+        return view('dashboard.accounts', ['user' => $user]);
     }
+
+    public function dashboard(Request $request)
+    {
+        $user = Auth::user();
+        return view('dashboard', ['user' => $user]);
+    }
+
 }
