@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Astro Bem | Login</title>
-		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/dashboard.css') }}" />
+		<title>Astro Bem | Accounts</title>
 		@include('templates.head')
+        <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/dashboard.css') }}" />
 	</head>
     <body>
         <div class="container">
