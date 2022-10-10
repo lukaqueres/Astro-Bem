@@ -19,18 +19,13 @@ class UserManageController extends Controller {
 
     public function add(Request $request)
     {
-        $lengths = [
-        "name" => 25,
-        "email" => 30,
-        "password" => 18,
-        ];
-        /*
-        $credentials = $request->validate([
+
+        $request->validate([ //$credentials = 
             'name' => ['required', 'between:3,25'],
-            'email' => ['required', 'email'],
-            'password' => ['required'],
+            'email' => ['required', 'email', 'unique:App\Models\User,email', 'between:3,35'],
+            'password' => ['required', 'between:3,18'],
         ]);
-        */
+        /*
         if ($request->missing('name') or $request->input('name') == '' ) {
             return $this->replyWithStatus('addUserError', 'Name is required, please input user\'s name.', $request->except('password'));
         }
@@ -78,7 +73,7 @@ class UserManageController extends Controller {
         if (preg_match($pattern["passowrd"], $request->input('password')) == 0) {
             return $this->replyWithStatus('addUserError', 'Password cannot be empty.', $request->except('password'));
         };
-
+        */
         User::create([
             'name' => $request->name,
             'email' => $request->email,
