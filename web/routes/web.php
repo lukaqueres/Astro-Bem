@@ -55,4 +55,9 @@ Route::post( // - Route `/dashboard/login` is named as 'login' route ( for later
 Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
 	'/dashboard/accounts',
 	[DashboardController::class, 'accounts']
+)->middleware('auth')->name('accounts');
+
+Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
+	'/dashboard/accounts',
+	[DashboardController::class, 'dashboard']
 )->middleware('auth')->name('dashboard');
