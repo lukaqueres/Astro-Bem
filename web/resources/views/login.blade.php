@@ -6,7 +6,6 @@
 		@include('templates.head')
 	</head>
 	<script src="/assets/js/form.js"></script>
-	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<body>
 		<div id="container" class="absolute-xy-center container">
 			<p class="head">Login</p>
