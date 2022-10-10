@@ -1,4 +1,6 @@
 <div class="side-menu">
-    <a href="{{ route('dashboard') }}">Dashboard</a>
-    <a href="{{ route('accounts') }}">Accounts</a>
+    <ul style="list-style-type:none">
+        <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+        <li><a href="{{ route('accounts') }}">Accounts</a></li>
+    </ul>
 </div>
