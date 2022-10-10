@@ -103,6 +103,7 @@ body {
 
             #users-details .columns-names p.create-date-column {
                 flex: 0;
+                text-align: center;
                 min-width: 10rem;
             }
 
