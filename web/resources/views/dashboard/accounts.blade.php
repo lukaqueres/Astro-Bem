@@ -27,7 +27,7 @@
 									<?php echo str_replace('-','.',substr($u->created_at, 0, -9)); ?>
 								</p>
 								<p class="email">{{ $u->email }}</p>
-								<a href="#"> See More </a>
+								<a href="#" class="button-light"> See More </a>
 							</div>
 						</div>
 					@empty
