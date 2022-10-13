@@ -19,15 +19,15 @@
                             @endif
                             <p class="title">{{ $u->name }}</p>
 							<p class="adnotation">Hover for details</p>
-                            <div class="content">
-                                <p> Description </p>
-                                <p>
-                                    <?php echo str_replace('-','.',substr($u->created_at, 0, -9)); ?>
-                                </p>
-                                <p class="email">{{ $u->email }}</p>
-                                <a href="#"> See More </a>
-                            </div>
                         </div>
+						<div class="card-content">
+							<p> Description </p>
+							<p>
+								<?php echo str_replace('-','.',substr($u->created_at, 0, -9)); ?>
+							</p>
+							<p class="email">{{ $u->email }}</p>
+							<a href="#"> See More </a>
+						</div>
 					@empty
 						<div class="card"><p class="title">There are no users</p></div>
 					@endforelse
