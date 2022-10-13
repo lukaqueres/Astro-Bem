@@ -153,14 +153,3 @@ body {
         #users-details .add-new-user-reveal-button:hover {
             background:none;
         }
-
-.content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-    .content .content-header {
-        display: flex;
-
-    } 
