@@ -116,6 +116,6 @@ button:hover {
     }
 
     .flex > .center {
-        marigin: auto;
+        margin: auto;
         align-self: flex-start;
     }
