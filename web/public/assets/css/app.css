@@ -119,3 +119,43 @@ button:hover {
         margin: auto;
         align-self: flex-start;
     }
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;grid-auto-rows: minmax(100px, auto);
+}
+
+.card {
+    width: 100px;
+    height: 300px;
+    
+    & p.title {
+       font-size: 2rem; 
+    }
+    
+    & p.email {
+       color: grey; 
+    }
+    
+    & img.profile-picture {
+        border-radius: 100rem;
+    }
+    
+    & p.preview {
+        font-size: 1rem;    
+    }
+    
+    & div.content {
+        opacity: none;
+        pointer-events: none;
+        border-radius: 100rem;
+    }
+}
+
+.card:hover {
+    & div.content {
+        opacity: 1;
+        pointer-events: all;
+    }
+}
