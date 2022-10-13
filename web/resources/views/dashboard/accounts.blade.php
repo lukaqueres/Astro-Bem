@@ -19,7 +19,7 @@
                             @endif
                             <p class="title">{{ $u->name }}</p>
 							<p class="adnotation">Hover for details</p>
-                            <div class="card-content">
+                            <div class="content">
                                 <p> Description </p>
                                 <p>
                                     <?php echo str_replace('-','.',substr($u->created_at, 0, -9)); ?>
