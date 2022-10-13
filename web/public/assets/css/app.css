@@ -131,6 +131,10 @@ button:hover {
 .card {
     background: white;
     border-radius: 1rem;
+    min-width: 15rem;
+    min-height: 20rem;
+    padding: 1rem;
+    box-sizing: border-box;
 }
     .card p.title {
         font-size: 2rem;
@@ -142,6 +146,7 @@ button:hover {
 
     .card img.avatar {
         border-radius: 100rem;
+        width: 7rem;
     }
 
     .card p.preview {
@@ -149,9 +154,9 @@ button:hover {
     }
 
     .card div.content {
-        opacity: none;
+        opacity: 0;
         pointer-events: none;
-        border-radius: 100rem;
+        border-radius: 1rem;
     }
         .card div.content a.button-light {
             border: 1px solid black;
