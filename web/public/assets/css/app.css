@@ -169,6 +169,20 @@ button:hover {
         margin-top: auto;
     }
 
+    .card a.button-light {
+        border: 1px solid black;
+        border-radius: 1rem;
+    }
+
+    .card a.button-full {
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0.5rem, 1rem;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+    }
 .card div.card-content {
     opacity: 0;
     pointer-events: none;
@@ -185,10 +199,6 @@ button:hover {
     backdrop-filter: blur(20px);
     transition: all cubic-bezier(.45,.65,0,.95) 0.2s;
 }
-        .card div.card-content a.button-light {
-            border: 1px solid black;
-            border-radius: 1rem;
-        }
 
 .card:hover div.card-content {
     opacity: 1;
