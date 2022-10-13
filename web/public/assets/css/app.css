@@ -128,7 +128,7 @@ button:hover {
     width: 100%;
 }
 
-.card.main-content {
+.card .main-content {
     background: #ffffff8c;
     border-radius: 1rem;
     min-width: 10rem;
