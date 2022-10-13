@@ -37,7 +37,7 @@
                         <div class="main-content">
                             <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
                             <p class="title"> Create user</p>
-                            <a>Add new user</a>
+                            <a href="#" class="button-full">Add new user</a>
                         </div>
                     </div>
                 </div>
