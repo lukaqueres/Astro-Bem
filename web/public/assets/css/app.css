@@ -141,9 +141,10 @@ button:hover {
     backdrop-filter: blur(20px);
 }
 
-    .card:hover .main-content {
-        transform: translateY(-1rem) scale(0.9);
-    }
+.card:hover .main-content {
+    transform: translateY(-1rem) scale(0.8);
+    transition: all cubic-bezier(.45,.65,0,.95) 0.2s;
+}
     .card p.title {
         font-size: 1rem;
         text-align: center;
@@ -168,18 +169,36 @@ button:hover {
         margin-top: auto;
     }
 
-    .card div.card-content {
-        opacity: 0;
-        pointer-events: none;
-        border-radius: 1rem;
-        background: white;
-    }
+.card div.card-content {
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 1rem;
+    background: #7000df;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    top: -50%;
+    width: 15rem;
+    height: 15rem;
+    transform: translate(-50%);
+    left: 50%;
+}
         .card div.card-content a.button-light {
             border: 1px solid black;
             border-radius: 1rem;
         }
 
-    .card:hover div.card-content{
-        opacity: 1;
-        pointer-events: all;
+.card:hover div.card-content {
+    opacity: 1;
+    pointer-events: all;
+    transition: all cubic-bezier(.45,.65,0,.95) 0.2s;
+    z-index: 1;
+}
+
+    .card:hover div.card-content::before {
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid #7000df;
     }
