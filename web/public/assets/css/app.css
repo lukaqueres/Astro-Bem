@@ -129,36 +129,34 @@ button:hover {
 .card {
     width: 100px;
     height: 300px;
-    backgroud: white;
+    background: white;
     border-radius: 1rem;
-    
-    & p.title {
-       font-size: 2rem; 
+}
+    .card p.title {
+        font-size: 2rem;
     }
-    
-    & p.email {
-       color: grey; 
+
+    .card p.email {
+        color: grey;
     }
-    
-    & img.profile-picture {
+
+    .card img.profile-picture {
         border-radius: 100rem;
     }
-    
-    & p.preview {
-        font-size: 1rem;    
+
+    .card p.preview {
+        font-size: 1rem;
     }
-    
-    & div.content {
+
+    .card div.content {
         opacity: none;
         pointer-events: none;
         border-radius: 100rem;
-        
-        & a.button-light {
+    }
+        .card div.content a.button-light {
             border: 1px solid black;
             border-radius: 1rem;
         }
-    }
-}
 
 .card:hover {
     & div.content {
