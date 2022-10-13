@@ -178,11 +178,19 @@ button:hover {
         width: 100%;
         background: black;
         color: white;
-        padding: 0.5rem, 1rem;
+        padding: 0.5rem 1rem;
         text-align: center;
         box-sizing: border-box;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        transition: all 0.2s;
     }
+
+        .card a.button-full:hover {
+            box-shadow: 0 0 5px black;
+        }
+
 .card div.card-content {
     opacity: 0;
     pointer-events: none;
