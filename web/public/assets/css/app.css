@@ -158,18 +158,18 @@ button:hover {
         font-size: 1rem;
     }
 
-    .card div.content {
+    .card + div.content {
         opacity: 0;
         pointer-events: none;
         border-radius: 1rem;
         background: white;
     }
-        .card div.content a.button-light {
+        .card + div.content a.button-light {
             border: 1px solid black;
             border-radius: 1rem;
         }
 
-.card:hover div.content {
+.card:hover + div.content {
         opacity: 1;
         pointer-events: all;
     }
