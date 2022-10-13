@@ -159,23 +159,22 @@ button:hover {
     }
 
     .card p.adnotation {
-        align-self: flex-end;
-        margin-top: auto;
         color: grey;
+        margin-top: auto;
     }
 
-    .card div.content {
+    .card + div.card-content {
         opacity: 0;
         pointer-events: none;
         border-radius: 1rem;
         background: white;
     }
-        .card div.content a.button-light {
+        .card div.card-content a.button-light {
             border: 1px solid black;
             border-radius: 1rem;
         }
 
-.card:hover div.content {
+    .card:hover + div.card-content {
         opacity: 1;
         pointer-events: all;
     }
