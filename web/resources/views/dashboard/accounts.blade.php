@@ -18,11 +18,10 @@
                                 <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'">
                             @endif
                             <p class="title">{{ $u->name }}</p>
-                            <p class="email">{{ $u->email }}</p>
-                            <p class="preview"><?php echo str_replace('-','.',substr($u->created_at, 0, -9)); ?></p>
                             <div class="content">
                                 <p> Description </p>
                                 <p><?php echo str_replace('-','.',substr($u->created_at, 0, -9)); ?></p>
+                                <p class="email">{{ $u->email }}</p>
                                 <a href="#"> See More </a>
                             </div>
                         </div>
