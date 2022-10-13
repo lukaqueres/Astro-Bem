@@ -1,9 +1,15 @@
-
+/*
 body {
     background-color: #4D2D94;
     background-image: linear-gradient(to bottom right, #4D2D94, #6A4AAF);
-}
+}*/
 
+body {
+    background-image: url('/assets/images/Astrobem_bck_one.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 .container {
     width: 100%;
