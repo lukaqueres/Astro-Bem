@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/login.css') }}" />
 	</head>
 	<script src="/assets/js/form.js"></script>
-	<body>
+	<body class="flex">
 		<div id="container" class="center container">
 			<p class="head">Login</p>
 			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate(event)" novalidate> 
