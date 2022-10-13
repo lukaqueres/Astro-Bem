@@ -126,6 +126,9 @@ button:hover {
     grid-template-rows: repeat(auto-fill, 15rem);
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
     width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow-block: auto;
 }
 
 .card .main-content {
@@ -184,7 +187,7 @@ button:hover {
         font-size: 1rem;
         border-radius: 0.5rem;
         text-decoration: none;
-        transition: all 0.2s;
+        transition: all 0.1s;
     }
 
         .card a.button-full:hover {
