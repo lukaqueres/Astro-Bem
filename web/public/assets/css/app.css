@@ -122,8 +122,10 @@ button:hover {
 
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;grid-auto-rows: minmax(100px, auto);
+    gap: 1rem;
+    grid-template-rows: repeat(auto-fill, 20rem);
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    width: 100%;
 }
 
 .card {
@@ -138,7 +140,7 @@ button:hover {
         color: grey;
     }
 
-    .card img.profile-picture {
+    .card img.avatar {
         border-radius: 100rem;
     }
 
@@ -156,9 +158,7 @@ button:hover {
             border-radius: 1rem;
         }
 
-.card:hover {
-    & div.content {
+.card:hover div.content {
         opacity: 1;
         pointer-events: all;
     }
-}
