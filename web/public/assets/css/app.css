@@ -129,6 +129,8 @@ button:hover {
 .card {
     width: 100px;
     height: 300px;
+    backgroud: white;
+    border-radius: 1rem;
     
     & p.title {
        font-size: 2rem; 
@@ -150,6 +152,11 @@ button:hover {
         opacity: none;
         pointer-events: none;
         border-radius: 100rem;
+        
+        & a.button-light {
+            border: 1px solid black;
+            border-radius: 1rem;
+        }
     }
 }
 
