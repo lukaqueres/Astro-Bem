@@ -175,7 +175,7 @@ button:hover {
             border-radius: 1rem;
         }
 
-    .card:hover + div.card-content {
+    .card:hover + div.card-content, div.card-content:hover {
         opacity: 1;
         pointer-events: all;
     }
