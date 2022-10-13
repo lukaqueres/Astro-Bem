@@ -129,7 +129,7 @@ button:hover {
 }
 
 .card {
-    background: white;
+    background: #ffffff8c;
     border-radius: 1rem;
     min-width: 10rem;
     min-height: 15rem;
@@ -138,6 +138,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    backdrop-filter: blur(20px);
 }
     .card p.title {
         font-size: 1rem;
