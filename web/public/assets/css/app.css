@@ -128,7 +128,7 @@ button:hover {
     width: 100%;
 }
 
-.card {
+.card.main-content {
     background: #ffffff8c;
     border-radius: 1rem;
     min-width: 10rem;
@@ -164,7 +164,7 @@ button:hover {
         margin-top: auto;
     }
 
-    .card + div.card-content {
+    .card div.card-content {
         opacity: 0;
         pointer-events: none;
         border-radius: 1rem;
@@ -175,7 +175,7 @@ button:hover {
             border-radius: 1rem;
         }
 
-    .card:hover + div.card-content, div.card-content:hover {
+    .card:hover div.card-content{
         opacity: 1;
         pointer-events: all;
     }
