@@ -123,21 +123,25 @@ button:hover {
 .cards-container {
     display: grid;
     gap: 1rem;
-    grid-template-rows: repeat(auto-fill, 20rem);
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-rows: repeat(auto-fill, 15rem);
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
     width: 100%;
 }
 
 .card {
     background: white;
     border-radius: 1rem;
-    min-width: 15rem;
-    min-height: 20rem;
+    min-width: 10rem;
+    min-height: 15rem;
     padding: 1rem;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
     .card p.title {
-        font-size: 2rem;
+        font-size: 1rem;
+        text-align: center;
     }
 
     .card p.email {
