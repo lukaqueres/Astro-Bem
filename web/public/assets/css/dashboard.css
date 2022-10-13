@@ -28,7 +28,7 @@ body {
 .main {
     width: 100%;
     height: inherit;
-    background: white;
+    /*background: white;*/
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding: 1rem 1rem 1rem 0;
