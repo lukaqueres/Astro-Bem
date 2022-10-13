@@ -140,6 +140,10 @@ button:hover {
     align-items: center;
     backdrop-filter: blur(20px);
 }
+
+    .card:hover .main-content {
+        transform: translateY(-1rem) scale(0.9);
+    }
     .card p.title {
         font-size: 1rem;
         text-align: center;
