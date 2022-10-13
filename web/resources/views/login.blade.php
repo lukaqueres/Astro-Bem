@@ -7,7 +7,7 @@
 	</head>
 	<script src="/assets/js/form.js"></script>
 	<body>
-		<div id="container" class="absolute-xy-center container">
+		<div id="container" class="center container">
 			<p class="head">Login</p>
 			<form method="POST" action="{{ route('authenticate') }}" onsubmit="return loginValidate(event)" novalidate> 
 				@csrf
