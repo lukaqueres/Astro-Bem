@@ -10,7 +10,7 @@
 			@include('templates.menus.sidedashboard')
 			<div class="main">
 				<div class="cards-container">
-					@forelse ( App\Models\User::all() as $u )
+					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO NOT TOUCH IT  --}}
 						<div class="card">
 							<div class="main-content">
 								@if ( $u->avatar )
@@ -33,6 +33,13 @@
 					@empty
 						<div class="card"><p class="title">There are no users</p></div>
 					@endforelse
+                    <div class="card">
+                        <div class="main-content">
+                            <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
+                            <p class="title"> Create user</p>
+                            <a>Add new user</a>
+                        </div>
+                    </div>
                 </div>
 			</div>
 		</div>
