@@ -114,3 +114,8 @@ button:hover {
     .flex > .align-right {
         margin-left: auto;
     }
+
+    .flex > .center {
+        marigin: auto;
+        align-self: flex-start;
+    }
