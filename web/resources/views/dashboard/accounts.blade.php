@@ -9,7 +9,7 @@
 		<div class="container">
 			@include('templates.menus.sidedashboard')
 			<div class="main">
-				<div id="cards-container">
+				<div class="cards-container">
 					@forelse ( App\Models\User::all() as $u )
 						<div class="card"><p class="title">{{ $u->name }}</p>
                             <p class="email">{{ $u->email }}</p>
