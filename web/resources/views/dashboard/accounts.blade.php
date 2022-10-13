@@ -29,7 +29,6 @@
 					@empty
 						<div class="card"><p class="title">There are no users</p></div>
 					@endforelse
-					</div>
                 </div>
 			</div>
 		</div>
