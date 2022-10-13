@@ -18,6 +18,7 @@
                                 <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'">
                             @endif
                             <p class="title">{{ $u->name }}</p>
+							<p class="adnotation">Hover for details</p>
                         </div>
 						<div class="card-content">
 							<p> Description </p>
