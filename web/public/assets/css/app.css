@@ -140,11 +140,11 @@ button:hover {
     transition: all 0.5s;
 }
 
-    .card:hover {
-        height: 20rem;
+    .card :is(h1, h2, h3, p) {
+        margin: 0;
     }
 
-    .card > img.avatar {
+    .card .front img.avatar {
         top: -2rem;
         left: 50%;
         transform: translateX(-50%);
@@ -155,8 +155,8 @@ button:hover {
         transition: all .5s;
     }
 
-    .card:hover > img.avatar {
-        width: 10rem;
+    .card .back {
+        display: none;
     }
         /*
 .card .main-content {
