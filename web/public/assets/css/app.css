@@ -149,11 +149,15 @@ button:hover {
         left: 50%;
         transform: translateX(-50%);
         position: absolute;
-        border-radius: 100rem;
+        border-radius: 2rem;
         width: 7rem;
         box-shadow: 0 10px 50px #7000df87;
     }
-/*
+
+    .card:hover > img.avatar {
+        width: 10rem;
+    }
+        /*
 .card .main-content {
     background: #ffffff8c;
     border-radius: 1rem;
@@ -242,7 +246,7 @@ button:hover {
     transform: translate(-50%, 0%);
 }
     */
-/*
+        /*
     .card:hover div.card-content::before {
         width: 0;
         height: 0;
