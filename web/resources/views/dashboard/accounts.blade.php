@@ -30,11 +30,9 @@
 						<div class="card"><p class="title">There are no users</p></div>
 					@endforelse
                     <div class="card">
-                        <div class="main-content">
-                            <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
-                            <p class="title"> Create user</p>
-                            <a href="#" class="button-full">Add new user</a>
-                        </div>
+						<img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
+						<p class="title"> Create user</p>
+						<a href="#" class="button-full">Add new user</a>
                     </div>
                 </div>
 			</div>
