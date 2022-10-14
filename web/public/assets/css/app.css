@@ -131,6 +131,29 @@ button:hover {
     overflow-block: auto;
 }
 
+.card {
+    position: relative;
+    width: 10rem;
+    height: 15rem;
+    background: #ffffff8c;
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+
+    .card:hover {
+        height: 20rem;
+    }
+
+    .card > img.avatar {
+        top: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        border-radius: 100rem;
+        width: 7rem;
+        box-shadow: 0 10px 50px #7000df87;
+    }
+/*
 .card .main-content {
     background: #ffffff8c;
     border-radius: 1rem;
@@ -218,6 +241,7 @@ button:hover {
     box-shadow: 0 0 10px #7000df;
     transform: translate(-50%, 0%);
 }
+    */
 /*
     .card:hover div.card-content::before {
         width: 0;
