@@ -124,7 +124,7 @@ button:hover {
     display: grid;
     gap: 1rem;
     grid-template-rows: repeat(auto-fill, 15rem);
-    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
@@ -133,7 +133,7 @@ button:hover {
 
 .card {
     position: relative;
-    width: 10rem;
+    width: 15rem;
     height: 15rem;
     background: #ffffff8c;
     border-radius: 1rem;
@@ -152,6 +152,7 @@ button:hover {
         border-radius: 2rem;
         width: 7rem;
         box-shadow: 0 10px 50px #7000df87;
+        transition: all .5s;
     }
 
     .card:hover > img.avatar {
