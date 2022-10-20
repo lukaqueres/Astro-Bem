@@ -34,12 +34,12 @@ Route::get('/', function (Request $request) { // - `home.blade.php` view will be
 Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/dashboard/login',
 	[AuthenticateController::class, 'login']
-)->name('login'); 
+)->name('login');
 
 Route::post( // - Route `/dashboard/authenticate` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/dashboard/authenticate',
 	[AuthenticateController::class, 'authenticate']
-)->name('authenticate'); 
+)->name('authenticate');
 
 Route::get( // - Route `/dashboard/login` is named as 'login' route ( for later use ), in case of this route called call `login` function of `AutherticateController` Controller class -
 	'/dashboard/logout',
@@ -58,6 +58,11 @@ Route::get( // - Route `/dashboard/{category}` if category is provided display c
 )->middleware('auth')->name('accounts');
 
 Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
+	'/dashboard/accounts/create',
+	[DashboardController::class, 'accountsCreate']
+)->middleware('auth')->name('accounts_create');
+
+Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
 	'/dashboard',
-	[DashboardController::class, 'dashboard'] 
+	[DashboardController::class, 'dashboard']
 )->middleware('auth')->name('dashboard');

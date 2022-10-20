@@ -17,6 +17,12 @@ class DashboardController extends Controller {
         return view('dashboard.accounts', ['user' => $user]);
     }
 
+    public function accountsCreate(Request $request)
+    {
+        $user = Auth::user();
+        return view('dashboard.accountCreate', ['user' => $user]);
+    }
+
     public function dashboard(Request $request)
     {
         $user = Auth::user();
