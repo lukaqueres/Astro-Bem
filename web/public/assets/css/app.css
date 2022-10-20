@@ -144,117 +144,19 @@ button:hover {
         margin: 0;
     }
 
-    .card .front img.avatar {
-        top: -2rem;
-        left: 50%;
-        transform: translateX(-50%);
-        position: absolute;
-        border-radius: 2rem;
-        width: 7rem;
-        box-shadow: 0 10px 50px #7000df87;
-        transition: all .5s;
+    .card.indentity {
+
     }
 
-    .card .back {
-        display: none;
-    }
-        /*
-.card .main-content {
-    background: #ffffff8c;
-    border-radius: 1rem;
-    min-width: 10rem;
-    min-height: 15rem;
-    padding: 1rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    backdrop-filter: blur(20px);
-}
-
-.card:hover .main-content {
-    transform: translateY(-2rem) scale(0.8);
-    transition: all cubic-bezier(.45,.65,0,.95) 0.2s;
-}
-    .card p.title {
-        font-size: 1rem;
-        text-align: center;
-        margin-block: 1rem;
+    .card.indentity img.avatar {
+        border-radius: 50%;
+        width: 5rem;
     }
 
-    .card p.email {
-        color: grey;
-    }
-
-    .card img.avatar {
-        border-radius: 100rem;
-        width: 7rem;
-    }
-
-    .card p.preview {
+    .card.indentity p.name {
         font-size: 1rem;
     }
 
-    .card p.adnotation {
-        color: grey;
-        margin-top: auto;
+    .card.indentity .dropdown-button.email {
+        font-size: 0.7rem;
     }
-
-    .card a.button-light {
-        border: 1px solid black;
-        border-radius: 1rem;
-    }
-
-    .card a.button-full {
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0.5rem 1rem;
-        text-align: center;
-        box-sizing: border-box;
-        font-size: 1rem;
-        border-radius: 0.5rem;
-        text-decoration: none;
-        transition: all 0.1s;
-    }
-
-        .card a.button-full:hover {
-            box-shadow: 0 0 5px black;
-        }
-
-.card div.card-content {
-    opacity: 0;
-    pointer-events: none;
-    border-radius: 1rem;
-    background: #7000df87;
-    padding: 2rem;
-    box-sizing: border-box;
-    position: relative;
-    top: -50%;
-    width: 15rem;
-    height: 15rem;
-    transform: translate(-50%, 50%);
-    left: 50%;
-    backdrop-filter: blur(20px);
-    transition: all cubic-bezier(.45,.65,0,.95) 0.2s;
-}
-
-.card:hover div.card-content {
-    opacity: 1;
-    pointer-events: all;
-    z-index: 1;
-    box-shadow: 0 0 10px #7000df;
-    transform: translate(-50%, 0%);
-}
-    */
-        /*
-    .card:hover div.card-content::before {
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-bottom: 5px solid #7000df;
-        box-shadow: 0 5px 10px #7000df;
-        content:"";
-    }
-*/

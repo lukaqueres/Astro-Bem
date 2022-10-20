@@ -11,24 +11,18 @@
 			<div class="main">
 				<div class="cards-container">
 					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO - NOT - TOUCH - IT  --}}
-						<div class="card">
-                            <div class="front">
-                                @if ( $u->avatar )
+						<div class="card identity">
+                            @if ( $u->avatar )
                                 <img class="avatar" src="{{ $u->avatar }}" alt="User's profile picture'" />
-                                @else
+                            @else
                                 <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
-                                @endif
-                                <p class="title">{{ $u->name }}</p>
-                                <p class="adnotation">Hover for details</p>
-                            </div>
-                            <div class="details">
-                                <p> Description </p>
-                                <p>
-                                    @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp
-                                </p>
-                                <p class="email">{{ $u->email }}</p>
-                                <a href="#" class="button-light"> See More </a>
-                            </div>
+                            @endif
+                            <p class="name">{{ $u->name }}</p>
+                            <p class="adnotation">Hover for details</p>
+                            <p> Description </p>
+                            <p class="email">{{ $u->email }}</p>
+                            <p> @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp </p>
+                            <a href="#" class="button-light"> See More </a>
 						</div>
 					@empty
 						<div class="card"><p class="title">There are no users</p></div>
