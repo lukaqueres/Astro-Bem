@@ -18,9 +18,8 @@
                                 <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
                             @endif
                             <p class="name">{{ $u->name }}</p>
-                            <p class="adnotation">Hover for details</p>
-                            <p> Description </p>
                             <p class="email">{{ $u->email }}</p>
+							<p class="adnotation">Details</p>
                             <p> @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp </p>
                             <a href="#" class="button-light"> See More </a>
 						</div>
