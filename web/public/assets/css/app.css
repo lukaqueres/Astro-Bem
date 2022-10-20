@@ -138,6 +138,7 @@ button:hover {
     background: #ffffff8c;
     border-radius: 1rem;
     transition: all 0.5s;
+    padding: 0.5rem;
 }
 
     .card :is(h1, h2, h3, p) {
@@ -150,10 +151,12 @@ button:hover {
     .card.id img.avatar {
         border-radius: 50%;
         width: 5rem;
+        float: left;
     }
 
     .card.id p.name {
         font-size: 1rem;
+        float: left;
     }
 
     .card.id .dropdown-button.email {
