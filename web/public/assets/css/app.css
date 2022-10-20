@@ -144,19 +144,18 @@ button:hover {
         margin: 0;
     }
 
-    .card.indentity {
-
+    .card.id {
     }
 
-    .card.indentity img.avatar {
+    .card.id img.avatar {
         border-radius: 50%;
         width: 5rem;
     }
 
-    .card.indentity p.name {
+    .card.id p.name {
         font-size: 1rem;
     }
 
-    .card.indentity .dropdown-button.email {
+    .card.id .dropdown-button.email {
         font-size: 0.7rem;
     }

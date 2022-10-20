@@ -11,7 +11,7 @@
 			<div class="main">
 				<div class="cards-container">
 					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO - NOT - TOUCH - IT  --}}
-						<div class="card identity">
+						<div class="card id">
                             @if ( $u->avatar )
                                 <img class="avatar" src="{{ $u->avatar }}" alt="User's profile picture'" />
                             @else
