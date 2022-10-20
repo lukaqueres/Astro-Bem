@@ -20,7 +20,7 @@
                             <p class="name">{{ $u->name }}</p>
                             <p class="email">{{ $u->email }}</p>
 							<p class="adnotation">Details</p>
-                            <p> @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp </p>
+                            <p>Account created at: @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp </p>
                             <a href="#" class="button-light"> See More </a>
 						</div>
 					@empty
