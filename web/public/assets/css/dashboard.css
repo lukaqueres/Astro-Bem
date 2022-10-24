@@ -14,7 +14,7 @@ body {
 .container {
     width: 100%;
     height: 100%;
-    padding: 0.5rem;
+    /*padding: 0.5rem;*/
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -23,12 +23,31 @@ body {
 .side-menu {
     width: 20rem;
     height: 100%;
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
     background: white;
-    padding: 0.5rem 0 0.5rem 0.5rem;
+    padding: 0.5rem;
     box-sizing: border-box;
     z-index: 50;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-link {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.aside-user-section {
+
+}
+
+.aside-name {
+    font-size: 1.5rem;
+}
+
+.aside-tab {
+    color: grey;
 }
 
 .main {

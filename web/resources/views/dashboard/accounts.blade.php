@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div class="container">
-			@include('templates.menus.sidedashboard')
+			@include('dashboard.sidemenu')
 			<div class="main">
 				<div class="cards-container">
 					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO - NOT - TOUCH - IT  --}}
