@@ -1,5 +1,5 @@
 <div class="side-menu">
-    <div class="aside-user-section">
+    <div class="user-section">
         <p class="aside-name">{{ $user->name }}</p>
         <p class="aside-tab">Dashboard</p>
     </div>
