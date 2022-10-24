@@ -124,7 +124,7 @@ button:hover {
     display: grid;
     gap: 1rem;
     grid-template-rows: repeat(auto-fill, 15rem);
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
@@ -133,7 +133,7 @@ button:hover {
 
 .card {
     position: relative;
-    width: 15rem;
+    width: 12rem;
     height: 15rem;
     background: #ffffff8c;
     border-radius: 1rem;
@@ -145,7 +145,55 @@ button:hover {
         margin: 0;
     }
 
-    .card.id {
+    .card img {
+        max-width: 100%;
+    }
+
+        .card img.background {
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            border-radius: 2rem;
+            width: 7rem;
+            box-shadow: 0 10px 50px #7000df87;
+            transition: all .5s;
+        }
+
+        .card img.avatar {
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            border-radius: 2rem;
+            width: 7rem;
+            box-shadow: 0 10px 50px #7000df87;
+            transition: all .5s;
+        }
+
+    .card .back {
+        display: none;
+    }
+        /*
+.card .main-content {
+    background: #ffffff8c;
+    border-radius: 1rem;
+    min-width: 10rem;
+    min-height: 15rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+.card:hover .main-content {
+    transform: translateY(-2rem) scale(0.8);
+    transition: all cubic-bezier(.45,.65,0,.95) 0.2s;
+}
+    .card p.title {
+        font-size: 1rem;
+        text-align: center;
+        margin-block: 1rem;
     }
 
     .card.id img.avatar {
