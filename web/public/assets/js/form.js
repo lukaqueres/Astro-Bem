@@ -1,3 +1,10 @@
+
+/**
+ * Creates Form object, ready for validation
+ * @param {HTMLFormElement} form Form element to validate
+ * @param {String} errorContainerId Id of container where error messages will be dumped
+ * @returns {Null} Just constructing returns nothing
+ */
 class Form {
     form;
     #errorContainer;
@@ -21,7 +28,11 @@ class Form {
     get inputs() {
         return this.form.querySelectorAll('input');
     }
-
+    /**
+     * Validates full form, returns true if correct
+     * @param {Object} params List of checks for each field in form
+     * @returns {Boolean} Combined result of checks that determines succesfull validation
+     */
     validate(params) {
         /*
         if (params instanceof Object && !(params instanceof Array || params instanceof Date)) { // - Check if params is a dictionary like object -
@@ -61,7 +72,11 @@ class Form {
         }
         return true;
     }
-
+    /**
+     * Create error element with given text
+     * @param {String} text text error element will contain
+     * @returns {Boolean} Returns true if raise was succesfull.
+     */
     #raiseError(text) {
         let alerts = this.#errorContainer.getElementsByClassName("alert");
         for (let i = 0; i < alerts.length; i++) {
@@ -75,6 +90,11 @@ class Form {
         return true;
     }
 
+    /**
+     * Focuses given field with selecting all of it's content
+     * @param {HTMLInputElement} field Field that will be focues and selected after call of this function
+     * @returns {Null} Returns noting.
+     */
     #focus(field) {
         field.focus();
         field.select();
@@ -106,6 +126,10 @@ class Validator {
         }
     }
 
+    /**
+     * Returns boolean as a result of single check
+     * @returns {Boolean} as a result of performed check ( passed or not ).
+     */
     check() {
         switch (this.#check) {
             case 'trim': {
@@ -155,7 +179,11 @@ class Validator {
 
         return [this.#isValid, this.#message];
     }
-
+    /**
+     * Returns error messages according to specific checks.
+     * @param {String} message ( mostly ) failed check name
+     * @returns {String} Proper message
+     */
     #messages(message) {
         const messages = { // - Patterns for RegExp testing of values -
             required: `The ${this.#name} field is required`,
@@ -166,7 +194,11 @@ class Validator {
         };
         return messages[message];
     }
-
+    /**
+     * Returns correct RegExp pattern
+     * @param {String} name Check name for RegExp pattern
+     * @returns {String} RegExp pattern.
+     */
     #patterns(name) {
         const pattern = { // - Patterns for RegExp testing of values -
             email: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, // - Pattern from mozilla docs, read more here https://github.com/lukaqueres/Astro-Bem/issues/1#issuecomment-1264682760 -
@@ -178,6 +210,12 @@ class Validator {
     // ->
     // - Here are declarations of methods to call for value validation ->
     // ->
+
+    /*
+     * Every one of them returns Boolean
+     * As a result of f. ex. RegExp pattern check
+     *
+     */
 
     #trimValue() {
         this.#input.value = this.#input.value.trim();
