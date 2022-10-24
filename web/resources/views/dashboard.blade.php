@@ -13,7 +13,7 @@
     <script src="/assets/js/dashboard.js"></script>
 	<body>
 		<div class="container">
-			@include('templates.menus.sidedashboard')
+			@include('dashboard.sidemenu')
 			<div class="main">
 				<div class="line"></div>
                 <div class="content">
