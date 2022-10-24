@@ -38,8 +38,16 @@ body {
     text-decoration: none;
 }
 
-.aside-user-section {
-
+.user-section {
+    background-image: url('/assets/images/Astrobem_bck_one.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: white;
+    border: 1px solid;
+    box-shadow: 0 0 10px black;
 }
 
 .aside-name {
