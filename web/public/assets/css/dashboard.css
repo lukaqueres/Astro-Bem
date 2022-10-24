@@ -23,10 +23,19 @@ body {
 .side-menu {
     width: 20rem;
     height: 100%;
-    background: blue;
+    background: #54008d;
     padding: 0.5rem 0 0.5rem 0.5rem;
     box-sizing: border-box;
     z-index: 50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-link {
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .main {
