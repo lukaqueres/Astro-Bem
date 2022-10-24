@@ -23,19 +23,31 @@ body {
 .side-menu {
     width: 20rem;
     height: 100%;
-    background: #54008d;
+    background: white;
     padding: 0.5rem;
     box-sizing: border-box;
     z-index: 50;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
 }
 
 .aside-link {
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
+}
+
+.aside-user-section {
+
+}
+
+.aside-name {
+    font-size: 1.5rem;
+}
+
+.aside-tab {
+    color: grey;
 }
 
 .main {
