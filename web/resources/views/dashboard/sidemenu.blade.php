@@ -7,6 +7,7 @@
         <p class="aside-tab">Dashboard</p>
         <div class="user-links">
             <button class="user-button">Details</button>
+            <div class="border"></div>
             <a class="user-button" href="{{ route('logout') }}">Logout</a>
         </div>
     </div>
