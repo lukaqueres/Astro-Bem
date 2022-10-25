@@ -17,7 +17,11 @@
 					<div class="flex">
         <!-- div lewa strona + obrazek-->
         <div class="lewa">
+		@if ( $u->avatar )
             <img src="{{ $u->avatar }}" class="imgp">
+		@else
+        <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
+    	@endif
             <p>{{ $u->name }}</p>
         </div>
         <!-- div Prawa Strona-->
