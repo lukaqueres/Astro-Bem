@@ -20,7 +20,7 @@
 		@if ( $u->avatar )
             <img src="{{ $u->avatar }}" class="imgp">
 		@else
-        <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
+        <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" class="imgp" />
     	@endif
             <p>{{ $u->name }}</p>
         </div>
