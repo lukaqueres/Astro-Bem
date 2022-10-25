@@ -52,11 +52,13 @@ body {
     border-radius: 100rem;
     width: 1.5rem;
     height: 1.5rem;
+    box-sizing: border-box;
+    line-height: 2rem;
 }
 
 .aside-title {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
     .aside-title > .aside-avatar {
