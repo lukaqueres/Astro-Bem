@@ -84,7 +84,7 @@ body {
         line-height: 1rem;
     }
 
-    .user-links:nth-child(2n-2)::after {
+    .user-links:first-child::after {
         content: '';
         height: 100%;
         width: 1px;
