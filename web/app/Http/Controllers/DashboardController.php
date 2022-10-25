@@ -29,4 +29,10 @@ class DashboardController extends Controller {
         return view('dashboard', ['user' => $user]);
     }
 
+    public function articles(Request $request)
+    {
+        $user = Auth::user();
+        return view('dashboard.articles', ['user' => $user]);
+    }
+
 }
