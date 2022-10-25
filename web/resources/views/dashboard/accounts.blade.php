@@ -17,7 +17,7 @@
 					<div class="flex">
         <!-- div lewa strona + obrazek-->
         <div class="lewa">
-            <img src="jo.png" class="imgp">
+            <img src="/assets/images/default_picture.png" class="imgp">
             <p>{{ $u->name }}</p>
         </div>
         <!-- div Prawa Strona-->
@@ -27,7 +27,7 @@
                 <h2>Information</h2>
                 <div class="data">
 
-                    <p>essa</p>
+				<p>Account created at: @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp </p>
 
                 </div>
             </div>
