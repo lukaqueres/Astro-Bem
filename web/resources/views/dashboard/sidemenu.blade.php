@@ -6,8 +6,8 @@
         </div>
         <p class="aside-tab">Dashboard</p>
         <div class="user-links">
-            <button>Details</button>
-            <a href="{{ route('logout') }}">Logout</a>
+            <button class="user-button">Details</button>
+            <a class="user-button" href="{{ route('logout') }}">Logout</a>
         </div>
     </div>
     <a class="aside-link" href="{{ route('dashboard') }}">Dashboard</a>
