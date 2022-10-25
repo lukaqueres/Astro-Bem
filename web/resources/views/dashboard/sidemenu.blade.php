@@ -1,4 +1,5 @@
 <div class="side-menu">
+
     <div class="user-section">
         <div class="aside-title">
             <img class="aside-avatar" src="{{ $user->avatar }}" />
