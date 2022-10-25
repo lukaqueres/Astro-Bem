@@ -48,6 +48,12 @@ body {
         color: white;
     }
 
+.aside-avatar {
+    border-radius: 100rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .user-section {
     /*background-image: url('/assets/images/Astrobem_bck_one.png');
     background-repeat: no-repeat;
