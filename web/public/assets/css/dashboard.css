@@ -82,18 +82,34 @@ body {
         padding: 0.2rem 1rem;
         border: 1px solid transparent;
         line-height: 1rem;
+        font-size: 1rem;
+        font-weight: lighter;
+        transition: all 0.1s ease-in;
     }
+
+        .user-links > :is(button, a):after {
+            display: block;
+            content: '';
+            border-bottom: solid 3px #019fb6;
+            transform: scaleX(0);
+            transition: transform 250ms ease-in-out;
+        }
+
+        .user-links > :is(button, a):hover:after {
+            transform: scaleX(1);
+        }
 
     .user-links > .border {
         content: '';
-        height: 1rem;
-        width: 1px;
+        height: 2rem;
+        width: 0;
         border-right: 1px solid;
+        margin-inline: 0.5rem;
     }
 
-        .user-links > :is(button,a):hover {
-            color: grey;
-        }
+    .user-links > :is(button,a):hover {
+        color: grey;
+    }
 
 .user-section {
     /*background-image: url('/assets/images/Astrobem_bck_one.png');
