@@ -77,11 +77,21 @@ body {
         color: black;
         text-decoration: none;
         background: none;
-        border: none;
+        box-sizing: border-box;
+        padding: 0.2rem 1rem;
+        border: 1px solid transparent;
+        line-height: 1rem;
+    }
+
+    .user-links > is(button, a):nth-child(even)::after {
+        content: '';
+        height: 100%;
+        width: 1px;
+        border-right: 1px solid black;
     }
 
         .user-links > :is(button,a):hover {
-            border-bottom: 1px solid;
+            color: grey;
         }
 
 .user-section {
