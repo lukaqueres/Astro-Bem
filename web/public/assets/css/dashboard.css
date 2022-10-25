@@ -68,6 +68,7 @@ body {
 .user-links {
     display: flex;
     align-items: center;
+    margin-block: 0.5rem;
 }
 
     .user-links > :is(button, a) {
@@ -83,7 +84,7 @@ body {
         line-height: 1rem;
     }
 
-    .user-links > is(button, a):nth-child(2n-1)::after {
+    .user-links:nth-child(2n-1)::after {
         content: '';
         height: 100%;
         width: 1px;
