@@ -59,7 +59,7 @@ body {
     align-items: center;
 }
 
-    .aside-title:nth-child(1) {
+    .aside-title > .aside-avatar {
         margin-right: 0.5rem;
     }
 
