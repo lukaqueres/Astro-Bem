@@ -17,7 +17,7 @@
 					<div class="flex">
         <!-- div lewa strona + obrazek-->
         <div class="lewa">
-            <img src="/assets/images/default_picture.png" class="imgp">
+            <img src="{{ $u->avatar }}" class="imgp">
             <p>{{ $u->name }}</p>
         </div>
         <!-- div Prawa Strona-->
