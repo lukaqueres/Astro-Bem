@@ -93,6 +93,7 @@ body {
             border-bottom: solid 1px #019fb6;
             transform: scaleX(0);
             transition: transform 250ms ease-in-out;
+            transform-origin: 100% 50%;
         }
 
         .user-links > :is(button, a):hover:after {
