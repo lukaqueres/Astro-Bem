@@ -13,4 +13,5 @@
     </div>
     <a class="aside-link" href="{{ route('dashboard') }}">Dashboard</a>
     <a class="aside-link" href="{{ route('accounts') }}">Accounts</a>
+    <a class="aside-link" href="{{ route('articles') }}">Articles</a>
 </div>
