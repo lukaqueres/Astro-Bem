@@ -84,7 +84,7 @@ body {
         line-height: 1rem;
     }
 
-    .user-links .user-button:first-child::after {
+    .user-links .user-button:first-of-type::after {
         content: '';
         height: 100%;
         width: 1px;
