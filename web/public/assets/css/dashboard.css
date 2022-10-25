@@ -70,10 +70,19 @@ body {
     align-items: center;
 }
 
-    .user-links > * {
+    .user-links > :is(button, a) {
         min-width: 40%;
         flex: 1;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        background: none;
+        border: none;
     }
+
+        .user-links > :is(button,a):hover {
+            border-bottom: 1px solid;
+        }
 
 .user-section {
     /*background-image: url('/assets/images/Astrobem_bck_one.png');
