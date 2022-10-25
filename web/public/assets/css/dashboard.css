@@ -54,6 +54,15 @@ body {
     height: 1.5rem;
 }
 
+.aside-title {
+    display: flex;
+    align-items: center;
+}
+
+    .aside-title:nth-child(1) {
+        margin-right: 0.5rem;
+    }
+
 .user-section {
     /*background-image: url('/assets/images/Astrobem_bck_one.png');
     background-repeat: no-repeat;

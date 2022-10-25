@@ -1,7 +1,9 @@
 <div class="side-menu">
     <div class="user-section">
-        <img class="aside-avatar" src="{{ $user->avatar }}" />
-        <p class="aside-name">{{ $user->name }}</p>
+        <div class="aside-title">
+            <img class="aside-avatar" src="{{ $user->avatar }}" />
+            <p class="aside-name">{{ $user->name }}</p>
+        </div>
         <p class="aside-tab">Dashboard</p>
     </div>
     <a class="aside-link" href="{{ route('dashboard') }}">Dashboard</a>
