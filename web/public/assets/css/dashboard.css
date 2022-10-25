@@ -84,8 +84,7 @@ body {
         line-height: 1rem;
     }
 
-    .user-links:first-child::after {
-        content: '';
+    .user-links:first-child {
         height: 100%;
         width: 1px;
         border-right: 1px solid black;
