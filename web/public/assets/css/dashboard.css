@@ -15,7 +15,7 @@ body {
 
 }
 body {
-    background-image: linear-gradient(rgba(97, 103, 196, 0.75),rgba(0, 0, 0, 0.75)) url('/assets/images/Astrobem_bck_one.png');
+    background-image: url('/assets/images/Astrobem_bck_one.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
