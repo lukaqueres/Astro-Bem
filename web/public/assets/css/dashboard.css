@@ -309,7 +309,7 @@ display: flex;
 }
 
 .lewa{
-width: 35%;
+width: 35vh;
 margin-top: 5%;
 margin-left: 5px ;
 background-color: cyan;
@@ -317,7 +317,7 @@ border: solid 5px rgb(165, 159, 159);
 border-bottom-right-radius: 30px;
 border-top-left-radius: 30px;
 text-align: center;
-height: 80%;
+height: 80vh;
 
 }
 
@@ -328,7 +328,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .prawo {
-width: 65%;
+width: 65vh;
 background-color: lightblue;
 border-radius: 30px ; 
 font-size: 15px;
@@ -344,15 +344,15 @@ font-size: 15px;
 
 .poczta p, .data p, .pro p{
   overflow: auto;
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vh;
   vertical-align: middle;
   text-align: center;
   font-size: 13px;
   margin-bottom: 10px;
   color: #000000;
   background-color: white;
-  width: 70%;
+  width: 70vh;
   height: 20px;
   margin-left: auto;
   margin-right: auto;
