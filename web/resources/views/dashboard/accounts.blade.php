@@ -23,7 +23,7 @@
                             @endif
                             <div class="nazwa">
                                 <h2>nazwa</h2>
-                                <p> nazwa użytkownika</p>
+                                <p> {{ $u->name }}</p>
                             </div>
                             <div class="OS">
                                 <h2>Osiagnięcia</h2>
@@ -31,20 +31,14 @@
                             </div>
                             <div class="EM">
                                 <h2>E-mail</h2>
-                                <p>email</p>
+                                <p>{{ $u->email }}</p>
                             </div>
                         </div>	
 
 					@empty
 						<div class="card"><p class="title">There are no users</p></div>
 					@endforelse
-                    <div class="card">
-                        <div class="front">
-                            <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
-                            <p class="title"> Create user</p>
-                            <a href="{{ route('accounts_create') }}" class="button-full">Add new user</a>
-                        </div>
-                    </div>
+                    
                 </div>
 			</div>
 		</div>
