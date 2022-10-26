@@ -319,8 +319,9 @@ body {
   grid-template-columns: 20% 20% 20% 20% 20% ;
   gap: 5px;
   padding: 20px;
-  background-color: grey;
-  margin: 20px;
+  
+  margin: 20px 20px 20px 20px;
+
   
 }
 
@@ -332,7 +333,7 @@ width: 100%;
 background-color: red;
 top: 50%;
 margin: 5px;
-padding: 5px;
+
 
 
 
