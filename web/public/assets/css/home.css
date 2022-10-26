@@ -1,3 +1,7 @@
+body {
+    background: white;
+}
+
 .container {
 	min-height: 100%;
 	width: 100%;
@@ -44,5 +48,6 @@ button.button, a.button {
 	top: 0;
 	width: 100%;
 	height: 3rem;
-	background-color: var(--primary-color);
+	background-color: white;
+    box-shadow: 0 0 10px black;
 }
