@@ -312,7 +312,7 @@ display: flex;
 width: 35vh;
 margin-top: 5%;
 margin-left: 5px ;
-background-color: cyan;
+background-color: rgb(65, 110, 110);
 border: solid 5px rgb(165, 159, 159);
 border-bottom-right-radius: 30px;
 border-top-left-radius: 30px;
