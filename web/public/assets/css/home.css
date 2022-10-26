@@ -8,10 +8,10 @@ body {
 }
 
 button.button, a.button {
-	padding: 0.5rem 1rem;
-	background-color: var(--accent-color);
-	border: none;
-	border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    color: #726EFF;
 }
 
 .button:hover {
