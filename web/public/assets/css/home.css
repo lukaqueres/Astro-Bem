@@ -14,6 +14,11 @@ button.button, a.button {
 	cursor: pointer;
 }
 
+.logo {
+    height: 100%;
+    border-radius: 100rem;
+}
+
 .flex {
 	width: 100%;
 	display: flex;
