@@ -318,10 +318,10 @@ body {
   height: 50%;
   grid-template-columns: 20% 20% 20% 20% 20% ;
   gap: 5px;
-  padding: 5px;
+  padding: 20px;
   background-color: grey;
   margin: 20px 20px 20px 20px;
-  float: right;
+  
 }
 
 
