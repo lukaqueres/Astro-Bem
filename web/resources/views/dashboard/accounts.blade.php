@@ -16,7 +16,11 @@
 					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO - NOT - TOUCH - IT  --}}
 
                         <div class="konto">
-                            <img src="jo.png" alt="">
+                        @if ( $u->avatar )
+                            <img src="{{ $u->avatar }}" alt="User's profile picture">
+                            @else
+                                <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
+                            @endif
                             <div class="nazwa">
                                 <h2>nazwa</h2>
                                 <p> nazwa użytkownika</p>
