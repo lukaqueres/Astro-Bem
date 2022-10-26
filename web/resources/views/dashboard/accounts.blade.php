@@ -51,7 +51,7 @@
                 <h2>projekty</h2>
                 <div class="uzn">
 
-                    <p>eko </p>
+                    <p>Jak to widzisz to działa </p>
 
                 </div>
             </div >
