@@ -309,7 +309,7 @@ display: flex;
 }
 
 .lewa{
-width: 35%;
+width: 40%;
 margin-top: 5%;
 margin-left: 5px ;
 background-color: rgb(218, 63, 232);
@@ -317,7 +317,7 @@ border: solid 5px rgb(165, 159, 159);
 border-bottom-right-radius: 30px;
 border-top-left-radius: 30px;
 text-align: center;
-height: 80%;
+height: 60%;
 
 }
 
@@ -328,7 +328,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .prawo {
-width: 65%;
+width: 60%;
 background-color: lightblue;
 border-radius: 30px ; 
 font-size: 15px;
@@ -353,7 +353,7 @@ font-size: 15px;
   color: #000000;
   background-color: white;
   width: 70%;
-  height: 20px;
+  height: 40px;
   margin-left: auto;
   margin-right: auto;
   
