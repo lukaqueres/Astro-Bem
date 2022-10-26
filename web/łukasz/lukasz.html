@@ -1,7 +1,7 @@
 <html>
 <head>
 
-    <link rel="stylesheet" href="lukasz.css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/lukasz.css') }}">
 </head>
 <body>
 
@@ -372,3 +372,23 @@
 
 </body>
 </html>
+
+
+
+
+
+
+<div class="card id ">
+							
+    @if ( $u->avatar )
+        <img class="avatar" src="{{ $u->avatar }}" alt="User's profile picture'" />
+    @else
+        <img class="avatar" src="/assets/images/default_picture.png" alt="User's profile picture'" />
+    @endif
+    <p class="pro">{{ $u->name }}</p>
+    <p class="poczta">{{ $u->email }}</p>
+    <p class="adnotation">Details</p>
+    <p>Account created at: @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp </p>
+    <a href="#" class="button-light"> See More </a>
+    </div>
+</div>
