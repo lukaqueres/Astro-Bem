@@ -14,6 +14,7 @@
 				{{-- <div class="cards-container"> --}}
                 <div class="grid">
 					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO - NOT - TOUCH - IT  --}}
+
                         <div class="konto">
                             <img src="jo.png" alt="">
                             <div class="nazwa">
@@ -29,6 +30,7 @@
                                 <p>email</p>
                             </div>
                         </div>	
+
 					@empty
 						<div class="card"><p class="title">There are no users</p></div>
 					@endforelse
