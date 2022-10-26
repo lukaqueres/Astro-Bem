@@ -312,7 +312,7 @@ body {
 .grid {
   
   top: 0;
-  width: 70%;
+  width: 100%;
   align-items: center;
   display: grid;
   height: 50%;
