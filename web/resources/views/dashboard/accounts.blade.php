@@ -14,48 +14,45 @@
 				<div class="cards-container">
 					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO - NOT - TOUCH - IT  --}}
 					
-					<div class="flex">
-        <!-- div lewa strona + obrazek-->
-        <div class="lewa">
-		@if ( $u->avatar )
-            <img src="{{ $u->avatar }}" class="imgp">
-		@else
-        <img class="imgp" src="/assets/images/default_picture.png" alt="User's profile picture'"  />
-    	@endif
-            <p>{{ $u->name }}</p>
-        </div>
-        <!-- div Prawa Strona-->
-        <div class="prawo">
-            <div class="info">
-                <!-- div Informacje-->
-                <h2>Information</h2>
-                <div class="data">
+					<div class="grid">
 
-				<p>Account created at: @php echo str_replace('-','.',substr($u->created_at, 0, -9)); @endphp </p>
+            <div class="konto">
 
-                </div>
+            <p>siema</p>
             </div>
-            <!-- div email-->
-            <div class="email">
-                <h2>mail</h2>
-                <div class="poczta">
-                    
-                    <p>{{ $u->email }}</p>
-                    
 
+            
+            <div class="konto">
+                <img src="jo.png" alt="">
+                
+                <div class="nazwa">
+                    
+                    <h2>nazwa</h2>
+                    <p> nazwa użytkownika</p>
+
+
+                </div>
+                <div class="OS">
+
+                    <h2>Osiagnięcia</h2>
+                    <p>w życiu
+                    dużo osiągnąłem
+                    czyli nic</p>
+
+                </div>
+                <div class="EM">
+
+                    <h2>E-mail</h2>
+                    <p>email</p>
                 </div>
 
             </div>
-            <!-- div projekty-->
-            <div class="pro">
-                <h2>projekty</h2>
-                <div class="uzn">
 
-                    <p>Jak to widzisz to działa </p>
 
-                </div>
-            </div >
 
+
+         </div>
+        
 
         </div>
 						
