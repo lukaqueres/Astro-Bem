@@ -23,7 +23,7 @@
                             @endif
                             <div class="nazwa">
                                 <h2>nazwa</h2>
-                                <p> nazwa użytkownika</p>
+                                <p> {{ $u->name }}</p>
                             </div>
                             <div class="OS">
                                 <h2>Osiagnięcia</h2>
@@ -31,7 +31,7 @@
                             </div>
                             <div class="EM">
                                 <h2>E-mail</h2>
-                                <p>email</p>
+                                <p>{{ $u->email }}</p>
                             </div>
                         </div>	
 
