@@ -15,9 +15,6 @@
                 <div class="grid">
 					@forelse ( App\Models\User::all() as $u ) {{-- However it shows error here, it works just fine, DO - NOT - TOUCH - IT  --}}
                         <div class="konto">
-                            <p>siema</p>
-                        </div>
-                        <div class="konto">
                             <img src="jo.png" alt="">
                             <div class="nazwa">
                                 <h2>nazwa</h2>
