@@ -5,7 +5,7 @@ body {
 .container {
 	min-height: 100%;
 	width: 100%;
-    background-image: url("assets/images/bck_pic.jpg");
+    background-image: url("assets/images/bckg_pic.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
