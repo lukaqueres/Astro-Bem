@@ -310,7 +310,7 @@ body {
 
 
 .grid {
-
+    display: flex;
   top: 0;
   width: 70%;
   align-items: center;
