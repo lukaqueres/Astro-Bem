@@ -4,7 +4,7 @@
 		<title>Astro Bem | Accounts</title>
 		@include('templates.head')
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/dashboard.css') }}" />
-		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/lukasz.css') }}" />
+		
 
 	</head>
 	<body>
