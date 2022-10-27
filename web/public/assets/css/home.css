@@ -74,5 +74,5 @@ button.button, a.button {
     padding: 1rem;
     margin-inline: auto;
     width: 75%;
-    min-width 10rem;
+    min-width: 10rem;
 }
