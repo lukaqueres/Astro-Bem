@@ -17,6 +17,9 @@
                 <a class="button button-style-2">About Us</a>
                 --}}
             </div>
+            <div class="image-holder">
+                <img src="assets/images/"/>
+            </div>
         </div>
     </body>
 </html>
