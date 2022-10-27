@@ -60,3 +60,7 @@ button.button, a.button {
     margin-top: 3rem;
     z-index: 1;
 }
+
+.header {
+    text-align: center;
+}

@@ -20,6 +20,7 @@
 			<div class="image-holder">
                 <img class="image" src="assets/images/bckg_pic.png" />
 			</div>
+			<h1 class="header"> Welcome to Astrobem, school space science passionates </h1>
 		</div>
 	</body>
 </html>
