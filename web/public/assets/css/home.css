@@ -75,4 +75,5 @@ button.button, a.button {
     margin-inline: auto;
     width: 75%;
     min-width: 10rem;
+    line-height: 2rem;
 }
