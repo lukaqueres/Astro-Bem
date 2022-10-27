@@ -68,3 +68,11 @@ button.button, a.button {
     font-weight: lighter;
     text-shadow: 5px 0 #f9cfff;
 }
+
+.text {
+    text-align: center;
+    padding: 1rem;
+    margin-inline: auto;
+    width: 75%;
+    min-width 10rem;
+}

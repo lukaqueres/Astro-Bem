@@ -21,6 +21,12 @@
                 <img class="image" src="assets/images/bckg_pic.png" />
 			</div>
 			<h1 class="header"> Welcome to Astrobem, school space science passionates </h1>
+			<p class="text">
+				We are working in our school, cooperationg with many teachers of various subjects.
+				Currently we are participating in Polish edition of <i>CanSat</i> project, that is organizated ruby POLSA - Polish Space Agency.
+
+				Now we area right after sending our PDR documentation - first step in order button qualify button next stage of competition.
+			</p>
 		</div>
 	</body>
 </html>
