@@ -79,5 +79,6 @@ button.button, a.button {
 }
 
 .back-ground-color {
-    background-image: linear-gradient( to right, blue, darkblue );
+    background-image: linear-gradient( to right, #af00ff, #d392ff );
+    box-shadow: 0 0 10px #af00ff;
 }
