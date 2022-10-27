@@ -18,7 +18,7 @@
 				--}}
 			</div>
 			<div class="image-holder">
-				<img src="assets/images/"/>
+                <img src="assets/images/bckg_pic.png" />
 			</div>
 		</div>
 	</body>
