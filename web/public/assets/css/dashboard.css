@@ -4,6 +4,16 @@ body {
     background-image: linear-gradient(to bottom right, #4D2D94, #6A4AAF);
 }*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+
+}
 body {
     background-image: url('/assets/images/Astrobem_bck_one.png');
     background-repeat: no-repeat;
@@ -258,3 +268,152 @@ body {
         #users-details .add-new-user-reveal-button:hover {
             background:none;
         }
+
+
+
+
+
+
+/* SUWAŁ PISZE WIĘC ZAPIERADALAM Z CZASEM JAK POJEBANY*/
+
+
+/*
+
+<div class="flex">
+        <!-- div lewa strona + obrazek-->
+        <div class="lewa">
+            <img src="jo.png" class="imgp">
+            <p>nazwa użytkownika</p>
+        </div>
+        <!-- div Prawa Strona-->
+        <div class="prawo">
+            <div class="info">
+                <!-- div Informacje-->
+                <h2>Information</h2>
+                <div class="data">
+
+                    <p>essa</p>
+
+                </div>
+            </div>
+            <!-- div email-->
+            <div class="email">
+                <h2>mail</h2>
+                <div class="poczta">
+                    
+                    <p>elo </p>
+                    
+
+                </div>
+
+            </div>
+            <!-- div projekty-->
+            <div class="pro">
+                <h2>projekty</h2>
+                <div class="uzn">
+
+                    <p>eko </p>
+
+                </div>
+            </div >
+
+
+        </div>
+
+
+*/
+
+
+
+
+
+.grid {
+  
+  top: 0;
+  width: 100%;
+  align-items: center;
+  display: grid;
+  height: 30%;
+  grid-template-columns: 20% 20% 20% 20% 20% ;
+  gap: 10px;
+  padding: 20px;
+  margin: 20px 20px 20px 20px;
+  
+  
+}
+
+
+.konto{
+text-align: center;
+height: 100%;
+width: 100%;
+background-color: cyan;
+top: 50%;
+margin: 5px;
+border-radius: 20px;
+
+
+
+
+}
+
+
+img{
+
+height: 10vh;
+width: 10vh;
+border-radius: 20px;
+float: left;
+
+}
+
+.nazwa h1 {
+
+color: white;
+text-align: center;
+size: 30%;
+
+
+
+}
+
+
+.nazwa p {
+
+  vertical-align: middle;
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #000000;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+.OS p {
+
+background-color: white;
+color: black;
+width: 100%;
+height: auto;
+
+
+
+
+}
+
+.EM p {
+
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: auto;
+  
+
+}
+

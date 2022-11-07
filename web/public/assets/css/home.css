@@ -1,5 +1,10 @@
 body {
-    background: white;
+    background-image: linear-gradient(to top right, red , yellow);
+background-position: center;
+background-size: cover;
+min-height: 100%;
+width: 100%;
+background-repeat: no-repeat;
 }
 
 .container {
@@ -16,6 +21,11 @@ button.button, a.button {
 
 .button:hover {
     cursor: pointer;
+}
+
+.logo {
+    height: 100%;
+    border-radius: 100rem;
 }
 
 .logo {
@@ -76,9 +86,20 @@ button.button, a.button {
     width: 75%;
     min-width: 10rem;
     line-height: 2rem;
+    font-size: 15px;
 }
 
 .back-ground-color {
     background-image: linear-gradient( to right, #af00ff, #d392ff );
     box-shadow: 0 0 10px #af00ff;
 }
+/*--------------------------------------Suwał tu pracował---------------------------*/
+.zapychacz{
+
+width: 100%;
+background-color: white;
+height: 3rem;
+position: fixed;
+bottom: 0;
+}
+
