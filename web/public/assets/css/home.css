@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(to top right, red , yellow);
 background-position: center;
 background-size: cover;
-height: 100%;
+min-height: 100%;
 width: 100%;
 background-repeat: no-repeat;
 }
@@ -93,7 +93,7 @@ button.button, a.button {
 
 width: 100%;
 background-color: white;
-height: 15%;
+height: 5%;
 position: fixed;
 bottom: 0;
 
