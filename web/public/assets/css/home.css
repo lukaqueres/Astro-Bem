@@ -91,6 +91,10 @@ button.button, a.button {
 /*--------------------------------------Suwał tu pracował---------------------------*/
 .zapychacz{
 
-
+width: 100%;
+color: white;
+height: 15%;
+position: fixed;
+bottom: 0;
 
 }
