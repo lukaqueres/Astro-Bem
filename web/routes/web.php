@@ -58,6 +58,11 @@ Route::get( // - Route `/dashboard/{category}` if category is provided display c
 )->middleware('auth')->name('accounts');
 
 Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
+	'/dashboard/articles',
+	[DashboardController::class, 'articles']
+)->middleware('auth')->name('articles');
+
+Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
 	'/dashboard/accounts/create',
 	[DashboardController::class, 'accountsCreate']
 )->middleware('auth')->name('accounts_create');

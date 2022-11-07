@@ -8,8 +8,8 @@ background-repeat: no-repeat;
 }
 
 .container {
-	min-height: 100%;
-	width: 100%;
+    min-height: 100%;
+    width: 100%;
 }
 
 button.button, a.button {
@@ -20,7 +20,12 @@ button.button, a.button {
 }
 
 .button:hover {
-	cursor: pointer;
+    cursor: pointer;
+}
+
+.logo {
+    height: 100%;
+    border-radius: 100rem;
 }
 
 .logo {
@@ -29,23 +34,23 @@ button.button, a.button {
 }
 
 .flex {
-	width: 100%;
-	display: flex;
-	padding: 0.5rem;
-	box-sizing: border-box;
-	align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    align-items: center;
 }
 
-	.flex > * {
-		margin-inline: 0.5rem;
-	}
+    .flex > * {
+        margin-inline: 0.5rem;
+    }
 
 .flex-right {
-	margin-left: auto;
+    margin-left: auto;
 }
 
 .padding {
-	padding: 0.5rem;
+    padding: 0.5rem;
 }
 
 #header {

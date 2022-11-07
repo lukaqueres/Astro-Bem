@@ -7,10 +7,12 @@
         </div>
         <p class="aside-tab">Dashboard</p>
         <div class="user-links">
-            <button>Details</button>
-            <a href="{{ route('logout') }}">Logout</a>
+            <button class="user-button">Details</button>
+            <div class="border"></div>
+            <a class="user-button" href="{{ route('logout') }}">Logout</a>
         </div>
     </div>
     <a class="aside-link" href="{{ route('dashboard') }}">Dashboard</a>
     <a class="aside-link" href="{{ route('accounts') }}">Accounts</a>
+    <a class="aside-link" href="{{ route('articles') }}">Articles</a>
 </div>
