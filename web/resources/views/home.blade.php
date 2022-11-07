@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="zapychacz">
-					<p>s</p>
+					
 		</div>
 	</body>
 </html>
