@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         @include('dashboard.sidemenu')
-        <div class="Art">
+        <div class="art">
 
             Articles
 
