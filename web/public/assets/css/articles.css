@@ -2,8 +2,18 @@
 
 background-color: white;
 width: 80%;
-height: 60vh;
+height: 80vh;
 margin: 20px;
 
+
+}
+.ustawienia{
+
+grid-template-columns: 20% 20% 20% 20%;
+margin: 10px;
+
+height: 20%;
+width: 100%;
+border: 2px solid black;
 
 }

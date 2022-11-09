@@ -12,6 +12,17 @@
         <div class="art">
 
             Articles
+            <div class = "ustawienia">
+
+                ustawienia będą w gridzie
+
+            </div>
+
+            <div class="artykul">
+
+                tu będzie artykul
+
+            </div>
 
         </div>
     </div>
