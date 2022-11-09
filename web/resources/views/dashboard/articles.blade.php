@@ -14,8 +14,8 @@
             Articles
             <div class = "ustawienia">
 
-                ustawienia będą w gridzie
-                
+            
+
                 <div class="grind">
                     <div class="grid-ust">-1</div>
                     <div class="grid-ust">-2</div>
