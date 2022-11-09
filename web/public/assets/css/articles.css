@@ -18,12 +18,12 @@ border: 2px solid black;
 }
 .grind{
     display: grid;
-    border: 2px solid black;
+    
     grid-template-columns: 20% 20% 20% 20% 20%;
     gap: 10px;
     width: 80%;
     height: 10px;
-
+    border: 2px solid black;
 }
 .grid-ust{
  border: 2px solid black;
