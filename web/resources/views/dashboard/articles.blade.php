@@ -15,11 +15,12 @@
             <div class = "ustawienia">
 
                 ustawienia będą w gridzie
-                <div class="grid-ust">-1</div>
-                <div class="grid-ust">-2</div>
-                <div class="grid-ust">-3</div>
-                <div class="grid-ust">-4</div>
-
+                <div class="grind">
+                    <div class="grid-ust">-1</div>
+                    <div class="grid-ust">-2</div>
+                    <div class="grid-ust">-3</div>
+                    <div class="grid-ust">-4</div>
+                </div>
             </div>
 
             <div class="artykul">
