@@ -42,3 +42,12 @@ text-align: center;
     background-color: rgba(0, 0, 255, 0.24);
 
 }
+.artykul{
+
+border: 2px black solid;
+color: black;
+background-color: cyan;
+font: arial;
+
+
+}
