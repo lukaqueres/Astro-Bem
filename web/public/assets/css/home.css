@@ -104,11 +104,10 @@ border: 2px solid black;
 
 
 .konkurs{
-margin-top: 10rem;
-width: 100%;
 background-color: white;
-height: 10rem;
 box-shadow: 0 0 10px;
+margin-top: 10rem;
+margin-bottom: 5rem;
 
 }
 

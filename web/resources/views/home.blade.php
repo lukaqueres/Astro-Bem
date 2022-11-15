@@ -30,7 +30,9 @@
 				</p>
 			</div>
 
-			<div class="cntainer">
+			<div class="container">
+
+					<div class="konkurs">
 				<h1 class="header">Test</h1>
 					<p class="text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -43,9 +45,9 @@
 					Maecenas porta lacus et laoreet sollicitudin. Nam facilisis malesuada magna eget sagittis. 
 					Pellentesque hendrerit fermentum ornare. Sed rhoncus augue eu egestas suscipit. 
 
-
+					
 					</p>
-
+				</div>
 
 			</div>
 		</div>
