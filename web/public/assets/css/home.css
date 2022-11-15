@@ -88,7 +88,7 @@ button.button, a.button {
 }
 
 .back-ground-color {
-    background-image: linear-gradient( to right, #af00ff, #d392ff );
+    background-image: linear-gradient( to right, #af00ff, white);
     box-shadow: 0 0 10px #af00ff;
 }
 /*--------------------------------------Suwał tu pracował---------------------------*/
@@ -104,7 +104,7 @@ border: 2px solid black;
 
 
 .konkurs{
-background-color: white;
+background-image: linear-gradient( to right, #af00ff, white);
 box-shadow: 0 0 10px;
 margin-top: 10rem;
 margin-bottom: 5rem;
