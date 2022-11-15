@@ -29,7 +29,14 @@
 					Now we are right after sending our PDR documentation - first step in order to qualify to next stage of competition.
 				</p>
 			</div>
+
+			<div class="konkurs">
+
+
+			</div>
 		</div>
+			
+
 		<div class="zapychacz">
 					
 		</div>
