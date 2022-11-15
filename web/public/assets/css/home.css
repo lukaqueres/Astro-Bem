@@ -1,10 +1,10 @@
 body {
-    background-image: linear-gradient(to top right, red , yellow);
+    background-image: cyan;
 background-position: center;
 background-size: cover;
 min-height: 100%;
 width: 100%;
-background-repeat: no-repeat;
+
 }
 
 .container {
