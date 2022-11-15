@@ -39,7 +39,7 @@
 					Okazało się, że wielu z nas zrobiło śliczne zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię.
 					Zdjęcia proszę nadsyłać na dysk Astro-Bem.
 
- 					<p class ="linkk">https://drive.google.com/.../1cv1l7dq6O7w3xKJSpBFUQGLz...</p>
+ 					<p class ="linkk">https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG</p>
 
 					Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej.
 					 Termin nadsyłania zdjęć do końca listopada / 30.11.2022/. 
