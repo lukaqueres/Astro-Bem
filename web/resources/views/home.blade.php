@@ -30,7 +30,7 @@
 				</p>
 			</div>
 
-			<div class="konkurs">
+			<div class="cntainer">
 				<h1 class="header">Test</h1>
 					<p class="text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
