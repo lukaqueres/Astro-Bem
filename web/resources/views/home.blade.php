@@ -31,6 +31,20 @@
 			</div>
 
 			<div class="konkurs">
+				<h1 class="header">Test</h1>
+					<p class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Aenean ornare tincidunt sapien, eget maximus massa volutpat quis. Vestibulum accumsan leo risus, vel hendrerit odio tempus vitae. 
+					Quisque tempor lacinia convallis. Pellentesque sagittis sed metus et placerat. 
+					Proin tristique leo tortor, tristique faucibus nunc imperdiet nec. Etiam et felis eu tellus congue pretium. 
+					Cras facilisis diam euismod magna dignissim, elementum cursus neque maximus.
+					 In viverra orci erat. Sed egestas, lorem vel venenatis ullamcorper, sapien purus faucibus sem, eu dictum mauris sem gravida sem. 
+					 Curabitur in eros lacus.
+					Maecenas porta lacus et laoreet sollicitudin. Nam facilisis malesuada magna eget sagittis. 
+					Pellentesque hendrerit fermentum ornare. Sed rhoncus augue eu egestas suscipit. 
+
+
+					</p>
 
 
 			</div>
