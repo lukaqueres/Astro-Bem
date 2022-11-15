@@ -101,6 +101,7 @@ background-color: white;
 height: 3rem;
 position: fixed;
 bottom: 0;
+border: 2px solid black;
 }
 
 
