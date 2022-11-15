@@ -114,6 +114,12 @@ margin-bottom: 5rem;
 .linkk{
 
 color:blue;
-
+    text-align: center;
+    padding: 1rem;
+    margin-inline: auto;
+    width: 75%;
+    min-width: 10rem;
+    line-height: 2rem;
+    font-size: 15px;
 
 }
