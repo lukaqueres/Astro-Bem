@@ -51,9 +51,7 @@
 		</div>
 			
 
-		<div class="zapychacz">
-					
-		</div>
+		
 	</body>
 
 </html>
