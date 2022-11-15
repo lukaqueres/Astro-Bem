@@ -42,7 +42,7 @@
 					<center>
  					<a class= "linkk" href ="https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG"> LINK DO DYSKU </a>
 				</center>
-					<p>
+					<p class = "text">
 					Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej.
 					 Termin nadsyłania zdjęć do końca listopada / 30.11.2022/. 
  					Ogłoszenie wyników 15.12.2022.
