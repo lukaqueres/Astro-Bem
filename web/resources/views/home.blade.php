@@ -90,7 +90,7 @@
 					Now we are right after sending our PDR documentation - first step in order to qualify to next stage of competition.
 				</p>
 			</div>
-			<h1>Aktualności:</h1>
+			<h1 class="header">Aktualności:</h1>
 			<div class="container">
 
 					<div class="konkurs">
