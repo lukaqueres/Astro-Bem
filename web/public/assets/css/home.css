@@ -92,22 +92,12 @@ button.button, a.button {
     box-shadow: 0 0 10px #af00ff;
 }
 /*--------------------------------------Suwał tu pracował---------------------------*/
-.zapychacz{
-
-width: 100%;
-background-color: white;
-height: 3rem;
-position: fixed;
-bottom: 0;
-border: 2px solid black;
-}
 
 
 .konkurs{
 background-image: linear-gradient( to right, #af00ff, white);
 box-shadow: 0 0 10px;
-margin-top: 10rem;
-margin-bottom: 5rem;
+margin: 3rem;
 
 }
 
