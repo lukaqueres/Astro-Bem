@@ -28,7 +28,7 @@
 						<h1>Jakiś Tytuł</h1>
 						<p>Lorem Impum Dolor Si Amen</p>
 					</div>
-					<img src="img1.jpg" style="width: 100%; height: 100%;">
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 				</div>
 				
 				<div class="myslide fade">
@@ -36,7 +36,7 @@
 						<h1>Jakiś Tytuł</h1>
 						<p>Lorem Impum Dolor Si Amen</p>
 					</div>
-					<img src="img2.jpg" style="width: 100%; height: 100%;">
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 				</div>
 				
 				<div class="myslide fade">
@@ -44,7 +44,7 @@
 						<h1>Jakiś Tytuł</h1>
 						<p>Lorem Impum Dolor Si Amen</p>
 					</div>
-					<img src="img3.jpg" style="width: 100%; height: 100%;">
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 				</div>
 				
 				<div class="myslide fade">
@@ -52,7 +52,7 @@
 						<h1>Jakiś Tytuł</h1>
 						<p>Lorem Impum Dolor Si Amen</p>
 					</div>
-					<img src="img4.jpg" style="width: 100%; height: 100%;">
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 				</div>
 				
 				<div class="myslide fade">
@@ -60,7 +60,7 @@
 						<h1>Jakiś Tytuł</h1>
 						<p>Lorem Impum Dolor Si Amen</p>
 					</div>
-					<img src="img5.jpg" style="width: 100%; height: 100%;">
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 				</div>
 
 				<ion-icon name="caret-forward" class="next"  onclick="plusSlides(1)"></ion-icon>
