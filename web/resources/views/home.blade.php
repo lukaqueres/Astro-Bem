@@ -80,9 +80,7 @@
 			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 			<!-- Przewijanie Zdjęc Hero Slider (Koniec) -->
 
-			<div class="image-holder">
-                <img class="image" src="assets/images/bckg_pic.png" />
-			</div>
+			
 			<div class="back-ground-color">
 				<h1 class="header"> Welcome to Astrobem, school space science passionates </h1>
 				<p class="text">
