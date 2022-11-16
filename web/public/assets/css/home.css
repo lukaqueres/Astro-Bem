@@ -1,3 +1,17 @@
+:root {
+	--text-color: #111;
+    --text-color-secondary: #222;
+
+	--primary-color: #5653C0;
+	--secondary-color: #4744ae;
+
+	--accent-color: #726EFF;
+    --accent-text-color: #eee;
+
+    --gradient-color: 
+}
+
+
 body {
 
 min-height: 100%;
@@ -118,7 +132,7 @@ color:blue;
 .slider{
 	position: relative;
 	width: 100%;
-	background: #2c3e50;
+	background: var(--background-color);
     margin-top: 3rem;
 }
 .slider .myslide{
