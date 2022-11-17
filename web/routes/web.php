@@ -23,9 +23,11 @@ Route::get('/', function () {
 });
 */
 
-if (env('APP_ENV') === 'production') {
-    URL::forceSchema('https');
-}
+URL::forceSchema('https');
+
+Route::get('/about-us', function (Request $request) { // - About us page -
+	return view('aboutUs');
+})->name('aboutUs');
 
 Route::get('/', function (Request $request) { // - `home.blade.php` view will be returned in case of request url path `/` -
 	return view('home');
@@ -56,11 +58,6 @@ Route::get( // - Route `/dashboard/{category}` if category is provided display c
 	'/dashboard/accounts',
 	[DashboardController::class, 'accounts']
 )->middleware('auth')->name('accounts');
-
-Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
-	'/dashboard/articles',
-	[DashboardController::class, 'articles']
-)->middleware('auth')->name('articles');
 
 Route::get( // - Route `/dashboard/{category}` if category is provided display category page -
 	'/dashboard/accounts/create',
