@@ -1,14 +1,16 @@
 :root {
 	--text-color: #111;
-    --text-color-secondary: #222;
+	--text-color-secondary: #222;
 
-	--primary-color: #5653C0;
+	--background: #4D2D94;
+	--primary-color: #5f349c;
 	--secondary-color: #4744ae;
 
 	--accent-color: #726EFF;
-    --accent-text-color: #eee;
-
-    --gradient-color: 
+	--accent-text-color: #eee;
+	
+	--gradient-color: linear-gradient(to top right, #a304ec, #c899c9);
+	--gradient-color-dark: linear-gradient(to top right, #9107d0, #b586b5); 
 }
 
 
