@@ -269,9 +269,6 @@ color:blue;
 
 /* Rensposywność */
 @media screen and (max-width: 800px){
-	.slider .myslide{
-		height: 500px;
-	}
 	.slider .txt{
 		letter-spacing: 2px;
 		line-height: 25px;
