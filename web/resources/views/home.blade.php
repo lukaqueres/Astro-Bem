@@ -93,7 +93,7 @@
 			<h1 class="header">Aktualności:</h1>
 			<div class="container">
 
-					<div class="konkurs">
+					<!--<div class="konkurs">
 				<h1 class="header">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”.</h1>
 					<p class="text">
 					Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca.
@@ -110,6 +110,15 @@
 					 Na zwycięzców czekają nagrody.
 					
 					</p>
+				</div>-->
+
+				<div class="aktualnosci">
+					<div class="aktualnosci-title">
+						<h1>Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”.</h1>
+					</div>
+					<p>Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. Zdjęcia proszę nadsyłać na dysk Astro-Bem.</p>
+					<br><a href ="https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG">LINK DO DYSKU</a><br><br>
+					<p>Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej. Termin nadsyłania zdjęć do końca listopada / 30.11.2022/. Ogłoszenie wyników 15.12.2022. Na zwycięzców czekają nagrody. </p>
 				</div>
 
 			</div>

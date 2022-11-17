@@ -311,3 +311,39 @@ color:blue;
 	}
 }
 /* Koniec Przewijanego Menu */
+
+/* aktualności */
+.aktualnosci{
+	background: var(--gradient-color);
+	margin: 1rem 10rem;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: 0px 0px 16px 0px #00000066;
+	
+    overflow: hidden;
+	color: #000;
+	text-shadow: 0px 0px 8px #ffffff66;
+}
+.aktualnosci-title{
+	background: var(--gradient-color-dark);
+	border-radius: 12px;
+	padding: 1rem;
+	box-shadow: 0px 0px 16px 0px #00000099;
+	font-weight: 700;
+}
+.aktualnosci p{
+	padding: 1rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+.aktualnosci a{
+	padding: 1rem 2rem;
+	border-radius: 12px;
+	color: #000;
+	background: #eee;
+	opacity: .75;
+}
+.aktualnosci a:hover{
+	opacity: 1;
+}
+/* Koniec Aktualności */
