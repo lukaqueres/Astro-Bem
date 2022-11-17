@@ -13,7 +13,7 @@
 	--gradient-color-dark: linear-gradient(to top right, #9107d0, #b586b5); 
 }
 
-
+ 
 body {
 
 min-height: 100%;
@@ -347,5 +347,16 @@ color:blue;
 }
 .aktualnosci a:hover{
 	opacity: 1;
+}
+
+@media screen and (max-width: 800px){
+	.aktualnosci{
+		margin: 1rem 5rem;
+	}
+}
+@media screen and (max-width: 500px){
+	.aktualnosci{
+		margin: 1rem 2rem;
+	}
 }
 /* Koniec Aktualności */
