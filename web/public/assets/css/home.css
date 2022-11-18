@@ -24,8 +24,25 @@ background: var(--gradient);
 transition: all 1 ease-in;
 }
 
+
+
 /*NAVBAR*/
-/*===== HEADER =====*/
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .header {
   width: 100%;
   height: 3rem;
