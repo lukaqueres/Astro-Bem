@@ -19,58 +19,45 @@
 				<a class="button button-style-2">About Us</a>
 				
 			</div>-->
-			<section class="navigation">
-  <div class="nav-container">
-    <div class="brand">
-      <a href="#!">Logo</a>
-    </div>
-    <nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li>
-          <a href="#!">Home</a>
-        </li>
-        <li>
-          <a href="#!">About</a>
-        </li>
-        <li>
-          <a href="#!">Services</a>
-          <ul class="nav-dropdown">
-            <li>
-              <a href="#!">Web Design</a>
-            </li>
-            <li>
-              <a href="#!">Web Development</a>
-            </li>
-            <li>
-              <a href="#!">Graphic Design</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#!">Pricing</a>
-        </li>
-        <li>
-          <a href="#!">Portfolio</a>
-          <ul class="nav-dropdown">
-            <li>
-              <a href="#!">Web Design</a>
-            </li>
-            <li>
-              <a href="#!">Web Development</a>
-            </li>
-            <li>
-              <a href="#!">Graphic Design</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#!">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</section>
+			<header class="header">
+		<a href="#" class="header__logo">iilhamriz</a>
+
+		<ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+		<nav class="nav" id="nav-menu">
+			<div class="nav__content bd-grid">
+
+				<ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+
+				<div class="nav__perfil">
+					<div class="nav__img">
+						<img src="assets/images/logo.png" alt="">
+					</div>
+					
+					<div>
+						<a href="#" class="nav__name">iilhamriz</a>
+						<span class="nav__profesion">Web designer</span>
+					</div>
+				</div>
+
+				<div class="nav__menu">
+					<ul class="nav__list">
+						<li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">About</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="nav__social">
+					<a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+					<a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
+					<a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
+				</div>
+			</div>
+		</nav>
+	</header>
 
 			<!-- Przewijanie Zdjęc Hero Slider -->
 			<div class="slider">
@@ -127,6 +114,7 @@
 				</div>
 			</div>
 			<script src="assets/js/HeroSliderJS.js"></script>
+			<script src="assets/js/Navbar.js"></script>
 			<!-- Ikony -->
 			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
