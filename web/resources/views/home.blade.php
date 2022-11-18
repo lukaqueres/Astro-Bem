@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<div id="header" class="flex">
+			<!--<div id="header" class="flex">
 				<img class="logo" src="/assets/images/logo.png"/>
 				<h2>Astro Bem</h2>
 				
@@ -18,7 +18,37 @@
 				<a class="button button-style-2">Kosmiczna szkoła </a>
 				<a class="button button-style-2">About Us</a>
 				
-			</div>
+			</div>-->
+<header>
+	<div class="logo">
+		<img src="/assets/images/logo.png" alt="">
+		<a href="" class="header_logo">Ay-Projex</a>
+	</div>
+	<nav class="nav" id="nav-menu">
+		<ion-icon name="close-outline" class="header_close" id="close-menu"></ion icon>
+		<ul class="nav_list">
+			<li class="nav_item"><a href="" class="nav_link">Home</a></li>
+			<li class="nav_item"> <a href="" class="nav_link">CanSat</a></li>
+			<li class="nav_item"> <a href="" class="nav_link">Articles</a></li>
+			<li class="nav_item"> <a href="" class="nav_link">Kosmiczna szkoła</a></li>
+			<li class="nav_item"><a href="" class="nav_link">About Us</a></li>
+		</ul>
+	</nav>
+	<ion-icon name="menu-outline" class="header_toggle" id="toggle-menu"></ion-icon>
+</header>	
+
+<script>
+const navMenu = document.getElementById("nav-menu");
+toggleMenu = document.getElementById("toggle-menu");
+closeMenu = document.getElementById("close-menu");
+
+toggleMenu.addEventListener("click", () => {
+	navMenu.classList.toggle('show');
+})
+closeMenu.addEventListener("click", () => {
+	navMenu.classList.remove('show');
+})
+</script>
 
 			<!-- Przewijanie Zdjęc Hero Slider -->
 			<div class="slider">
