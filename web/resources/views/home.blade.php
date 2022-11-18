@@ -4,7 +4,7 @@
 		<title>Astro Bem | Home</title>
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
-		@include('templates.head')
+		<!--@include('templates.head')-->
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/home.css') }}" />
 	</head>
 	<body>
