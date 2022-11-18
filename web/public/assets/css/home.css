@@ -63,6 +63,16 @@ transition: all 1 ease-in;
           align-items: center;
 }
 
+.bd-grid {
+  max-width: 1024px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .header .header__logo {
   color: var(--text-color-level-1);
 }
@@ -238,6 +248,13 @@ transition: all 1 ease-in;
   .header .active {
     background: var(--gradient);
 	color: var(--gradient-text);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /*NAVBAR*/
