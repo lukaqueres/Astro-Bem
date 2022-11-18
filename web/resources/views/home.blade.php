@@ -124,7 +124,7 @@
 		<p>We are working in our school, cooperationg with many teachers of various subjects.
 			Currently we are participating in Polish edition of CanSat project, that is organizated by POLSA - Polish Space Agency. Now we are right after sending our PDR documentation - first step in order to qualify to next stage of competition.</p>
 	</div>
-	<h1 class="header">Aktualności</h1>
+	<h1 class="header-text">Aktualności</h1>
 	<div class="blog-list">
 
 		<div class="blog-post">
