@@ -40,6 +40,7 @@ transition: all 1 ease-in;
 .header img {
   max-width: 100%;
   height: auto;
+  border-radius: 100%;
 }
 
 
@@ -157,7 +158,6 @@ transition: all 1 ease-in;
 
 .header .nav__link {
   color: var(--white-color);
-  box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 .header .nav__social {
