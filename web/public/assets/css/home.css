@@ -61,6 +61,7 @@ transition: all 1 ease-in;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 .bd-grid {
@@ -137,6 +138,7 @@ transition: all 1 ease-in;
 
 .header .nav__img img {
   width: 46px;
+  border-radius: 50%;
 }
 
 .header .nav__name {
@@ -155,6 +157,7 @@ transition: all 1 ease-in;
 
 .header .nav__link {
   color: var(--white-color);
+  box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 .header .nav__social {

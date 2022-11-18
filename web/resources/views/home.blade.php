@@ -35,18 +35,18 @@
 					</div>
 					
 					<div>
-						<a href="#" class="nav__name">iilhamriz</a>
-						<span class="nav__profesion">Web designer</span>
+						<a href="#" class="nav__name">ASTRO BEM</a>
+						<span class="nav__profesion">School Project</span>
 					</div>
 				</div>
 
 				<div class="nav__menu">
 					<ul class="nav__list">
 						<li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">About</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">CanSat</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Articles</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Kosmiczna szkoła</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
 					</ul>
 				</div>
 
