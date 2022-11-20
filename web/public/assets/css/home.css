@@ -722,16 +722,18 @@ h1 {
 /* Footer */
 footer{
   position: relative;
-  width: 100%;
+  width: 100vw;
   background: var(--base-color-level-1);
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-footer .social_icon{
+footer .social_icon,
+footer .menu{
   position: relative;
   display: flex;
   justify-content: center;
@@ -740,7 +742,8 @@ footer .social_icon{
   flex-wrap: wrap;
 }
 
-footer .social_icon li{
+footer .social_icon li,
+footer .menu  li{
   list-style: none;
 }
 
@@ -750,6 +753,22 @@ footer .social_icon li a{
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
+}
+
+footer .menu li a{
+  font-size: 1.2rem;
+  color: var(--text-color-level-1);
+  display: inline-block;
+  text-decoration: none;
+  opacity: .75;
+  transition: 0.5s;
+}
+
+footer p {
+  color: var(--text-color-level-1);
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 /* Footer*/
 
