@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head class="dark-theme">
 		<title>Astro Bem | Home</title>
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
