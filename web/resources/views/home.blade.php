@@ -51,7 +51,7 @@
 				</div>
 
 				<div class="nav__social">
-					<a href="#" class="nav__social-icon" onclick="ChangeTheme()"><ion-icon name="contrast" onclick="ChangeTheme()"></ion-icon></a>
+					<ion-icon class="nav__social-icon" name="contrast" onclick="ChangeTheme()"></ion-icon></a>
 				</div>
 			</div>
 		</nav>
