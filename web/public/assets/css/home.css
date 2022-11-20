@@ -722,7 +722,6 @@ h1 {
 /* Footer */
 footer{
   position: relative;
-  width: 100vw;
   background: var(--base-color-level-1);
   min-height: 100px;
   padding: 20px 50px;
