@@ -705,18 +705,12 @@ max-height: 100px;
 }
 }
 
-@media (max-width : 768px) {
-h1 {
-	font-size: 24px;
-}
-.content {
-	height: 30vh;
-}
+/*@media (max-width : 768px) {
 .waves {
 	height: 40px;
 	min-height: 40px;
 }
-}
+}*/
 /* Koniec Fal*/
 
 /* Footer */
@@ -753,6 +747,12 @@ footer .social_icon li a{
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
+  opacity: .75;
+}
+
+footer .social_icon li a:hover{
+  font-size: 1.8rem;
+  opacity: 1;
 }
 
 footer .menu li a{
@@ -764,6 +764,11 @@ footer .menu li a{
   transition: 0.5s;
   
   margin: 0 5px;
+}
+
+footer .menu li a:hover{
+  font-size: 1.3rem;
+  opacity: .1;
 }
 
 footer p {

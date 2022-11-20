@@ -179,10 +179,9 @@
 			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
 		</ul>
 		<ul class="menu">
-			<li><a href="#">XXX</a></li>
-			<li><a href="#">XXX</a></li>
-			<li><a href="#">XXX</a></li>
-			<li><a href="#">XXX</a></li>
+			<li><a href="#">Podstrona_1</a></li>
+			<li><a href="#">Podstrona_2</a></li>
+			<li><a href="#">Podstrona_3</a></li>
 		</ul>
 		<p>2022 Astro Bem | All Rights Reserved</p>
 	</footer>
