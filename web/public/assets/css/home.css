@@ -110,6 +110,11 @@ transition: all 1 ease-in;
     -webkit-transition: .5s;
     transition: .5s;
   }
+
+  .header .nav__social{
+    
+  margin-bottom: 5rem;
+  }
 }
 
 .header .nav__content {
@@ -172,7 +177,6 @@ transition: all 1 ease-in;
 
 .header .nav__social {
   padding-top: .5rem;
-  margin-bottom: 5rem;
 }
 
 .header .nav__social-icon {
