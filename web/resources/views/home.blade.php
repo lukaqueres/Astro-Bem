@@ -171,6 +171,14 @@
 			<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff"></use>
 		</g>
 	</svg>
+	<footer>
+		<ul class="social_icon">
+			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
+			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
+			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
+			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
+		</ul>
+	</footer>
 
 		 
 	<script src="assets/js/HeroSliderJS.js"></script>

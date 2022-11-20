@@ -719,6 +719,40 @@ h1 {
 }
 /* Koniec Fal*/
 
+/* Footer */
+footer{
+  position: relative;
+  width: 100%;
+  background: var(--base-color-level-1);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social_icon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+footer .social_icon li{
+  list-style: none;
+}
+
+footer .social_icon li a{
+  font-size: 2rem;
+  color: var(--text-color-level-1);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+/* Footer*/
+
 /* Inne */
 .header-text{
 text-align: center;
