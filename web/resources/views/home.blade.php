@@ -20,9 +20,9 @@
 				
 			</div>-->
 			<header class="header">
-		<a href="#" class="header__logo">iilhamriz</a>
+		<a href="#" class="header__logo">ASTRO BEM</a>
 
-		<ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+		<ion-icon name="menu-outline" class="header__toggle" id="nav-toggle" style="margin-right: 2rem;"></ion-icon>
 
 		<nav class="nav" id="nav-menu">
 			<div class="nav__content bd-grid">
@@ -51,9 +51,7 @@
 				</div>
 
 				<div class="nav__social">
-					<a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
-					<a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
-					<a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
+					<a href="#" class="nav__social-icon"><ion-icon name="contrast"></ion-icon></a>
 				</div>
 			</div>
 		</nav>
