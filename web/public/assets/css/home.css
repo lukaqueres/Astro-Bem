@@ -261,6 +261,19 @@ transition: all 1 ease-in;
     background: var(--gradient);
 	color: var(--gradient-text);
   }
+  .header .nav__social {
+    padding-top: .5rem;
+  }
+  
+  .header .nav__social-icon {
+    font-size: 1.2rem;
+    color: var(--text-color-level-1);
+    margin-right: 1rem;
+  }
+  
+  .header .nav__social-icon:hover {
+    color: var(--text-color-level-2);
+  }
 }
 
 @media screen and (min-width: 1024px) {
