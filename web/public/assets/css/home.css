@@ -21,11 +21,7 @@
 *{
 
 text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.3);
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--ms-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
+transition: all .25s ease;
 }
 
 body {
@@ -176,6 +172,7 @@ transition: all 1 ease-in;
 
 .header .nav__social {
   padding-top: .5rem;
+  margin-bottom: 5rem;
 }
 
 .header .nav__social-icon {
@@ -269,7 +266,6 @@ transition: all 1 ease-in;
   .header .nav__social {
     padding-top: .5rem;
     
-    margin-bottom: 5rem;
   }
   
   .header .nav__social-icon {
