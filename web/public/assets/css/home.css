@@ -92,7 +92,7 @@ transition: all 1 ease-in;
     top: 0;
     left: -100%;
     background-color: var(--base-color-level-1);
-    color: var(--text-color-level-1);
+    color: var(--white-color);
     width: 100%;
     height: 100vh;
     padding: 1.5rem 0;
@@ -144,7 +144,7 @@ transition: all 1 ease-in;
 
 .header .nav__name {
   display: block;
-  color: var(--text-color-level-1);
+  color: var(--white-color);
 }
 .header .nav__menu {
   -ms-flex-item-align: center;
@@ -157,7 +157,7 @@ transition: all 1 ease-in;
 }
 
 .header .nav__link {
-  color: var(--text-color-level-1);
+  color: var(--white-color);
 }
 
 .header .nav__social {
@@ -166,7 +166,7 @@ transition: all 1 ease-in;
 
 .header .nav__social-icon {
   font-size: 1.2rem;
-  color: var(--text-color-level-1);
+  color: var(--white-color);
   margin-right: 1rem;
 }
 
@@ -617,9 +617,8 @@ max-height: 100px;
 }
 
 .parallax > use {
-    -webkit-animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+-webkit-animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 		animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
-    fill: var(--base-color-level-1);
 }
 
 .parallax > use:nth-child(1) {
@@ -627,7 +626,6 @@ max-height: 100px;
 		animation-delay: -2s;
 -webkit-animation-duration: 7s;
 		animation-duration: 7s;
-    opacity: .7;
 }
 
 .parallax > use:nth-child(2) {
@@ -635,7 +633,6 @@ max-height: 100px;
 		animation-delay: -3s;
 -webkit-animation-duration: 10s;
 		animation-duration: 10s;
-    opacity: .5;
 }
 
 .parallax > use:nth-child(3) {
@@ -643,7 +640,6 @@ max-height: 100px;
 		animation-delay: -4s;
 -webkit-animation-duration: 13s;
 		animation-duration: 13s;
-    opacity: .3;
 }
 
 .parallax > use:nth-child(4) {
@@ -651,7 +647,6 @@ max-height: 100px;
 		animation-delay: -5s;
 -webkit-animation-duration: 20s;
 		animation-duration: 20s;
-    opacity: 1;
 }
 
 @-webkit-keyframes moveForever {
