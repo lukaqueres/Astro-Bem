@@ -139,8 +139,8 @@ transition: all 1 ease-in;
           justify-content: center;
   padding-top: .25rem;
   margin-bottom: .8rem;
-  /*width: 56px;
-  height: 56px;*/
+  width: 56px;
+  height: 56px;
   background-color: var(--gradient);
   border-radius: 50%;
   overflow: hidden;

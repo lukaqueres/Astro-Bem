@@ -51,7 +51,7 @@
 				</div>
 
 				<div class="nav__social">
-					<a href="#" class="nav__social-icon"><ion-icon name="contrast"></ion-icon></a>
+					<a href="#" class="nav__social-icon" onclick="ChangeTheme()"><ion-icon name="contrast" onclick="ChangeTheme()"></ion-icon></a>
 				</div>
 			</div>
 		</nav>
@@ -111,8 +111,6 @@
 					<span class="dot" onclick="currentSlide(5)"></span>
 				</div>
 			</div>
-			<script src="assets/js/HeroSliderJS.js"></script>
-			<script src="assets/js/Navbar.js"></script>
 			<!-- Ikony -->
 			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -175,6 +173,9 @@
 	</svg>
 
 		 
+	<script src="assets/js/HeroSliderJS.js"></script>
+	<script src="assets/js/Navbar.js"></script>
+	<script src="assets/js/ThemeColor.js"></script>
 	</body>
 
 </html>
