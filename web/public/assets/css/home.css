@@ -649,6 +649,8 @@ max-height: 100px;
     -webkit-animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 		animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
     fill: var(--base-color-level-1);
+    
+transition: fill .25s ease;
 }
 
 .parallax > use:nth-child(1) {
