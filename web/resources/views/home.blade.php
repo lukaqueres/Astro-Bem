@@ -5,6 +5,7 @@
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<!--@include('templates.head')-->
+		<meta name="csrf-token" content="{{ csrf_token() }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/home.css') }}" />
 	</head>
 	<body>
@@ -46,7 +47,7 @@
 						<li class="nav__item"><a href="#" class="nav__link">CanSat</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">Articles</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">Kosmiczna szkoła</a></li>
-						<li class="nav__item"><a href= {{ route( "aboutUs" ) }} class="nav__link">About Us</a></li>
+						<li class="nav__item"><a href= "{{ route( 'aboutUs' ) }}" class="nav__link">About Us</a></li>
 					</ul>
 				</div>
 

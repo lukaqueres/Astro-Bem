@@ -5,6 +5,7 @@
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<!--@include('templates.head')-->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/aboutUs.css') }}" />
 	</head>
     <body>
