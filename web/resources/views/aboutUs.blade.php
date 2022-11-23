@@ -116,7 +116,92 @@
 			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 			<!-- Przewijanie Zdjęc Hero Slider (Koniec) -->
 
+			<div class="card_container">
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
 
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+    </div>
 
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 		<defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs>
