@@ -6,7 +6,7 @@
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<!--@include('templates.head')-->
 		<meta name="csrf-token" content="{{ csrf_token() }}">
-		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/articles.css') }}" />
+		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/kosmicznaSzkola.css') }}" />
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}" />
 	</head>
 	<body>
@@ -46,9 +46,9 @@
 					<ul class="nav__list">
 						<li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
 						<li class="nav__item"><a href="https://esero.kopernik.org.pl/konkurs-cansat/" class="nav__link">CanSat</a></li>
-						<li class="nav__item"><a href="{{ route( 'articles' ) }}" class="nav__link">Articles</a></li>
-						<li class="nav__item"><a href="{{ route( 'koszmiczna-szkola' ) }}" class="nav__link">Kosmiczna szkoła</a></li>
-						<li class="nav__item"><a href= "{{ route( 'aboutUs' ) }}" class="nav__link">About Us</a></li>
+						<li class="nav__item"><a href= "/about-us" class="nav__link">Articles</a></li>
+						<li class="nav__item"><a href= "/about-us" class="nav__link">Kosmiczna szkoła</a></li>
+						<!--<li class="nav__item"><a href= "{{ route( 'aboutUs' ) }}" class="nav__link">About Us</a></li>-->
 					</ul>
 				</div>
 
