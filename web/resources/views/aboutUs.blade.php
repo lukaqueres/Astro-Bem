@@ -117,6 +117,7 @@
 			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 			<!-- Przewijanie Zdjęc Hero Slider (Koniec) -->
 
+            <h1 class="header-text">Personel</h1>
 			<div class="card_container">
         <div class="card swiper-slide">
             <div class="image-content">
