@@ -23,7 +23,7 @@ Route::get('/', function () {
 });
 */
 
-URL::forceSchema('https');
+// URL::forceSchema('https');
 
 Route::get('/about-us', function (Request $request) { // - About us page -
 	return view('aboutUs');
