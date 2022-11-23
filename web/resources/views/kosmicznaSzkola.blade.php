@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head class="dark-theme">
-		<title>Astro Bem | Articles</title>
+		<title>Astro Bem | Kosmiczna Szkoła</title>
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<!--@include('templates.head')-->

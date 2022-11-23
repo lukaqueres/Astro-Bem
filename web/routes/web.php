@@ -29,6 +29,14 @@ Route::get('/about-us', function (Request $request) { // - About us page -
 	return view('aboutUs');
 })->name('aboutUs');
 
+Route::get('/kosmiczna-szkola', function (Request $request) { // - About us page -
+	return view('kosmicznaSzkola');
+})->name('kosmicznaSzkola');
+
+Route::get('/articles', function (Request $request) { // - About us page -
+	return view('articles');
+})->name('articles');
+
 Route::get('/', function (Request $request) { // - `home.blade.php` view will be returned in case of request url path `/` -
 	return view('home');
 })->name('home');

@@ -44,11 +44,11 @@
 
 				<div class="nav__menu">
 					<ul class="nav__list">
-						<li class="nav__item"><a href="/" class="nav__link">Home</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">CanSat</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Articles</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Kosmiczna szkoła</a></li>
-						<li class="nav__item"><a href="#" class="nav__link active">About Us</a></li>
+						<li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
+						<li class="nav__item"><a href="https://esero.kopernik.org.pl/konkurs-cansat/" class="nav__link">CanSat</a></li>
+						<li class="nav__item"><a href="{{ route( 'articles' ) }}" class="nav__link">Articles</a></li>
+						<li class="nav__item"><a href="{{ route( 'koszmiczna-szkola' ) }}" class="nav__link">Kosmiczna szkoła</a></li>
+						<li class="nav__item"><a href= "{{ route( 'aboutUs' ) }}" class="nav__link">About Us</a></li>
 					</ul>
 				</div>
 
