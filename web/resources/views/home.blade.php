@@ -46,7 +46,7 @@
 						<li class="nav__item"><a href="#" class="nav__link">CanSat</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">Articles</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">Kosmiczna szkoła</a></li>
-						<li class="nav__item"><a href="/about-us" class="nav__link">About Us</a></li>
+						<li class="nav__item"><a href= {{ route( "aboutUs" ) }} class="nav__link">About Us</a></li>
 					</ul>
 				</div>
 
