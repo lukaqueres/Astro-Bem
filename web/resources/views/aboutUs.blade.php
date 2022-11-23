@@ -7,6 +7,7 @@
 		<!--@include('templates.head')-->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/aboutUs.css') }}" />
+		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}" />
 	</head>
     <body>
     <div class="container">
@@ -43,7 +44,7 @@
 
 				<div class="nav__menu">
 					<ul class="nav__list">
-						<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+						<li class="nav__item"><a href="/" class="nav__link">Home</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">CanSat</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">Articles</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">Kosmiczna szkoła</a></li>

@@ -7,6 +7,7 @@
 		<!--@include('templates.head')-->
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/home.css') }}" />
+		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}" />
 	</head>
 	<body>
 		<div class="container">
