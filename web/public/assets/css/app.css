@@ -1,14 +1,20 @@
 :root {
-	--text-color: #111;
-    --text-color-secondary: #222;
+	--base-color-level-1: #eee;
+	--base-color-level-2: #ddd;
+    --base-color-level-3: #ccc;
+    --text-color-level-1: #222;
+    --text-color-level-2: #888;
 
-	--primary-color: #5653C0;
-	--secondary-color: #4744ae;
+    --gradient: linear-gradient(to top right, #a304ec, #c899c9);	
+    --gradient-text: #eee;
+}
 
-	--accent-color: #726EFF;
-    --accent-text-color: #eee;
-
-    --gradient-color: 
+.dark-theme{
+    --base-color-level-1: #222;
+	--base-color-level-2: #333;
+    --base-color-level-3: #444;
+    --text-color-level-1: #eee;
+    --text-color-level-2: #999;
 }
 
 * {

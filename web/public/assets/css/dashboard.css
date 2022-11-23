@@ -333,7 +333,7 @@ body {
   width: 100%;
   align-items: center;
   display: grid;
-  height: 30%;
+  height: 50%;
   grid-template-columns: 20% 20% 20% 20% 20% ;
   gap: 10px;
   padding: 20px;
@@ -351,6 +351,7 @@ background-color: cyan;
 top: 50%;
 margin: 5px;
 border-radius: 20px;
+border: black 3px solid;
 
 
 
@@ -364,6 +365,7 @@ height: 10vh;
 width: 10vh;
 border-radius: 20px;
 float: left;
+margin: 2px;
 
 }
 
@@ -390,7 +392,7 @@ size: 30%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-
+  
 
 }
 
@@ -413,7 +415,7 @@ height: auto;
   color: black;
   width: 100%;
   height: auto;
-  
+  overflow: scroll;
 
 }
 
