@@ -102,55 +102,6 @@
 					</div>
 					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 				</div>
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
 
 				<ion-icon name="caret-forward" class="next"  onclick="plusSlides(1)"></ion-icon>
 				<ion-icon name="caret-back" class="prev"  onclick="plusSlides(-1)"></ion-icon>
@@ -170,6 +121,90 @@
 
             <h1 class="header-text">Personel</h1>
 			<div class="card_container">
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h2 class="name">Rafał Durka</h2>
+                <p class="description">Web Developer</p>
+            </div>
+        </div>
         <div class="card swiper-slide">
             <div class="image-content">
                 <span class="overlay"></span>
