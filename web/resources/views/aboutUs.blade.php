@@ -101,6 +101,55 @@
 					</div>
 					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 				</div>
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>Jakiś Tytuł</h1>
+						<p>Lorem Impum Dolor Si Amen</p>
+					</div>
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+				</div>
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>Jakiś Tytuł</h1>
+						<p>Lorem Impum Dolor Si Amen</p>
+					</div>
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+				</div>
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>Jakiś Tytuł</h1>
+						<p>Lorem Impum Dolor Si Amen</p>
+					</div>
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+				</div>
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>Jakiś Tytuł</h1>
+						<p>Lorem Impum Dolor Si Amen</p>
+					</div>
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+				</div>
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>Jakiś Tytuł</h1>
+						<p>Lorem Impum Dolor Si Amen</p>
+					</div>
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+				</div>
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>Jakiś Tytuł</h1>
+						<p>Lorem Impum Dolor Si Amen</p>
+					</div>
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+				</div>
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>Jakiś Tytuł</h1>
+						<p>Lorem Impum Dolor Si Amen</p>
+					</div>
+					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+				</div>
 
 				<ion-icon name="caret-forward" class="next"  onclick="plusSlides(1)"></ion-icon>
 				<ion-icon name="caret-back" class="prev"  onclick="plusSlides(-1)"></ion-icon>
