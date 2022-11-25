@@ -37,6 +37,14 @@ Route::get('/articles', function (Request $request) { // - About us page -
 	return view('articles');
 })->name('articles');
 
+Route::get('/obserwacja-nieba', function (Request $request) { // - About us page -
+	return view('articles');
+})->name('articles');
+
+Route::get('/cansat', function (Request $request) { // - About us page -
+	return view('CanSat');
+})->name('CanSat');
+
 Route::get('/', function (Request $request) { // - `home.blade.php` view will be returned in case of request url path `/` -
 	return view('home');
 })->name('home');
