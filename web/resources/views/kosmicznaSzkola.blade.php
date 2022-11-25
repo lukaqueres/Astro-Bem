@@ -60,64 +60,8 @@
 		</nav>
 	</header>
 
-			<!-- Przewijanie Zdjęc Hero Slider -->
-			<div class="slider">
-				<!-- Aby Dodać Zdjęcie trzeba dodać nowy element myslide fade oraz nową kropkę ! -->
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-				
-				<div class="myslide fade">
-					<div class="txt">
-						<h1>Jakiś Tytuł</h1>
-						<p>Lorem Impum Dolor Si Amen</p>
-					</div>
-					<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-				</div>
-
-				<ion-icon name="caret-forward" class="next"  onclick="plusSlides(1)"></ion-icon>
-				<ion-icon name="caret-back" class="prev"  onclick="plusSlides(-1)"></ion-icon>
-				
-				<div class="dotsbox" style="text-align:center">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-					<span class="dot" onclick="currentSlide(4)"></span>
-					<span class="dot" onclick="currentSlide(5)"></span>
-				</div>
-			</div>
-			<!-- Ikony -->
-			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-			<!-- Przewijanie Zdjęc Hero Slider (Koniec) -->
+			
+    @include('templates.header')
 
 	<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 		<defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs>
