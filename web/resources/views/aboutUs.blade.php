@@ -75,7 +75,7 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
+                <h2 class="name">Rafał Durka<br>Tiny Slime Studio</h2>
                 <p class="description">Web Developer</p>
             </div>
         </div>
