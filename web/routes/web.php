@@ -38,8 +38,8 @@ Route::get('/articles', function (Request $request) { // - About us page -
 })->name('articles');
 
 Route::get('/obserwacja-nieba', function (Request $request) { // - About us page -
-	return view('articles');
-})->name('articles');
+	return view('ObserwacjaNieba');
+})->name('ObserwacjaNieba');
 
 Route::get('/cansat', function (Request $request) { // - About us page -
 	return view('CanSat');

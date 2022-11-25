@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Astro Bem | CanSat</title>
+		<title>Astro Bem | Obserwacja Nieba</title>
 		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 		<meta name="keywords" content="Astro, Bem, CanSat" />
 		<!--@include('templates.head')-->
