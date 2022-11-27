@@ -25,7 +25,8 @@
 
 		// H1
 		let h1 = document.querySelector('#H1');
-		h1.style.marginTop = ((height + 100) / 2) + "px";
+		h1.style.marginTop = (window.innerHeight - (height + 100) / 2) + "px";
+		h1.style.marginBottom = (window.innerHeight - (height + 100) / 2) + "px";
 	</script>
 </body>
 
