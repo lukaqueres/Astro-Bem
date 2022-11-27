@@ -92,13 +92,13 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .card_container{
         grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .card_container{
         grid-template-columns: repeat(1, 1fr);
   }
