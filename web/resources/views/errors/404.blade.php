@@ -14,8 +14,19 @@
 </style>
 
 <body>
-	<h1>Error 404</h1>
+	<h1 id="H1" style="color: var(--gradient-text); text-align: center;">Error 404</h1>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	@include('templates.footer')
+
+	<script>
+		let footer = document.querySelector('footer');
+		let height = footer.offsetHeight;
+
+		// H1
+		let h1 = document.querySelector('#H1');
+		h1.style.marginTop = ((height + 100) / 2) + "px";
+	</script>
 </body>
 
 </html>
