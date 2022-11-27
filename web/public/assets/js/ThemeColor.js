@@ -14,15 +14,14 @@ if (localStorage.getItem("theme") === "dark")
 // Zmiana Theme po kliknięciu
 function ChangeTheme()
 {
-    var r = document.querySelector(":root");
     document.body.classList.toggle("dark-theme");
-
     SetTheme();
 }
 
 // Zmiana Prawdziwa
 function SetTheme()
 {
+    var r = document.querySelector(":root");
     if(document.body.classList.contains("dark-theme"))
     {
         localStorage.setItem("theme", "dark");
