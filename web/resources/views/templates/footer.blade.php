@@ -10,10 +10,8 @@
 	</svg>
 	<footer>
 		<ul class="social_icon">
-			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
-			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
-			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
-			<li><a href="#"><ion-icon name="logo-buffer"></ion-icon></a></li>
+			<li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+			<li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
 		</ul>
 		<ul class="menu">
 			<li><a href="#">Podstrona_1</a></li>
