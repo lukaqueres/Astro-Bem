@@ -20,7 +20,7 @@
 
 *{
     text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.3);
-    transition: all .25s ease;
+    /*transition: all .25s ease;*/
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     margin: 0;
     background: var(--gradient);
 
-    transition: all 1 ease-in;
+    /*transition: all 1 ease-in;*/
 }
 
 /*NAVBAR*/
