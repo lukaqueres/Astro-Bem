@@ -59,6 +59,7 @@
     color: var(--text-color-level-1);
     margin: 0;
     margin-top: .5rem;
+    text-align: center;
   }
   .nick{
     font-size: 14px;
@@ -66,6 +67,7 @@
     color: var(--text-color-level-1);
     margin: 0;
     margin-bottom: .5rem;
+    text-align: center;
   }
   .description{
     font-size: 14px;
