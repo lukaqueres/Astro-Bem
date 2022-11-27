@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Astro Bem | 404 Error</title>
-		<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
-		<meta name="keywords" content="Astro, Bem, CanSat" />
-		<!--@include('templates.head')-->
-		<meta name="csrf-token" content="{{ csrf_token() }}">
-		<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}" />
-	</head>
-    <body>
-    @include('templates.header')
-    @include('templates.footer')
+
+<head>
+	<title>Astro Bem | 404 Error</title>
+	<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
+	<meta name="keywords" content="Astro, Bem, CanSat" />
+	<!--@include('templates.head')-->
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}" />
+</head>
+<style>
+
+</style>
+
+<body>
+	<h1>Error 404</h1>
+	@include('templates.footer')
 </body>
+
 </html>
