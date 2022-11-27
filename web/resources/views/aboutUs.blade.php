@@ -75,9 +75,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <h4 class="nick">"Tiny Slime Studio"</h4>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -90,8 +90,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -104,8 +105,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -118,8 +120,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -132,8 +135,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -146,8 +150,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -160,8 +165,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -174,8 +180,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -188,8 +195,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -202,8 +210,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -216,8 +225,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
         <div class="card swiper-slide">
@@ -230,8 +240,9 @@
             </div>
 
             <div class="card-content">
-                <h2 class="name">Rafał Durka</h2>
-                <p class="description">Web Developer</p>
+                <h2 class="name">Imie Nazwisko</h2>
+                <h4 class="nick">"Nick"</h4>
+                <p class="description">Stanowisko</p>
             </div>
         </div>
     </div>
