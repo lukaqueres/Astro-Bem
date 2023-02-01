@@ -79,9 +79,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Test</h2>
+                    <h4 class="nick">"Test"</h4>
+                    <p class="description">Główny Testowany</p>
                 </div>
             </div>
             <div class="card swiper-slide">
