@@ -84,7 +84,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>Nov 12 2021</span>
+						<span>12 Nov 2021</span>
 					</div>
 					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”</h1>
 					<p class="blog-post_text">
