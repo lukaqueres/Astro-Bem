@@ -109,7 +109,7 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
+                    <h2 class="name">Test3</h2>
                     <h4 class="nick">"Nick"</h4>
                     <p class="description">Stanowisko</p>
                 </div>
