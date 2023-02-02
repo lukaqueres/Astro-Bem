@@ -324,21 +324,7 @@
                     <p class="description">Programowanie strony oraz pomoc technicza</p>
                 </div>
             </div>
-            <div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"></span>
-
-                    <div class="card-image">
-                        <img src="assets/images/person/Wilku.jpg" alt="" class="card-img">
-                    </div>
-                </div>
-
-                <div class="card-content">
-                    <h2 class="name">Szymon Wilczyński</h2>
-                    <h4 class="nick">"TouDou"</h4>
-                    <p class="description">Programowanie strony oraz pomoc technicza</p>
-                </div>
-            </div>
+            
         </div>
 
         @include('templates.footer')
