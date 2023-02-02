@@ -244,9 +244,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Michał Rowiński</h2>
+                    <h4 class="nick">""</h4>
+                    <p class="description"></p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -259,9 +259,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Mateusz Suwalski</h2>
+                    <h4 class="nick">"Suwał"</h4>
+                    <p class="description">Programowanie Strony oraz wsparcie mentalne </p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -274,9 +274,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Rafał Durka </h2>
+                    <h4 class="nick">"Overnex3"</h4>
+                    <p class="description">Programowanie strony</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -289,9 +289,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Paweł Szymański</h2>
+                    <h4 class="nick">"Pablo"</h4>
+                    <p class="description">Programowanie strony</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -304,9 +304,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Szymon Wilczyński</h2>
+                    <h4 class="nick">"TouDou"</h4>
+                    <p class="description">Programowanie strony oraz pomoc technicza</p>
                 </div>
             </div>
         </div>
