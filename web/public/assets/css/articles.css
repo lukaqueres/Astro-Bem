@@ -55,8 +55,30 @@ margin: 10px;
 }
 
 /* Acricles boxes - kopia z home.css*/
-
-.blog-list{
+/* Welcome*/
+.welcome{
+    background: var(--base-color-level-1);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.3);
+    }
+    .welcome h1{
+    padding: 1.2rem;
+    margin: 0;
+    
+    color: var(--text-color-level-1);
+    }
+    .welcome p{
+    padding: .6rem;
+    margin: 0;
+    
+    color: var(--text-color-level-2);
+    }
+    /* Koniec Welcome */
+    
+    /* Aktualności */
+    .blog-list{
     display: flex;
     align-items: center;    
     justify-content: center;
@@ -140,25 +162,52 @@ margin: 10px;
     .blog-post_cta:hover{
     opacity: .7;
     }
+    
+    
+    /*@media screen and (max-width: 1068px) {
+    .blog-post {
+        max-width: 80rem;
+        flex-direction: column;
+    }
+    .blog-post_img {
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+    .container h2 {
+        margin-top: 120px;
+        margin-left: 275px;
+    }
+    }
+    
+    @media screen and (max-width: 868px) {
+    .blog-post {
+        max-width: 70rem;
+    }
+    .container h2 {
+        margin-top: 20px;
+        margin-left: 142px;
+    }
+    }*/
+    
     @media screen and (max-width: 1300px) {
-        .blog-post {
-            padding: 2.5rem;
-            flex-direction: column;
-            text-align: center;
-        }
-        .blog-post_img {
-            min-width: 100%;
-            max-width: 100%;
-            transform: translate(0, -1rem);
-        }
-        .container {
-            margin-top: auto;
-        }
-        }
-        @media screen and (max-width: 960px) {
-        .blog-post {
-            margin: 10px 2rem;
-        }
-        }
-
-
+    .blog-post {
+        padding: 2.5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog-post_img {
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -1rem);
+    }
+    .container {
+        margin-top: auto;
+    }
+    }
+    @media screen and (max-width: 960px) {
+    .blog-post {
+        margin: 10px 2rem;
+    }
+    }
+    /* Koniec Aktualności*/
+    
