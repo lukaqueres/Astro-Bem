@@ -214,6 +214,21 @@
                 </div>
 
                 <div class="card-content">
+                    <h2 class="name">Wiktor Góral</h2>
+                    <h4 class="nick">"Hazu"</h4>
+                    <p class="description">Budżet</p>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
                     <h2 class="name">Piotr Główka</h2>
                     <h4 class="nick">""</h4>
                     <p class="description">Arduino i programowanie</p>
