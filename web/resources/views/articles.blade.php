@@ -64,7 +64,7 @@
 
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<video width="320" height="240" autoplay>
+					<video width="320" height="240" controls>
 						<source src="assets/videos/02022023.mp4" type="video/mp4">
 					</video>
 				</div>
