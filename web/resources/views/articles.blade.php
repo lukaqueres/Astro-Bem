@@ -64,7 +64,7 @@
 
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<video>
+					<video class="blog-post_img">
 						<source src="02022023.mp4" type="video/mp4">
 					</video>
 				</div>
