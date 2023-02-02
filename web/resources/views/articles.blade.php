@@ -64,7 +64,9 @@
 
 			<div class="blog-post">
 				<div class="blog-post_img">
-				<source src="02.02.2023.mp4" type="video/mp4">
+					<video>
+						<source src="02.02.2023.mp4" type="video/mp4">
+					</video>
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
