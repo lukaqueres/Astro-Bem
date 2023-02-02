@@ -101,15 +101,11 @@
 					</div>
 					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”</h1>
 					<p class="blog-post_text">
-						Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne
-						zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. Zdjęcia proszę nadsyłać na dysk
-						Astro-Bem.
+					🇵🇱Cześć! Podczas pracy nad CDR-em, udało nam się nakręcić krótki filmik promocyjny. Zapraszamy do oglądania!
 						<br><br>
-						Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej. Termin nadsyłania zdjęć do
-						końca listopada / 30.11.2022/. Ogłoszenie wyników 15.12.2022. Na zwycięzców czekają nagrody.
+						🇬🇧Hi! While working on CDR, we made a short promotion clip. Enjoy!
 					</p>
-					<a href="https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG"
-						class="blog-post_cta">Link Do Dysku</a>
+					
 				</div>
 			</div>
 		</div>
