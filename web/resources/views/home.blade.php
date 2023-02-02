@@ -13,16 +13,7 @@
 
 <body>
 	
-		<!--<div id="header" class="flex">
-				<img class="logo" src="/assets/images/logo.png"/>
-				<h2>Astro Bem</h2>
-				
-				<a class="button flex-right">CanSat</a>
-				<a class="button button-style-2">Articles</a>
-				<a class="button button-style-2">Kosmiczna szkoła </a>
-				<a class="button button-style-2">About Us</a>
-				
-			</div>-->
+
 		<header class="header">
 			<a href="#" class="header__logo">ASTRO BEM</a>
 
