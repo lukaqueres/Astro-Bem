@@ -72,7 +72,7 @@
 					<div class="blog-post_date">
 						<span>02 Jan 2023</span>
 					</div>
-					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”</h1>
+					<h1 class="blog-post_title">Working on CDR</h1>
 					<p class="blog-post_text">
 						Hi! While working on CDR, we made a short promotion clip. Enjoy!
 					</p>
