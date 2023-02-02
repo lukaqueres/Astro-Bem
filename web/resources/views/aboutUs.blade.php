@@ -79,9 +79,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Test</h2>
-                    <h4 class="nick">"Test"</h4>
-                    <p class="description">Główny Testowany</p>
+                    <h2 class="name">Anna Krzyczkowska</h2>
+                    <h4 class="nick">"Pani Annia"</h4>
+                    <p class="description">Falicytator - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -94,9 +94,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Test2</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Łukasz Kocielnik</h2>
+                    <h4 class="nick">"lukaqueres"</h4>
+                    <p class="description">Lider - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -109,9 +109,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Test3</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Maksymilian Domański</h2>
+                    <h4 class="nick">"Sumik"</h4>
+                    <p class="description">Dokumentacja - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -124,9 +124,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Franek Zarzycki</h2>
+                    <h4 class="nick">"Franio"</h4>
+                    <p class="description">Testy i Wykresy - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -139,9 +139,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Jan Kaczmarek</h2>
+                    <h4 class="nick">"Upo"</h4>
+                    <p class="description">SocialMedia - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -154,9 +154,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Jan Michalak</h2>
+                    <h4 class="nick">"Jano"</h4>
+                    <p class="description">Strona techniczna i Testy - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -169,9 +169,69 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Imie Nazwisko</h2>
-                    <h4 class="nick">"Nick"</h4>
-                    <p class="description">Stanowisko</p>
+                    <h2 class="name">Adrian Wołowski</h2>
+                    <h4 class="nick">""</h4>
+                    <p class="description">Testy czujników - Grupa CanSat</p>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Wiktor Plawgo</h2>
+                    <h4 class="nick">""</h4>
+                    <p class="description">Arduino</p>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Krzysztof Siwiński</h2>
+                    <h4 class="nick">"Krzychulle"</h4>
+                    <p class="description">Czujnik i programowanie</p>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Piotr Główka</h2>
+                    <h4 class="nick">""</h4>
+                    <p class="description">Arduino i programowanie</p>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Kacper Grupa</h2>
+                    <h4 class="nick">"Kontrol1"</h4>
+                    <p class="description">Dokumentacja</p>
                 </div>
             </div>
             <div class="card swiper-slide">
