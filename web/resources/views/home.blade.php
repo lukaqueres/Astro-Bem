@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div class="container">
+	
 		<!--<div id="header" class="flex">
 				<img class="logo" src="/assets/images/logo.png"/>
 				<h2>Astro Bem</h2>
