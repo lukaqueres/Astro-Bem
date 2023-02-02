@@ -124,9 +124,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Franek Zarzycki</h2>
-                    <h4 class="nick">"Franio"</h4>
-                    <p class="description">Testy i Wykresy - Grupa CanSat</p>
+                    <h2 class="name">Wiktor Plawgo</h2>
+                    <h4 class="nick">"sdassh"</h4>
+                    <p class="description">Programowanie Arduino - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -164,13 +164,13 @@
                     <span class="overlay"></span>
 
                     <div class="card-image">
-                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                        <img src="assets/images/person/Wolowski.jpg" alt="" class="card-img">
                     </div>
                 </div>
 
                 <div class="card-content">
                     <h2 class="name">Adrian Wołowski</h2>
-                    <h4 class="nick">""</h4>
+                    <h4 class="nick">"Otto"</h4>
                     <p class="description">Testy czujników - Grupa CanSat</p>
                 </div>
             </div>
@@ -184,9 +184,9 @@
                 </div>
 
                 <div class="card-content">
-                    <h2 class="name">Wiktor Plawgo</h2>
-                    <h4 class="nick">"sdassh"</h4>
-                    <p class="description">Arduino</p>
+                    <h2 class="name">Franek Zarzycki</h2>
+                    <h4 class="nick">"Franio"</h4>
+                    <p class="description">Testy i Wykresy</p>
                 </div>
             </div>
             <div class="card swiper-slide">
