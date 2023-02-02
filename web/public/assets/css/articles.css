@@ -1,59 +1,6 @@
 
 
 
-.art{
-
-background-color: white;
-width: 80%;
-height: 80vh;
-margin: 20px;
-
-
-}
-.ustawienia{
-    
-margin: 10px;
-height: 10%;
-width: 90%;
-border: 2px solid black;
-background-color: grey ;
-
-
-}
-.grind{
-    display: grid;
-    
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    gap: 10px;
-    width: 40%;
-    height: 5vh;
-    
-}
-.grid-ust{
- border: 2px solid black;
-background-color: white;
-margin: 10px;
-text-align: center;
-
-}
-
-.grid-ust:active{
- 
-    background-color: rgba(0, 0, 255, 0.24);
-
-}
-.artykul{
-
-border: 2px black solid;
-color: black;
-background-color: cyan;
-font: arial;
-width: 98%;
-height: 78%;
-margin: 10px;
-
-}
-
 /* Acricles boxes - kopia z home.css*/
 /* Welcome*/
 .welcome{
