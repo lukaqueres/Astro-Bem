@@ -9,6 +9,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/articles.css') }}" />
 	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/home.css') }}" />
 </head>
 
 <body>
@@ -66,6 +67,7 @@
 
 
 		@include('templates.header')
+
 		<h1 class="header-text">Aktualności</h1>
 		<div class="blog-list">
 
@@ -91,6 +93,7 @@
 						class="blog-post_cta">Link Do Dysku</a>
 				</div>
 			</div>
+
 		@include('templates.footer')
 </body>
 
