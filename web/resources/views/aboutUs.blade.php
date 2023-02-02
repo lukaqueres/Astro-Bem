@@ -119,7 +119,7 @@
                     <span class="overlay"></span>
 
                     <div class="card-image">
-                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                        <img src="assets/images/person/Franek.jpg" alt="" class="card-img">
                     </div>
                 </div>
 
@@ -185,7 +185,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Wiktor Plawgo</h2>
-                    <h4 class="nick">""</h4>
+                    <h4 class="nick">"sdassh"</h4>
                     <p class="description">Arduino</p>
                 </div>
             </div>
@@ -230,7 +230,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Piotr Główka</h2>
-                    <h4 class="nick">""</h4>
+                    <h4 class="nick">"Główka"</h4>
                     <p class="description">Arduino i programowanie</p>
                 </div>
             </div>
