@@ -13,10 +13,10 @@
 </svg>
 <footer>
 	<ul class="social_icon">
-		<li><a href="#">
+		<li><a href="https://twitter.com/astro_bem">
 				<ion-icon name="logo-twitter"></ion-icon>
 			</a></li>
-		<li><a href="#">
+		<li><a href="https://www.facebook.com/profile.php?id=100086799296298">
 				<ion-icon name="logo-facebook"></ion-icon>
 			</a></li>
 	</ul>

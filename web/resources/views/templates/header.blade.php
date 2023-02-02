@@ -6,7 +6,7 @@
 	<!-- Aby Dodać Zdjęcie trzeba dodać nowy element myslide fade oraz nową kropkę ! -->
 	<div class="myslide fade">
 		<div class="txt">
-			<h1>Jakiś Tytuł</h1>
+			<h1>Astro Bem</h1>
 			<p>Lorem Impum Dolor Si Amen</p>
 		</div>
 		<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
