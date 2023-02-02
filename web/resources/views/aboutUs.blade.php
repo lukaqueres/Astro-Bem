@@ -261,7 +261,7 @@
                 <div class="card-content">
                     <h2 class="name">Michał Rowiński</h2>
                     <h4 class="nick">""</h4>
-                    <p class="description"></p>
+                    <p class="description">Grafik</p>
                 </div>
             </div>
             <div class="card swiper-slide">
