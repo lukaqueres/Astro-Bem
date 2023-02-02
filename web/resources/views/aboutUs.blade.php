@@ -81,7 +81,7 @@
                 <div class="card-content">
                     <h2 class="name">Anna Krzyczkowska</h2>
                     <h4 class="nick">"Pani Annia"</h4>
-                    <p class="description">Falicytator - Grupa CanSat</p>
+                    <p class="description">Facilitator - Group CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -96,7 +96,7 @@
                 <div class="card-content">
                     <h2 class="name">Łukasz Kocielnik</h2>
                     <h4 class="nick">"lukaqueres"</h4>
-                    <p class="description">Lider - Grupa CanSat</p>
+                    <p class="description">Lider - Group CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -111,7 +111,7 @@
                 <div class="card-content">
                     <h2 class="name">Maksymilian Domański</h2>
                     <h4 class="nick">"Sumik"</h4>
-                    <p class="description">Dokumentacja - Grupa CanSat</p>
+                    <p class="description">Documentation - Group CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -126,7 +126,7 @@
                 <div class="card-content">
                     <h2 class="name">Wiktor Plawgo</h2>
                     <h4 class="nick">"sdassh"</h4>
-                    <p class="description">Programowanie Arduino - Grupa CanSat</p>
+                    <p class="description">Arduino programming - Group CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -141,7 +141,7 @@
                 <div class="card-content">
                     <h2 class="name">Jan Kaczmarek</h2>
                     <h4 class="nick">"Upo"</h4>
-                    <p class="description">SocialMedia - Grupa CanSat</p>
+                    <p class="description">SocialMedia - Group CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -156,7 +156,7 @@
                 <div class="card-content">
                     <h2 class="name">Jan Michalak</h2>
                     <h4 class="nick">"Jano"</h4>
-                    <p class="description">Strona techniczna i Testy - Grupa CanSat</p>
+                    <p class="description">Technical site and Testing - Grupa CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -171,7 +171,7 @@
                 <div class="card-content">
                     <h2 class="name">Adrian Wołowski</h2>
                     <h4 class="nick">"Otto"</h4>
-                    <p class="description">Testy czujników - Grupa CanSat</p>
+                    <p class="description">Sensor tests - Group CanSat</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -186,7 +186,7 @@
                 <div class="card-content">
                     <h2 class="name">Franek Zarzycki</h2>
                     <h4 class="nick">"Franio"</h4>
-                    <p class="description">Testy i Wykresy</p>
+                    <p class="description">Tests and graphs</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -201,7 +201,7 @@
                 <div class="card-content">
                     <h2 class="name">Krzysztof Siwiński</h2>
                     <h4 class="nick">"Krzychulle"</h4>
-                    <p class="description">Czujnik i programowanie</p>
+                    <p class="description">Sensor Tests and Programming</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -216,7 +216,7 @@
                 <div class="card-content">
                     <h2 class="name">Wiktor Góral</h2>
                     <h4 class="nick">"Hazu"</h4>
-                    <p class="description">Budżet</p>
+                    <p class="description">Budget</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -231,7 +231,7 @@
                 <div class="card-content">
                     <h2 class="name">Piotr Główka</h2>
                     <h4 class="nick">"Główka"</h4>
-                    <p class="description">Arduino i programowanie</p>
+                    <p class="description">Arduino Programming</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -246,7 +246,7 @@
                 <div class="card-content">
                     <h2 class="name">Kacper Grupa</h2>
                     <h4 class="nick">"Kontrol1"</h4>
-                    <p class="description">Dokumentacja</p>
+                    <p class="description">Documentation</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -261,7 +261,7 @@
                 <div class="card-content">
                     <h2 class="name">Michał Rowiński</h2>
                     <h4 class="nick">""</h4>
-                    <p class="description">Grafik</p>
+                    <p class="description">Graphic designer</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -276,7 +276,7 @@
                 <div class="card-content">
                     <h2 class="name">Mateusz Suwalski</h2>
                     <h4 class="nick">"Suwał"</h4>
-                    <p class="description">Programowanie Strony oraz wsparcie mentalne </p>
+                    <p class="description">Website programming and Mental support </p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -291,7 +291,7 @@
                 <div class="card-content">
                     <h2 class="name">Rafał Durka </h2>
                     <h4 class="nick">"Overnex3"</h4>
-                    <p class="description">Programowanie strony</p>
+                    <p class="description">Website programming</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -306,7 +306,7 @@
                 <div class="card-content">
                     <h2 class="name">Paweł Szymański</h2>
                     <h4 class="nick">"Pablo"</h4>
-                    <p class="description">Programowanie strony</p>
+                    <p class="description">Website programming</p>
                 </div>
             </div>
             <div class="card swiper-slide">
@@ -321,7 +321,7 @@
                 <div class="card-content">
                     <h2 class="name">Szymon Wilczyński</h2>
                     <h4 class="nick">"TouDou"</h4>
-                    <p class="description">Programowanie strony oraz pomoc technicza</p>
+                    <p class="description">Website programming and Technical support</p>
                 </div>
             </div>
             
