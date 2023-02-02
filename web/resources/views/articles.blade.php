@@ -63,7 +63,7 @@
 		<div class="blog-list">
 
 			<div class="blog-post">
-				<div class="blog-post_img">
+				<div class="blog-post_video">
 					<video width="100%" height="100%" controls>
 						<source src="assets/videos/02022023.mp4" type="video/mp4">
 					</video>
