@@ -7,7 +7,7 @@
 	<div class="myslide fade">
 		<div class="txt">
 			<h1>Welcome to Astrobem</h1>
-			<p>We are working in our school, cooperationg with many teachers of various subjects. Currently we are participating in Polish edition of CanSat project, that is organizated by POLSA - Polish Space Agency. Now we are right after sending our PDR documentation - first step in order to qualify to next stage of competition.</p>
+			<p></p>
 		</div>
 		<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 	</div>
