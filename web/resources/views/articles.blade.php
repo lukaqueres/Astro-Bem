@@ -133,7 +133,7 @@
 			<div class="blog-post">
 				<div class="blog-post_img">
 					<img src="assets/images/Articles/radio.jpg"
-						alt="">
+						alt="" style="object-position: top">
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
