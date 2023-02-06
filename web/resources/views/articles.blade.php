@@ -60,26 +60,23 @@
 		@include('templates.header')
 
 		<h1 class="header-text">Aktualności</h1>
-		<div class="blog-list">
-
-			<div class="blog-post">
-				<div class="blog-post_video">
-					<video width="100%" height="100%" controls>
-						<source src="assets/videos/02022023.mp4" type="video/mp4">
-					</video>
+		<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+						alt="">
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>02 Jan 2023</span>
+						<span>19.01.2023</span>
 					</div>
-					<h1 class="blog-post_title">Working on CDR</h1>
+					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
-						Hi! While working on CDR, we made a short promotion clip. Enjoy!
+						On 13th January 2023 our group met with our mentor Paweł Witkowski. In a meeting we had been discussing ways of radio communication between CanSat and our ground base. This gathering was a huge brainstorm, opening up for us many new possibilities of communication and building antennas for the project, but also many new secondary goals, which we can write about in our documentation.
 					</p>
-
+					<a href="XXX"
+						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>
-		</div>
 		@include('templates.footer')
 </body>
 
