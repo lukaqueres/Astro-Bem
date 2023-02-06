@@ -65,7 +65,24 @@
 				qualify to next stage of competition.</p>
 		</div>
 		<h1 class="header-text">Aktualności</h1>
-		
+		<div class="blog-list">
+			<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="assets/images/Articles/twiter.jpg" 
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>30.01.2023</span>
+					</div>
+					<h1 class="blog-post_title">Twitter account</h1>
+					<p class="blog-post_text">
+						
+					</p>
+					
+				</div>
+			</div>
+		</div>	
 
 
 
