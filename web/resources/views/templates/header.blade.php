@@ -6,8 +6,8 @@
 	<!-- Aby Dodać Zdjęcie trzeba dodać nowy element myslide fade oraz nową kropkę ! -->
 	<div class="myslide fade">
 		<div class="txt">
-			<h1>Astro Bem</h1>
-			<p>Lorem Impum Dolor Si Amen</p>
+			<h1>Welcome to Astrobem</h1>
+			<p>We are working in our school, cooperationg with many teachers of various subjects. Currently we are participating in Polish edition of CanSat project, that is organizated by POLSA - Polish Space Agency. Now we are right after sending our PDR documentation - first step in order to qualify to next stage of competition.</p>
 		</div>
 		<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
 	</div>
