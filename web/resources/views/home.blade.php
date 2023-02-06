@@ -80,7 +80,7 @@
 						Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne
 						zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. 
 						<br><br>
-						Po lewej stronie  zwycięskie zdjęcie z konkursu po więcej informacji zapraszamy na Facebooka ZsBem .
+						Po lewej stronie  zwycięskie zdjęcie z konkursu po więcej informacji zapraszamy na Facebooka.
 					</p>
 					<a href="https://www.facebook.com/ZSBEM/posts/pfbid02m2D6kcbN4eyC7x2ULMPYFH9ttq18MyYPPHQUETLgUWqoP7Z63xNToEc799x2eXZvl"
 						class="blog-post_cta">Link Do Facebooka</a>
