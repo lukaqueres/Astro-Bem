@@ -38,7 +38,7 @@
 						<li class="nav__item"><a href="/" class="nav__link">Home</a></li>
 						<li class="nav__item"><a href="/cansat" class="nav__link">CanSat</a></li>
 						<li class="nav__item"><a href="/articles" class="nav__link">Articles</a></li>
-						<li class="nav__item"><a href="/kosmiczna-szkola" class="nav__link">Kosmiczna szkoła</a></li>
+						<!--<li class="nav__item"><a href="/kosmiczna-szkola" class="nav__link">Kosmiczna szkoła</a></li>-->
 						<li class="nav__item"><a href="/obserwacja-nieba" class="nav__link active">Obserwacja Nieba</a>
 						</li>
 						<li class="nav__item"><a href="/about-us" class="nav__link">About Us</a></li>
