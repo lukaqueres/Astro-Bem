@@ -56,39 +56,40 @@
 	<h1 class="header-text">Obserwacja nieba</h1>
 		<div class="blog-list">
 			<div class="blog-post">
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/first.jpg" 
-						alt="">
+				<div class="blog_grid">	
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/first.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/secend.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/third.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/fourth.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/five.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/six.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/seven.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/eight.jpg" 
+							alt="">
+					</div>
 				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/secend.jpg" 
-						alt="">
-				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/third.jpg" 
-						alt="">
-				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/fourth.jpg" 
-						alt="">
-				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/five.jpg" 
-						alt="">
-				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/six.jpg" 
-						alt="">
-				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/seven.jpg" 
-						alt="">
-				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Obserwacjanieba/eight.jpg" 
-						alt="">
-				</div>
-
 			</div>
 		</div>
 	@include('templates.footer')
