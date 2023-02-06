@@ -28,7 +28,7 @@
 		<img src="assets/images/baner3.jpg" style="width: 100%; height: 100%;">
 	</div>
 
-	<div class="myslide fade">
+	<!--<div class="myslide fade">
 		<div class="txt">
 			<h1></h1>
 			<p></p>
@@ -42,7 +42,7 @@
 			<p></p>
 		</div>
 		<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
-	</div>
+	</div>-->
 
 	<ion-icon name="caret-forward" class="next" onclick="plusSlides(1)"></ion-icon>
 	<ion-icon name="caret-back" class="prev" onclick="plusSlides(-1)"></ion-icon>
@@ -51,8 +51,8 @@
 		<span class="dot" onclick="currentSlide(1)"></span>
 		<span class="dot" onclick="currentSlide(2)"></span>
 		<span class="dot" onclick="currentSlide(3)"></span>
-		<span class="dot" onclick="currentSlide(4)"></span>
-		<span class="dot" onclick="currentSlide(5)"></span>
+		<!--<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>-->
 	</div>
 </div>
 <!-- Ikony -->
