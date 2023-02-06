@@ -53,27 +53,42 @@
 		</nav>
 	</header>
 	@include('templates.header')
-	<h1 class="header-text">CanSat</h1>
+	<h1 class="header-text">Obserwacja nieba</h1>
 		<div class="blog-list">
 			<div class="blog-post">
 				<div class="blog-post_img">
 					<img src="assets/images/Obserwacjanieba/first.jpg" 
 						alt="">
 				</div>
-				<div class="blog-post_info">
-					<div class="blog-post_date">
-						<span></span>
-					</div>
-					<h1 class="blog-post_title">CanSat</h1>
-					<p class="blog-post_text">
-						
-						CanSat is an international competition of the European Space Agency. 
-						It consists in the independent construction of space probe simulators by students and conducting scientific research using them. 
-						Thanks to this, young people have a chance to get involved in an original scientific and engineering project, 
-						already at the stage of school education.
-					</p>
-					
+				<div class="blog-post_img">
+					<img src="assets/images/Obserwacjanieba/secend.jpg" 
+						alt="">
 				</div>
+				<div class="blog-post_img">
+					<img src="assets/images/Obserwacjanieba/third.jpg" 
+						alt="">
+				</div>
+				<div class="blog-post_img">
+					<img src="assets/images/Obserwacjanieba/fourth.jpg" 
+						alt="">
+				</div>
+				<div class="blog-post_img">
+					<img src="assets/images/Obserwacjanieba/five.jpg" 
+						alt="">
+				</div>
+				<div class="blog-post_img">
+					<img src="assets/images/Obserwacjanieba/six.jpg" 
+						alt="">
+				</div>
+				<div class="blog-post_img">
+					<img src="assets/images/Obserwacjanieba/seven.jpg" 
+						alt="">
+				</div>
+				<div class="blog-post_img">
+					<img src="assets/images/Obserwacjanieba/eight.jpg" 
+						alt="">
+				</div>
+
 			</div>
 		</div>
 	@include('templates.footer')
