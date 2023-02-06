@@ -67,7 +67,94 @@
 		</div>
 		<h1 class="header-text">Aktualności</h1>
 		<div class="blog-list">
-
+			<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+						alt="">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>12 Nov 2021</span>
+					</div>
+					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”</h1>
+					<p class="blog-post_text">
+						Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne
+						zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. Zdjęcia proszę nadsyłać na dysk
+						Astro-Bem.
+						<br><br>
+						Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej. Termin nadsyłania zdjęć do
+						końca listopada / 30.11.2022/. Ogłoszenie wyników 15.12.2022. Na zwycięzców czekają nagrody.
+					</p>
+					<a href="https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG"
+						class="blog-post_cta">Link Do Dysku</a>
+				</div>
+			</div>
+						<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+						alt="">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>12 Nov 2021</span>
+					</div>
+					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”</h1>
+					<p class="blog-post_text">
+						Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne
+						zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. Zdjęcia proszę nadsyłać na dysk
+						Astro-Bem.
+						<br><br>
+						Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej. Termin nadsyłania zdjęć do
+						końca listopada / 30.11.2022/. Ogłoszenie wyników 15.12.2022. Na zwycięzców czekają nagrody.
+					</p>
+					<a href="https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG"
+						class="blog-post_cta">Link Do Dysku</a>
+				</div>
+			</div>
+						<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+						alt="">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>12 Nov 2021</span>
+					</div>
+					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”</h1>
+					<p class="blog-post_text">
+						Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne
+						zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. Zdjęcia proszę nadsyłać na dysk
+						Astro-Bem.
+						<br><br>
+						Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej. Termin nadsyłania zdjęć do
+						końca listopada / 30.11.2022/. Ogłoszenie wyników 15.12.2022. Na zwycięzców czekają nagrody.
+					</p>
+					<a href="https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG"
+						class="blog-post_cta">Link Do Dysku</a>
+				</div>
+			</div>
+						<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+						alt="">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>12 Nov 2021</span>
+					</div>
+					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem”</h1>
+					<p class="blog-post_text">
+						Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne
+						zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. Zdjęcia proszę nadsyłać na dysk
+						Astro-Bem.
+						<br><br>
+						Aby przesłać zdjęcie uczestnik musi skorzystać z poczty szkolnej. Termin nadsyłania zdjęć do
+						końca listopada / 30.11.2022/. Ogłoszenie wyników 15.12.2022. Na zwycięzców czekają nagrody.
+					</p>
+					<a href="https://drive.google.com/drive/folders/1cv1l7dq6O7w3xKJSpBFUQGLz-OV0rApG"
+						class="blog-post_cta">Link Do Dysku</a>
+				</div>
+			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
 					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
