@@ -25,7 +25,7 @@
 			<h1>Jakiś Tytuł</h1>
 			<p>Lorem Impum Dolor Si Amen</p>
 		</div>
-		<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+		<img src="assets/images/baner3.jpg" style="width: 100%; height: 100%;">
 	</div>
 
 	<div class="myslide fade">
