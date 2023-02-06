@@ -70,11 +70,11 @@
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/fourth.jpg" 
+						<img src="assets/images/Obserwacjanieba/fourth.jpeg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/five.jpg" 
+						<img src="assets/images/Obserwacjanieba/five.jpeg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
