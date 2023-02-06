@@ -74,7 +74,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>XXX</span>
+						<span>30.01.2023</span>
 					</div>
 					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
@@ -91,7 +91,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>XXX</span>
+						<span>30.01.2023</span>
 					</div>
 					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
@@ -108,7 +108,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>XXX</span>
+						<span>19.01.2023</span>
 					</div>
 					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
@@ -125,7 +125,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>XXX</span>
+						<span>14.12.2022</span>
 					</div>
 					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
@@ -142,7 +142,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>XXX</span>
+						<span>06.12.2022</span>
 					</div>
 					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
@@ -161,7 +161,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>XXX</span>
+						<span>23.11.2022</span>
 					</div>
 					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
@@ -178,7 +178,7 @@
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>XXX</span>
+						<span>27.10.2022</span>
 					</div>
 					<h1 class="blog-post_title">XXX</h1>
 					<p class="blog-post_text">
