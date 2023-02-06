@@ -74,13 +74,13 @@
 					<p class="blog-post_text">
 						We would like to invite you to our Twitter account, where we will as well post about our project's progress!
 					</p>
-					<a href="XXX"
+					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0rHEYPtU4S3c1tX1nYMpyWpmTsBHES5Af4XLwAhuq6ZePw9VeFnNjKpt2KH1bYUV1l&id=100086799296298"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+					<img src="assets/images/Articles/secend.jpg"
 						alt="">
 				</div>
 				<div class="blog-post_info">
@@ -91,13 +91,13 @@
 					<p class="blog-post_text">
 						On 28th January our group decided to go for a series of field tests of radio communication in Parzniew (Masovian Voivodeship). The tests were successful despite demanding and unsettled weather and we managed to establish a connection between the broadcasting and receiving station on a 1 km distance.
 					</p>
-					<a href="XXX"
+					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0JDH1rFaPNNjUPTCsM1U4hn5EKRAqpHHDVhvdAcdjszdgr24njDMnTsfv1XdXx3g2l&id=100086799296298"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+					<img src="assets/images/Articles/four.jpg"
 						alt="">
 				</div>
 				<div class="blog-post_info">
@@ -108,14 +108,15 @@
 					<p class="blog-post_text">
 						On 13th January 2023 our group met with our mentor Paweł Witkowski. In a meeting we had been discussing ways of radio communication between CanSat and our ground base. This gathering was a huge brainstorm, opening up for us many new possibilities of communication and building antennas for the project, but also many new secondary goals, which we can write about in our documentation.
 					</p>
-					<a href="XXX"
+					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0cGiCL3EqMymvif73yekFNwsk4odzfeGSk2x57722PVTs7DNQsXAZXmocDsuQ2pbzl&id=100086799296298"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>
 			<div class="blog-post">
-				<div class="blog-post_img">
-					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-						alt="">
+				<div class="blog-post_video">
+					<video width = "100%" height="100%" controls>
+						<source src="assets/images/video/radio.mp4" type="video/mp4">
+						</video>
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
@@ -125,13 +126,13 @@
 					<p class="blog-post_text">
 						We would like to invite you for our interview given on Radio Bogoria!
 					</p>
-					<a href="XXX"
+					<a href="https://fb.watch/iwWDLxlvsC/"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+					<img src="assets/images/Articles/radio.jpg"
 						alt="">
 				</div>
 				<div class="blog-post_info">
@@ -144,13 +145,13 @@
 •FM frequency: 94,5
 •Online player link: http://radiobogoria.pl/player
 					</p>
-					<a href="XXX"
+					<a href="https://www.facebook.com/photo/?fbid=518458390304609&set=a.448970593920056"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+					<img src="assets/images/Articles/third.jpg"
 						alt="">
 				</div>
 				<div class="blog-post_info">
@@ -161,13 +162,13 @@
 					<p class="blog-post_text">
 						We got through! After sending our first report (PDR) we kept our fingers crossed for our work and recently got info on passing 1st stage! It's time to move from words to deeds and start building our satellite. We recently started learning how to code an Arduino, which will be CanSat's heart. We are counting on more successes in the future, and we are dreaming of launching our satellite in finals 🚀
 					</p>
-					<a href="XXX"
+					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0a6gYaAGv2HvmMChCgXY5EHdp41EZMDV1CrT3BWzaQfWqgWrb6zB8TrQAGVQJ5Uhnl&id=100086799296298"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+					<img src="assets/images/Articles/five.jpg"
 						alt="">
 				</div>
 				<div class="blog-post_info">
@@ -178,7 +179,7 @@
 					<p class="blog-post_text">
 						We did it! We just sent our first report of our mission! After a month and a half of working together on PDR (Preliminary Design Review), we can rest a little while waiting for results. The whole team worked on this project alone while overcoming many problems encountered during meetings. We’ve created a strong group of friends, where everybody can trust each other. We keep our fingers crossed for our work, we are counting on moving further in the competition and continuing our adventure with CanSat.
 					</p>
-					<a href="XXX"
+					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0gw1JmeD35JnyrfVVM8Um4Z9k38McDcSGWmZRC9tRCJnGeYi8hwFMW274Hpvv5Warl&id=100086799296298"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
 			</div>

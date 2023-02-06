@@ -194,7 +194,7 @@
                     <span class="overlay"></span>
 
                     <div class="card-image">
-                        <img src="assets/images/person/rafal-durka.png" alt="" class="card-img">
+                        <img src="assets/images/person/siwinski.jpg" alt="" class="card-img">
                     </div>
                 </div>
 
