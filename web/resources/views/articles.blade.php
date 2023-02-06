@@ -63,7 +63,7 @@
 		<div class="blog-list">
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="first.jpg"
+					<img src="assets/images/Articles/first.jpg"
 						alt="">
 				</div>
 				<div class="blog-post_info">
