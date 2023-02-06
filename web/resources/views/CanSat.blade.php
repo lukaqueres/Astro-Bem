@@ -57,14 +57,14 @@
 		<div class="blog-list">
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="assets/images/Articles/twiter.jpg" 
+					<img src="assets/images/cansat.jpg" 
 						alt="" style="object-position: top">
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>30.01.2023</span>
+						<span></span>
 					</div>
-					<h1 class="blog-post_title">Twitter account</h1>
+					<h1 class="blog-post_title">CanSat</h1>
 					<p class="blog-post_text">
 						
 						CanSat is an international competition of the European Space Agency. 
@@ -72,8 +72,7 @@
 						Thanks to this, young people have a chance to get involved in an original scientific and engineering project, 
 						already at the stage of school education.
 					</p>
-					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0rHEYPtU4S3c1tX1nYMpyWpmTsBHES5Af4XLwAhuq6ZePw9VeFnNjKpt2KH1bYUV1l&id=100086799296298"
-						class="blog-post_cta">Facebook Post Link</a>
+					
 				</div>
 			</div>
 		</div>
