@@ -75,6 +75,8 @@
 					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0rHEYPtU4S3c1tX1nYMpyWpmTsBHES5Af4XLwAhuq6ZePw9VeFnNjKpt2KH1bYUV1l&id=100086799296298"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
+			</div>
+		</div>
 	@include('templates.footer')
 </body>
 
