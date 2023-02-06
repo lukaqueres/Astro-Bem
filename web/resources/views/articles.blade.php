@@ -63,8 +63,8 @@
 		<div class="blog-list">
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="assets/images/Articles/twiter.jpg"
-						alt="">
+					<img src="assets/images/Articles/twiter.jpg" 
+						alt="" style="object-position: top">
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
