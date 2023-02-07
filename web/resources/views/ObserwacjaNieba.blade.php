@@ -56,7 +56,7 @@
 	<h1 class="header-text">Obserwacja nieba</h1>
 		<div class="blog-list">
 			<div class="blog-post">
-				<div class="blog-grid" style="gap: 2rem;">	
+				<div class="blog-grid">	
 					<div class="blog-post_img">
 						<img src="assets/images/Obserwacjanieba/first.jpg" 
 							alt="">
