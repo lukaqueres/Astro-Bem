@@ -139,7 +139,8 @@ opacity: .7;
 
 display: grid;
 grid-template-columns: auto auto ;
-gap: 1rem;
+padding-left: 1rem;
+padding-bottom: 1rem;
 
 
 
