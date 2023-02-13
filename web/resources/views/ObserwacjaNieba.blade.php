@@ -56,6 +56,27 @@
 	<h1 class="header-text">Obserwacja nieba</h1>
 		<div class="blog-list">
 			<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="assets/images/Articles/twiter.jpg" 
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>30.01.2023</span>
+					</div>
+					<h1 class="blog-post_title">Obserwacja Nieba</h1>
+					<p class="blog-post_text">
+					W lipcu 2022 roku w Orlu, gdzie mieści się Młodzieżowe Obserwatorium Astronomiczne został rozpoczęty eksperyment dydaktyczny Zespołu Szkół nr. 2 im. gen. J. Bema, polegający na notowaniu trajektorii ruchu Słońca na nieboskłonie w czasie 6 miesięcy. 
+Została wykonana camera obscura skierowana na południe, zawieszona na słupie.
+Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za pomocą obrazu interferencyjnego, przepuszczał promienie słoneczne, które wyświetlały kliszę umieszczoną po drugiej stronie puszki. Na przesłanym w lutym 2023 roku po zakończeniu eksperymentu przez dyrektora obserwatorium Grzegorza Sęka zdjęciu widzimy półkoliste linie zakreślane coraz niżej wraz z ruchem Ziemi. 
+
+					</p>
+					<a href="https://uczniowie.moa.edu.pl/kamerki-otworkowe-nauczka-za-nauczka/"
+						class="blog-post_cta">Facebook Post Link</a>
+				</div>
+			</div>
+		<div class="blog-list">
+			<div class="blog-post">
 				<div class="blog-grid">	
 					<div class="blog-post_img">
 						<img src="assets/images/Obserwacjanieba/first.jpg" 
