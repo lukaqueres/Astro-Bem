@@ -72,6 +72,7 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 						class="blog-post_cta">Kamerki otworkowe – nauczka za nauczką</a>
 				</div>
 			</div>
+		</div>	
 		<div class="blog-list">
 			<div class="blog-post">
 				<div class="blog-grid">	
