@@ -76,35 +76,35 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 			<div class="blog-post">
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/first.jpg" 
+						<img src="assets/images/Orle/Orle1.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/secend.jpg" 
+						<img src="assets/images/Orle/Orle2.jpg"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/third.jpg" 
+						<img src="assets/images/Orle/Orle3.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/fourth.jpeg" 
+						<img src="assets/images/Orle/Orle4.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/five.jpeg" 
+						<img src="assets/images/Orle/Orle10.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/six.jpg" 
+						<img src="assets/images/Orle/pp.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/seven.jpg" 
+						<img src="assets/images/Orle/Orle1.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Obserwacjanieba/eight.jpg" 
+						<img src="assets/images/Orle/Orle1.jpg" 
 							alt="">
 					</div>
 				</div>
