@@ -53,13 +53,8 @@
 		</nav>
 	</header>
 	@include('templates.header')
-	<h1 class="header-text">Obserwacja nieba</h1>
 		<div class="blog-list">
 			<div class="blog-post">
-				<div class="blog-post_img">
-					<img src="assets/images/Articles/twiter.jpg" 
-						alt="" style="object-position: top">
-				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
 						<span>30.01.2023</span>
@@ -72,7 +67,11 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 
 					</p>
 					<a href="https://uczniowie.moa.edu.pl/kamerki-otworkowe-nauczka-za-nauczka/"
-						class="blog-post_cta">Facebook Post Link</a>
+						class="blog-post_cta">Kamerki otworkowe – nauczka za nauczką</a>
+				</div>
+				<div class="blog-post_img">
+					<img src="assets/images/Articles/twiter.jpg" 
+						alt="" style="object-position: top">
 				</div>
 			</div>
 		<div class="blog-list">
