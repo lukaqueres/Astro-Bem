@@ -69,10 +69,43 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 					<a href="https://uczniowie.moa.edu.pl/kamerki-otworkowe-nauczka-za-nauczka/"
 						class="blog-post_cta">Kamerki otworkowe – nauczka za nauczką</a>
 				</div>
-				<div class="blog-post_img">
-					<img src="assets/images/Articles/twiter.jpg" 
-						alt="" style="object-position: top">
+				
+				<div class="blog-post">
+				<div class="blog-grid">	
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/first.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/secend.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/third.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/fourth.jpeg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/five.jpeg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/six.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/seven.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Obserwacjanieba/eight.jpg" 
+							alt="">
+					</div>
 				</div>
+				
 			</div>
 		<div class="blog-list">
 			<div class="blog-post">
