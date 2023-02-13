@@ -59,7 +59,7 @@
 
 				<div class="blog-post_info">
 					<div class="blog-post_date">
-						<span>30.01.2023</span>
+						<span></span>
 					</div>
 					<h1 class="blog-post_title">Obserwacja Nieba</h1>
 					<p class="blog-post_text">
