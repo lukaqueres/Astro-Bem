@@ -84,7 +84,7 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle3.JPG" 
+						<img src="assets/images/Orle/Orle3.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
