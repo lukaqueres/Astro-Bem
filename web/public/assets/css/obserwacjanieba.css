@@ -139,8 +139,7 @@ opacity: .7;
 
 display: grid;
 grid-template-columns: auto auto ;
-
-
+gap: 3rem;
 
 }
 
