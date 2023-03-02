@@ -61,6 +61,23 @@
 
 		<h1 class="header-text">Aktualności</h1>
 		<div class="blog-list">
+			<!--<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="assets/images/Articles/twiter.jpg" <- ścieżka do zdjęcia
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>30.01.2023</span> <- data
+					</div>
+					<h1 class="blog-post_title">Twitter account</h1> <- tytuł artykułu
+					<p class="blog-post_text">
+						We would like to invite you to our Twitter account, where we will as well post about our project's progress! <- co znajduje się w artykule
+					</p>
+					<a href="tu wkeljasz link"
+						class="blog-post_cta">Facebook Post Link</a>
+				</div>
+			</div>-->
 			<div class="blog-post">
 				<div class="blog-post_img">
 					<img src="assets/images/Articles/twiter.jpg" 
