@@ -93,7 +93,7 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Orle/Orle6.jpg" 
+						<img src="assets/images/Orle/pp.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
