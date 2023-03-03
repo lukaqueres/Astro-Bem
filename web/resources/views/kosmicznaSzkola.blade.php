@@ -80,6 +80,19 @@
 					<p class="blog-post_text">
 					Architekt Główny-Łukasz Kocielnik klasa 3 Technikum Informatyczne
 					</p>
+					<p class="blog-post_text">
+					Ekspert Zewnętrzny- Ika Gut Politechnika Łódzka
+
+					</p>
+					<p class="blog-post_text">
+					Koordynatorzy- Anna Krzyczkowska nauczycielka fizyki, Paweł Świeczka  nauczyciel informatyki
+
+					</p>
+					<p class="blog-post_text">
+					Grupa Projektowa- Rafał Durka, Eryk Godlewski, Mateusz Suwalski, Paweł Szymański klasa 3 TI
+
+					</p>
+					
 					<a href="https://uczniowie.moa.edu.pl/kamerki-otworkowe-nauczka-za-nauczka/"
 						class="blog-post_cta">Kamerki otworkowe – nauczka za nauczką</a>
 				</div>
