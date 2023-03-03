@@ -93,7 +93,7 @@
 
 					</p>
 					<div class="blog-post_info">
-			<h1 class="blog-post_text">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
+			<h1 class="blog-post_title">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
 		</div>
 				</div>
 			</div>
