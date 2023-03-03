@@ -79,7 +79,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Anna Krzyczkowska</h2>
-                    <h4 class="nick">"Pani Annia"</h4>
+                    <h4 class="nick">"Pani Ania"</h4>
                     <p class="description">Facilitator - Group CanSat</p>
                 </div>
             </div>
