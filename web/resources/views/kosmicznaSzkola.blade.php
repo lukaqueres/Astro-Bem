@@ -9,7 +9,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	
 	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/kosmicznaSzkola.css') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/obserwacjanieba.css') }}" />
 </head>
 
 <body>
