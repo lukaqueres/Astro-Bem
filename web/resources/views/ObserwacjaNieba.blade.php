@@ -77,10 +77,6 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 			<div class="blog-post">
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle1.JPG" 
-							alt="">
-					</div>
-					<div class="blog-post_img">
 						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle2.JPG"  
 							alt="">
 					</div>
@@ -94,10 +90,6 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 					</div>
 					<div class="blog-post_img">
 						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle10.JPG" 
-							alt="">
-					</div>
-					<div class="blog-post_img">
-						<img src="assets/images/Orle/Orle5.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
