@@ -93,11 +93,13 @@
 
 					</p>
 					
-					<a href="https://uczniowie.moa.edu.pl/kamerki-otworkowe-nauczka-za-nauczka/"
-						class="blog-post_cta">Kamerki otworkowe – nauczka za nauczką</a>
 				</div>
 			</div>
 		</div>	
+
+		<div class="blog-post_info">
+			<h1 class="blog-post_text">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
+		</div>
 		<div class="blog-list">
 			<div class="blog-post">
 				<div class="blog-grid">	
