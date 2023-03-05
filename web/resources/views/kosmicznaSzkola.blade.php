@@ -102,13 +102,17 @@
 		<div class="blog-list">
 
 			<div class= "blog-post">
-			<div class="blog-post_info">
-			<h1 class="blog-post_title">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
-		</div>
+				<div class="blog-post_info">
+					<h1 class="blog-post_title">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
+				</div>
 			</div>
 
 			<div class="blog-post">
-				
+				<div class= "blog-post">
+					<div class="blog-post_info">
+						<h1 class="blog-post_title">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
+					</div>
+				</div>
 				<div class="blog-grid">	
 					<div class="blog-post_img">
 						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle2.JPG"  
