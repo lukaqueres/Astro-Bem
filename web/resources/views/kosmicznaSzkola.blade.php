@@ -114,14 +114,17 @@
 			<div class="blog-post">
 
 				<div class="blog-grid">	
+					
 					<div class="blog-post_img">
 						<img src="assets/images/kosmiczna/1.jpg"  
 							alt="">
 					</div>
+
 					<div class="blog-post_img">
 						<img src="assets/images/kosmiczna/2.jpg" 
 							alt="">
 					</div>
+
 				</div>
 			</div>
 		</div>
