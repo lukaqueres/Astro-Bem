@@ -119,7 +119,7 @@
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/kosmiczna/1.jpg" 
+						<img src="assets/images/kosmiczna/2.jpg" 
 							alt="">
 					</div>
 				</div>
