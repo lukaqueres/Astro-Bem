@@ -92,15 +92,16 @@
 					Grupa Projektowa- Rafał Durka, Eryk Godlewski, Mateusz Suwalski, Paweł Szymański klasa 3 TI
 
 					</p>
-					<div class="blog-post_info">
-			<h1 class="blog-post_title">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
-		</div>
+					
 				</div>
 			</div>
 		</div>	
 
 		
 		<div class="blog-list">
+		<div class="blog-post_info">
+			<h1 class="blog-post_title">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
+		</div>
 			<div class="blog-post">
 				<div class="blog-grid">	
 					<div class="blog-post_img">
