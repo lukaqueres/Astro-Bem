@@ -109,6 +109,9 @@
 			<div class="blog-post-before">
 				<h1 class="header-text-post">Tak wyglądały początki</h1>
 			</div>
+			<div class="blog-post-before">
+				<h1 class="header-text-post">Test</h1>
+			</div>
 
 			<div class="blog-post">
 
