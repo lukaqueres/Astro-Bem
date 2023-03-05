@@ -143,6 +143,30 @@ gap: 3rem;
 
 }
 
+.blog-post-before{
+    
+
+    width: 80vw;
+    max-width: 80vw;
+    padding: 1.5rem;
+    background-color: var(--base-color-level-1);
+    display: block;
+    align-items: center;
+    
+    border-radius: .8rem;
+    margin: 1rem 8rem;
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.3); 
+    
+
+}
+.header-text-post{
+    
+    
+    text-align: center;
+    color: var(--text-color-level-1);
+    font-size: 4rem;
+}
+
 /*@media screen and (max-width: 1068px) {
 .blog-post {
 max-width: 80rem;
