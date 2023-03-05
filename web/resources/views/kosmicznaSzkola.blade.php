@@ -69,6 +69,7 @@
 		@include('templates.header')
 
 		<div class="blog-list">
+			
 			<div class="blog-post">
 
 
@@ -100,12 +101,11 @@
 
 		
 		<div class="blog-list">
-
-			<div class= "blog-post">
-				<div class="blog-post_info">
-					<h1 class="blog-post_title">Zdjęcia z realizacji projektu ,,Baza na Marsie”</h1>
-				</div>
-			</div>
+			
+		<div class="blog-post">
+            <h1 class="header-text-post">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
+        </div>
+			
 
 			<div class="blog-post">
 
