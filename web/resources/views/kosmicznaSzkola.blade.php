@@ -101,10 +101,10 @@
 
 		
 		<div class="blog-list">
-			
-		<div class="blog-post">
-            <h1 class="header-text-post">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
-        </div>
+
+			<div class="blog-post">
+				<h1 class="header-text-post">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
+			</div>
 			
 
 			<div class="blog-post">
