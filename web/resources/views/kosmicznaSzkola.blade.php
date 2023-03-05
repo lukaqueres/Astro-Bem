@@ -115,27 +115,11 @@
 
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle2.JPG"  
+						<img src="assets/images/kosmiczna/1.jpg"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Orle/Orle3.jpg" 
-							alt="">
-					</div>
-					<div class="blog-post_img">
-						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle4.JPG" 
-							alt="">
-					</div>
-					<div class="blog-post_img">
-						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle10.JPG" 
-							alt="">
-					</div>
-					<div class="blog-post_img">
-						<img src="assets/images/Orle/pp.jpg" 
-							alt="">
-					</div>
-					<div class="blog-post_img">
-						<img src="assets/images/Orle/Orle7.jpg" 
+						<img src="assets/images/kosmiczna/1.jpg" 
 							alt="">
 					</div>
 				</div>
