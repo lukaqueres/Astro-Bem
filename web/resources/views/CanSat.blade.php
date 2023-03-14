@@ -2,8 +2,8 @@
 <html>
 
 <head>
-	<title>Astro Bem | CanSat</title>
-	<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
+	<title>AstroBem | CanSat</title>
+	<meta name="description" content="Site about 'AstroBem' - group participating in 'CanSat' project" />
 	<meta name="keywords" content="Astro, Bem, CanSat" />
 	<!--@include('templates.head')-->
 	<meta name="csrf-token" content="{{ csrf_token() }}">
@@ -14,7 +14,7 @@
 
 <body>
 	<header class="header">
-		<a href="#" class="header__logo">ASTRO BEM</a>
+		<a href="#" class="header__logo">ASTROBEM</a>
 
 		<ion-icon name="menu-outline" class="header__toggle" id="nav-toggle" style="margin-right: 2rem;"></ion-icon>
 
@@ -29,7 +29,7 @@
 					</div>
 
 					<div>
-						<a href="#" class="nav__name">ASTRO BEM</a>
+						<a href="#" class="nav__name">ASTROBEM</a>
 						<span class="nav__profesion">School Project</span>
 					</div>
 				</div>

@@ -2,7 +2,7 @@
 <html>
 
 <head class="dark-theme">
-    <title>Astro Bem | About Us</title>
+    <title>AstroBem | About Us</title>
     <meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
     <meta name="keywords" content="Astro, Bem, CanSat" />
     <!--@include('templates.head')-->
@@ -24,7 +24,7 @@
 				
 			</div>-->
         <header class="header">
-            <a href="#" class="header__logo">ASTRO BEM</a>
+            <a href="#" class="header__logo">ASTROBEM</a>
 
             <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle" style="margin-right: 2rem;"></ion-icon>
 
@@ -39,7 +39,7 @@
                         </div>
 
                         <div>
-                            <a href="#" class="nav__name">ASTRO BEM</a>
+                            <a href="#" class="nav__name">ASTROBEM</a>
                             <span class="nav__profesion">School Project</span>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Anna Krzyczkowska</h2>
-                    <h4 class="nick">"Pani Ania"</h4>
+                    <h4 class="nick">"Pani Annia"</h4>
                     <p class="description">Facilitator - Group CanSat</p>
                 </div>
             </div>

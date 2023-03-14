@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Astro Bem | Login</title>
+	<title>AstroBem | Login</title>
 	@include('templates.head')
 	<link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/login.css') }}" />
 </head>

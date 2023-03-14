@@ -2,10 +2,10 @@
 <html>
 
 <head>
-	<title>Astro Bem | Dashboard</title>
+	<title>AstroBem | Dashboard</title>
 	<link rel="stylesheet" type="text/css" href="/assets/css/app.css" />
 	<link rel="stylesheet" type="text/css" href="/assets/css/dashboard.css" />
-	<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
+	<meta name="description" content="Site about 'AstroBem' - group participating in 'CanSat' project" />
 	<meta name="keywords" content="Astro, Bem, CanSat" />
 	<meta name="author" content="Lukas" />
 	<meta charset="UTF-8" />

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Astro Bem | Obserwacja Nieba</title>
+	<title>AstroBem | Obserwacja Nieba</title>
 	<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
 	<meta name="keywords" content="Astro, Bem, CanSat" />
 	<!--@include('templates.head')-->
@@ -14,7 +14,7 @@
 
 <body>
 	<header class="header">
-		<a href="#" class="header__logo">ASTRO BEM</a>
+		<a href="#" class="header__logo">ASTROBEM</a>
 
 		<ion-icon name="menu-outline" class="header__toggle" id="nav-toggle" style="margin-right: 2rem;"></ion-icon>
 
@@ -29,7 +29,7 @@
 					</div>
 
 					<div>
-						<a href="#" class="nav__name">ASTRO BEM</a>
+						<a href="#" class="nav__name">ASTROBEM</a>
 						<span class="nav__profesion">School Project</span>
 					</div>
 				</div>
@@ -77,6 +77,10 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 			<div class="blog-post">
 				<div class="blog-grid">	
 					<div class="blog-post_img">
+						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle1.JPG" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
 						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/images/Orle/Orle2.JPG"  
 							alt="">
 					</div>
@@ -93,7 +97,11 @@ Bardzo precyzyjnie wykonany otwór- idealny owalny kształt był sprawdzany za p
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/Orle/pp.jpg" 
+						<img src="assets/images/Orle/Orle5.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/Orle/Orle6.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">

@@ -2,8 +2,8 @@
 <html>
 
 <head class="dark-theme">
-	<title>Astro Bem | Home</title>
-	<meta name="description" content="Site about 'Astro Bem' - group participating in 'CanSat' project" />
+	<title>AstroBem | Home</title>
+	<meta name="description" content="Site about 'AstroBem' - group participating in 'CanSat' project" />
 	<meta name="keywords" content="Astro, Bem, CanSat" />
 	<!--@include('templates.head')-->
 	<meta name="csrf-token" content="{{ csrf_token() }}">
@@ -15,7 +15,7 @@
 	
 
 		<header class="header">
-			<a href="#" class="header__logo">ASTRO BEM</a>
+			<a href="#" class="header__logo">ASTROBEM</a>
 
 			<ion-icon name="menu-outline" class="header__toggle" id="nav-toggle" style="margin-right: 2rem;"></ion-icon>
 
@@ -30,7 +30,7 @@
 						</div>
 
 						<div>
-							<a href="#" class="nav__name">ASTRO BEM</a>
+							<a href="#" class="nav__name">ASTROBEM</a>
 							<span class="nav__profesion">School Project</span>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
 		@include('templates.header')
 
 		<div class="welcome">
-			<h1>Welcome to Astrobem, school space science passionates</h1>
+			<h1>Welcome to AstroBem, school space science passionates</h1>
 			<p>We are working in our school, cooperationg with many teachers of various subjects.
 				Currently we are participating in Polish edition of CanSat project, that is organizated by POLSA -
 				Polish Space Agency. Now we are right after sending our PDR documentation - first step in order to
@@ -75,7 +75,7 @@
 					<div class="blog-post_date">
 						<span>12 Nov 2021</span>
 					</div>
-					<h1 class="blog-post_title">Konkurs ,, Astro-Bem ,, Zaćmienie Słońca widziane smartfonem” - Zakończony</h1>
+					<h1 class="blog-post_title">Konkurs ,, AstroBem ,, Zaćmienie Słońca widziane smartfonem” - Zakończony</h1>
 					<p class="blog-post_text">
 						Dnia 25-10-2022 obserwowaliśmy zaćmienie słońca. Okazało się, że wielu z nas zrobiło śliczne
 						zdjęcia, dlatego ogłaszamy konkurs na najładniejszą fotografię. 
