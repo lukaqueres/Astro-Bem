@@ -80,6 +80,40 @@
 			</div>-->
 			<div class="blog-post">
 				<div class="blog-post_img">
+					<img src="assets/images/Articles/update.png" 
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>02.03.2023</span>
+					</div>
+					<h1 class="blog-post_title">Update of our work</h1> 
+					<p class="blog-post_text">
+						Due to the winter holidays, we weren’t providing any updates about CanSat. However, rested we return to work! We recently sent our second report about the progress of building CanSat and we’re hardly working on a ready, contest-ready version of our satellite. Wish us luck!
+					</p>
+					<a href="https://m.facebook.com/story.php?story_fbid=pfbid04ja3khTzvMsqqxWe2jSaVENvXszE73edDoTCpQevCuv6f3oW3tFkUPByykHZFreMl&id=100086799296298"
+						class="blog-post_cta">Facebook Post Link</a>
+				</div>
+			</div>
+			<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="assets/images/Articles/wpr24.png" 
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>20.02.2023</span> 
+					</div>
+					<h1 class="blog-post_title">Our group on site of a regional newspaper!</h1>
+					<p class="blog-post_text">
+						An regional newspaper called WPR24 wrote an article about our group! Be sure to check it out!
+					</p>
+					<a href="https://wpr24.pl/kosmiczna-mlodziez-z-milanowka/"
+						class="blog-post_cta">Article Link</a>
+				</div>
+			</div>
+			<div class="blog-post">
+				<div class="blog-post_img">
 					<img src="assets/images/Articles/twiter.jpg" 
 						alt="" style="object-position: top">
 				</div>
@@ -121,7 +155,7 @@
 					<div class="blog-post_date">
 						<span>19.01.2023</span>
 					</div>
-					<h1 class="blog-post_title">Metting</h1>
+					<h1 class="blog-post_title">Meeting</h1>
 					<p class="blog-post_text">
 						On 13th January 2023 our group met with our mentor Paweł Witkowski. In a meeting we had been discussing ways of radio communication between CanSat and our ground base. This gathering was a huge brainstorm, opening up for us many new possibilities of communication and building antennas for the project, but also many new secondary goals, which we can write about in our documentation.
 					</p>
