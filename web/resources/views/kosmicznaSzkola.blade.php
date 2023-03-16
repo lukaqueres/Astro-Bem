@@ -113,11 +113,11 @@
 
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/kosmiczna/1.JPG"  
+						<img src="assets/images/koszmiczna/1.jpg"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/kosmiczna/1.jpg" 
+						<img src="assets/images/koszmiczna/2.jpg" 
 							alt="">
 					</div>
 				</div>
