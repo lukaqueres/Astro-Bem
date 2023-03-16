@@ -101,11 +101,11 @@
 		<div class="blog-list">
 
 			<div class="blog-post">
-				<h1 class="header-text_post">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
+				<h1 class="blog-post_title">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
 			</div>
 
 			<div class="blog-post-before">
-				<h1 class="header-text_post">Tak wyglądały początki</h1>
+				<h1 class="blog-post_title">Tak wyglądały początki</h1>
 			</div>
 
 
@@ -123,7 +123,7 @@
 				</div>
 			</div>
 			<div class="blog-post-before">
-				<h1 class="header-text_post">Dokładne dopasowanie grafiki do ścian</h1>
+				<h1 class="blog-post_title">Dokładne dopasowanie grafiki do ścian</h1>
 			</div>
 
 
@@ -141,7 +141,7 @@
 				</div>
 			</div>
 			<div class="blog-post-before">
-				<h1 class="header-text_post">Przygotowanie ścian , gładzie oraz gipsowanie</h1>
+				<h1 class="blog-post_title">Przygotowanie ścian , gładzie oraz gipsowanie</h1>
 			</div>
 
 
@@ -160,7 +160,7 @@
 			</div>
 
 			<div class="blog-post-before">
-				<h1 class="header-text_post">Ciężka praca fizyczna</h1>
+				<h1 class="blog-post_title">Ciężka praca fizyczna</h1>
 			</div>
 
 
@@ -186,7 +186,7 @@
 				</div>
 			</div>
 			<div class="blog-post-before">
-				<h1 class="header-text_post">Całkowicie nieistotny etap projektowania w Blenderze i renderowania do 2d (realizowany rok)</h1>
+				<h1 class="blog-post_title">Całkowicie nieistotny etap projektowania w Blenderze i renderowania do 2d (realizowany rok)</h1>
 			</div>
 
 
@@ -204,7 +204,7 @@
 				</div>
 			</div>
 			<div class="blog-post-before">
-				<h1 class="header-text_post">Realizacja bazy 2D</h1>
+				<h1 class="blog-post_title">Realizacja bazy 2D</h1>
 			</div>
 
 
