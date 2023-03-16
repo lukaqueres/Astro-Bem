@@ -66,6 +66,162 @@
 
 
 		@include('templates.header')
+		<div class="blog-list">
+
+			<div class="blog-post">
+
+
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span></span>
+					</div>
+					<h1 class="blog-post_title">Kosmiczna szkoła - Projekt realizowany w ramach Pilotażu Szkół Kosmicznych pod patronatem PAK PAN</h1>
+					<p class="blog-post_text">
+					Architekt Główny-Łukasz Kocielnik klasa 3 Technikum Informatyczne
+					</p>
+					<p class="blog-post_text">
+					Ekspert Zewnętrzny- Ika Gut Politechnika Łódzka
+
+					</p>
+					<p class="blog-post_text">
+					Koordynatorzy- Anna Krzyczkowska nauczycielka fizyki, Paweł Świeczka  nauczyciel informatyki
+
+					</p>
+					<p class="blog-post_text">
+					Grupa Projektowa- Rafał Durka, Eryk Godlewski, Mateusz Suwalski, Paweł Szymański klasa 3 TI
+
+					</p>
+
+				</div>
+			</div>
+		</div>	
+
+
+
+		<div class="blog-list">
+
+			<div class="blog-post">
+				<h1 class="header-text-post">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
+			</div>
+
+			<div class="blog-post-before">
+				<h1 class="header-text-post">Tak wyglądały początki</h1>
+			</div>
+
+
+			<div class="blog-post">
+
+				<div class="blog-grid">	
+					<div class="blog-post_img">
+						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/kosmiczna/1.JPG"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+				</div>
+			</div>
+			<div class="blog-post-before">
+				<h1 class="header-text-post">Dokładne dopasowanie grafiki do ścian</h1>
+			</div>
+
+
+			<div class="blog-post">
+
+				<div class="blog-grid">	
+					<div class="blog-post_img">
+						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/kosmiczna/1.JPG"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+				</div>
+			</div>
+			<div class="blog-post-before">
+				<h1 class="header-text-post">Przygotowanie ścian , gładzie oraz gipsowanie</h1>
+			</div>
+
+
+			<div class="blog-post">
+
+				<div class="blog-grid">	
+					<div class="blog-post_img">
+						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/kosmiczna/1.JPG"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="blog-post-before">
+				<h1 class="header-text-post">Ciężka praca fizyczna</h1>
+			</div>
+
+
+			<div class="blog-post">
+
+				<div class="blog-grid">	
+					<div class="blog-post_img">
+						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/kosmiczna/1.JPG"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+				</div>
+			</div>
+			<div class="blog-post-before">
+				<h1 class="header-text-post">Całkowicie nieistotny etap projektowania w Blenderze i renderowania do 2d (realizowany rok)</h1>
+			</div>
+
+
+			<div class="blog-post">
+
+				<div class="blog-grid">	
+					<div class="blog-post_img">
+						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/kosmiczna/1.JPG"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+				</div>
+			</div>
+			<div class="blog-post-before">
+				<h1 class="header-text-post">Realizacja bazy 2D</h1>
+			</div>
+
+
+			<div class="blog-post">
+
+				<div class="blog-grid">	
+					<div class="blog-post_img">
+						<img src="https://raw.githubusercontent.com/lukaqueres/Astro-Bem/abydzialalo/web/public/assets/kosmiczna/1.JPG"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/kosmiczna/1.jpg" 
+							alt="">
+					</div>
+				</div>
+			</div>
+		</div>
 		@include('templates.footer')
 </body>
 
