@@ -175,18 +175,11 @@
 						<img src="assets/images/koszmiczna/9.jpg" 
 							alt="">
 					</div>
-					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/10.jpg" 
-							alt="">
-					</div>
-					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/28.jpg" 
-							alt="">
-					</div>
+
 				</div>
 			</div>
 			<div class="blog-post-before">
-				<h1 class="blog-post_title">Całkowicie nieistotny etap projektowania w Blenderze i renderowania do 2d (realizowany rok)</h1>
+				<h1 class="blog-post_title">Całkowicie nieistotny etap projektowania w Blenderze i renderowania do 2d</h1>
 			</div>
 
 
