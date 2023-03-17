@@ -97,7 +97,7 @@
 			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="assets/images/Articles/wpr24-1.png" 
+					<img src="assets/images/Articles/wpr24-1.jpg" 
 						alt="" style="object-position: top">
 				</div>
 				<div class="blog-post_info">
