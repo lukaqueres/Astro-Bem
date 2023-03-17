@@ -103,11 +103,11 @@
 				<div class="blog-post">
 					<h1 class="blog-post_title">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
 				</div>
-
+			</div>
 				<div class="blog-post-before">
 					<h1 class="blog-post_title">Tak wyglądały początki</h1>
 				</div>
-			</div>
+			
 
 			<div class="blog-post">
 
