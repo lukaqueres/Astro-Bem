@@ -188,11 +188,11 @@
 
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg"  
+						<img src="assets/images/koszmiczna/BAZA.png"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg" 
+						<img src="assets/images/koszmiczna/KOPALNIA.png" 
 							alt="">
 					</div>
 				</div>
