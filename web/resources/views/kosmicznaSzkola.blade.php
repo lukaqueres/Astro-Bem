@@ -131,11 +131,11 @@
 
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg"  
+						<img src="assets/images/koszmiczna/3.jpg"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg" 
+						<img src="assets/images/koszmiczna/4.jpg" 
 							alt="">
 					</div>
 				</div>
@@ -149,11 +149,11 @@
 
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg"  
+						<img src="assets/images/koszmiczna/5.jpg"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg" 
+						<img src="assets/images/koszmiczna/6.jpg" 
 							alt="">
 					</div>
 				</div>
