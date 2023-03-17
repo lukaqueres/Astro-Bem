@@ -179,7 +179,8 @@
 				</div>
 			</div>
 			<div class="blog-post-before">
-				<h1 class="blog-post_title">Całkowicie nieistotny etap projektowania w Blenderze i renderowania do 2d</h1>
+			<h1 class="blog-post_title" style="padding-left: 2.5rem">Całkowicie nieistotny etap projektowania w</h1>
+			<h1 class="blog-post_title">Blenderze i renderowania do 2d (realizowany rok)</h1>
 			</div>
 
 
