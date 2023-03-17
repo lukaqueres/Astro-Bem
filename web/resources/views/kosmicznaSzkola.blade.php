@@ -99,15 +99,15 @@
 
 
 		<div class="blog-list">
+			<div class="blog-post_info">
+				<div class="blog-post">
+					<h1 class="blog-post_title">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
+				</div>
 
-			<div class="blog-post">
-				<h1 class="blog-post_title">ZDJĘCIA Z REALIZACJI PROJEKTU ,,BAZA NA MARSIE”</h1>
+				<div class="blog-post-before">
+					<h1 class="blog-post_title">Tak wyglądały początki</h1>
+				</div>
 			</div>
-
-			<div class="blog-post-before">
-				<h1 class="blog-post_title">Tak wyglądały początki</h1>
-			</div>
-
 
 			<div class="blog-post">
 
