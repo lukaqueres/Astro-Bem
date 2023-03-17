@@ -28,15 +28,15 @@
 		<img src="assets/images/baner3.jpg" style="width: 100%; height: 100%;">
 	</div>
 
-	<!--<div class="myslide fade">
+	<div class="myslide fade">
 		<div class="txt">
 			<h1></h1>
 			<p></p>
 		</div>
-		<img src="assets/images/bckg_pic.png" style="width: 100%; height: 100%;">
+		<img src="assets/images/baner4.jpeg" style="width: 100%; height: 100%;">
 	</div>
 
-	<div class="myslide fade">
+	<!--<div class="myslide fade">
 		<div class="txt">
 			<h1></h1>
 			<p></p>
