@@ -153,7 +153,7 @@
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/6.jpg" 
+						<img src="assets/images/koszmiczna/27.jpg" 
 							alt="">
 					</div>
 				</div>
@@ -168,19 +168,19 @@
 
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg"  
+						<img src="assets/images/koszmiczna/6.jpg"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg" 
+						<img src="assets/images/koszmiczna/9.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg" 
+						<img src="assets/images/koszmiczna/10.jpg" 
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg" 
+						<img src="assets/images/koszmiczna/28.jpg" 
 							alt="">
 					</div>
 				</div>
@@ -212,11 +212,27 @@
 
 				<div class="blog-grid">	
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg"  
+						<img src="assets/images/koszmiczna/14.jpg"  
 							alt="">
 					</div>
 					<div class="blog-post_img">
-						<img src="assets/images/koszmiczna/2.jpg" 
+						<img src="assets/images/koszmiczna/15.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/koszmiczna/16.jpg"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/koszmiczna/17.jpg" 
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/koszmiczna/18.jpg"  
+							alt="">
+					</div>
+					<div class="blog-post_img">
+						<img src="assets/images/koszmiczna/19.jpg" 
 							alt="">
 					</div>
 				</div>
