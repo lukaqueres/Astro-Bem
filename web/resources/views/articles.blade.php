@@ -80,7 +80,7 @@
 			</div>-->
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="assets/images/Articles/update.jpg"
+					<img src="assets/images/Articles/update.png"
 						alt="" style="object-position: top">
 				</div>
 				<div class="blog-post_info">
@@ -118,7 +118,7 @@ Now we are working on the FDR, which will determine whether we can get to the fi
 			</div>
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="assets/images/Articles/update.jpg"
+					<img src="assets/images/Articles/update.png"
 						alt="" style="object-position: top">
 				</div>
 				<div class="blog-post_info">
