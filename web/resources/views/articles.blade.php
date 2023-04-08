@@ -80,14 +80,52 @@
 			</div>-->
 			<div class="blog-post">
 				<div class="blog-post_img">
-					<img src="assets/images/Articles/twiter.jpg"
+					<img src="assets/images/Articles/update.jpg"
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>23.03.2023</span> 
+					</div>
+					<h1 class="blog-post_title">Final report!</h1>
+					<p class="blog-post_text">
+					We have sent back our final report! FDR (Final Design Review) has made its way to the competition jury. This report will decide whether our satellite will get to the final round of the competition. The whole group has worked as much as possible on CanSat so that the project could compete at the highest level. We very much hope that our work will be appreciated and we will move on in the competition. But despite everything, for the whole group, the competition was a great experience and even if we do not pass further, we will have fond memories of the time spent together. Keep your fingers crossed for us!
+					</p>
+					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0YG8MmVghJWmzTMxjpi3jw5xWgFMBmcBHj3fPWnxtu7Pys6ph4bbcM5AVTtUZsX3Yl&id=100086799296298"
+						class="blog-post_cta">Facebook Post Link</a>
+				</div>
+			</div>
+			<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="assets/images/Articles/lut.jpg"
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>15.03.2023</span> 
+					</div>
+					<h1 class="blog-post_title">Update about CanSat</h1>
+					<p class="blog-post_text">
+					Latest updates on the CanSat contest:
+• On 10th March, we met with our mentor: Paweł Witkowski, to end the construction of our CanSat. While working, we pondered future solutions to the satellite in an excellent mood.
+• On 11th March, we decided to conduct further tests of the satellite's connectivity and see how the sewn parachute will perform during the drop. Unfortunately, due to poor weather conditions, we decided to postpone testing until the following day.
+• On 12th March the tests came to fruition. We were able to test connectivity and sensor readings at different altitudes, as well as parachute operation, thanks to a drone that properly erected the CanSat.
+Now we are working on the FDR, which will determine whether we can get to the finals. We are also posting some photos from the past few days. Wish us luck!
+					</p>
+					<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0iTq1EnUj3k95G6q61uvcUzmLQEcw9NiTB22eKCrWt2A6nvAdmCacViLW31Q176oql&id=100086799296298"
+						class="blog-post_cta">Facebook Post Link</a>
+				</div>
+			</div>
+			<div class="blog-post">
+				<div class="blog-post_img">
+					<img src="assets/images/Articles/update.jpg"
 						alt="" style="object-position: top">
 				</div>
 				<div class="blog-post_info">
 					<div class="blog-post_date">
 						<span>09.03.2023</span> 
 					</div>
-					<h1 class="blog-post_title">Twitter account</h1>
+					<h1 class="blog-post_title">Observations of the sky</h1>
 					<p class="blog-post_text">
 					AstroBem isn’t only about taking part in the CanSat project, but also observations of the sky. We took part in a teaching experiment organised by the Młodzieżowe Obserwatorium Astronomiczne. It consisted of noting the trajectory of the Sun's movement in the sky for 6 months, using camera obscura. We invite you to read the project details in the link below.
 					</p>
