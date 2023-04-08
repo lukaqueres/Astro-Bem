@@ -61,7 +61,7 @@
 
 		<h1 class="header-text">Aktualności</h1>
 		<div class="blog-list">
-			{--<div class="blog-post">
+			<!--<div class="blog-post">
 				<div class="blog-post_img">
 					<img src="assets/images/Articles/twiter.jpg" <- ścieżka do zdjęcia
 						alt="" style="object-position: top">
@@ -77,7 +77,7 @@
 					<a href="tu wkeljasz link"
 						class="blog-post_cta">Facebook Post Link</a>
 				</div>
-			</div>--}
+			</div>-->
 			<div class="blog-post">
 				<div class="blog-post_img">
 					<img src="assets/images/Articles/update.png" 
