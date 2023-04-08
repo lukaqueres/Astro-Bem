@@ -80,6 +80,23 @@
 			</div>-->
 			<div class="blog-post">
 				<div class="blog-post_img">
+					<img src="assets/images/Articles/twiter.jpg"
+						alt="" style="object-position: top">
+				</div>
+				<div class="blog-post_info">
+					<div class="blog-post_date">
+						<span>09.03.2023</span> 
+					</div>
+					<h1 class="blog-post_title">Twitter account</h1>
+					<p class="blog-post_text">
+					AstroBem isn’t only about taking part in the CanSat project, but also observations of the sky. We took part in a teaching experiment organised by the Młodzieżowe Obserwatorium Astronomiczne. It consisted of noting the trajectory of the Sun's movement in the sky for 6 months, using camera obscura. We invite you to read the project details in the link below.
+					</p>
+					<a href="https://astro-bem.yatsukiko.me/obserwacja-nieba"
+						class="blog-post_cta">Link to observations of the sky</a>
+				</div>
+			</div>
+			<div class="blog-post">
+				<div class="blog-post_img">
 					<img src="assets/images/Articles/update.png" 
 						alt="" style="object-position: top">
 				</div>
